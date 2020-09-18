@@ -1,0 +1,77 @@
+.about {
+  position: relative;
+  padding-top: 60px;
+}
+
+.about-heading {
+  font-size: 65px;
+  font-family: 'Archive';
+  font-display: swap;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0 10px;
+}
+
+.about_des {
+  font-size: 24px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-style: italic;
+  line-height: 1.8;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.about-sub_head {
+  font-size: 35px;
+  font-family: 'Archive';
+  font-display: swap;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0 30px;
+}
+
+.about_hex {
+  position: relative;
+}
+
+.hex {
+  height: 300px;
+  width: 330px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  border-radius: 12px;
+  position: absolute;
+}
+
+.img-1 {
+  background: url('../../assets/about/abt-1.jpg');
+  background-size: 160%;
+  background-repeat: no-repeat;
+  background-position: -100px;
+  left: 90px;
+}
+
+.img-2 {
+  background: url('../../assets/about/abt-2.jpg');
+  background-size: 160%;
+  background-position: -30px;
+  background-repeat: no-repeat;
+  left: 370px;
+  top: 160px;
+}
+
+.img-3 {
+  background: url('../../assets/about/abt-3.jpg');
+  background-size: 160%;
+  background-repeat: no-repeat;
+  left: 90px;
+  transition: all 0.4 ease;
+  top: 320px;
+}
+
+.row.red {
+  margin-top: 180px;
+}
+
+.sep1 {
+  transform: scale(1, 1);
+}
