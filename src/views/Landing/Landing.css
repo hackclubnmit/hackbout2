@@ -56,7 +56,7 @@
   margin: 80px;
 }
 
-.landing-svg {
+.custom-shape-divider-bottom-1600448666 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -66,17 +66,16 @@
   transform: rotate(180deg);
 }
 
-.landing-svg svg {
+.custom-shape-divider-bottom-1600448666 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 120px;
+  height: 150px;
 }
 
-.landing-svg .shape-fill {
+.custom-shape-divider-bottom-1600448666 .shape-fill {
   fill: #ffffff;
 }
-
 /* font-family: 'Cinzel', serif; */
 
 @keyframes moveInTop {

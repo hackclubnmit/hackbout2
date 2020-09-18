@@ -18,7 +18,7 @@ const Landing = () => {
           <img src={HackBout} alt="hackbout-logo" className="landing__logo" />
         </div>
       </article>
-      <div class="landing-svg">
+      <div class="custom-shape-divider-bottom-1600448666">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
