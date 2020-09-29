@@ -1,0 +1,63 @@
+.backdrop {
+  margin: auto;
+  margin-top: 40px;
+  width: 600px;
+  height: 350px;
+  border-radius: 20px;
+  padding: 10px;
+  background: #fff;
+}
+
+.text {
+  font-size: 45px;
+  font-family: 'Archive';
+  margin: 0;
+  border-radius: 18px;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.lighten {
+  color: black;
+  mix-blend-mode: lighten;
+  background: rgb(177, 214, 185);
+}
+
+.img1 {
+  background: url('../../assets/tracks/ML2.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img2 {
+  background: url('../../assets/tracks/BLKCHN.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img3 {
+  background: url('../../assets/tracks/IOT.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img4 {
+  background: url('../../assets/tracks/VR.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img5 {
+  background: url('../../assets/tracks/FM.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img6 {
+  background: url('../../assets/tracks/OI.jpg') center;
+}
