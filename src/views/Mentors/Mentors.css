@@ -1,0 +1,75 @@
+.mentors {
+  position: relative;
+  padding-top: 120px;
+  top: -5px;
+  padding-bottom: 60px;
+}
+
+.mentors-heading {
+  font-size: 65px;
+  font-family: "Archive";
+  font-display: swap;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0 10px;
+}
+
+.gallery {
+  height: 300px;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 17px 17px 100px #156d46, -17px -17px 100px #31fda2 !important; */
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardLink {
+  color: black;
+  align-self: flex-start;
+  margin: 15px;
+}
+
+.cardTitle {
+  position: relative;
+  bottom: 0;
+  color: white;
+  font-weight: 700;
+  margin-top: 200px;
+  background-color: rgba(68, 68, 68, 0.815);
+  padding: 10px;
+  border-radius: 12px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 1.4px;
+}
+
+.old-title {
+  font-size: 35px;
+  font-family: "Archive";
+  font-display: swap;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.old-mentors {
+  margin: 40px 0px;
+}
