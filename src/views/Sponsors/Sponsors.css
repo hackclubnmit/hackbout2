@@ -6,7 +6,7 @@
 
 .sponsors-heading {
   font-size: 65px;
-  font-family: "Archive";
+  font-family: 'Archive';
   font-display: swap;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -196,4 +196,34 @@
   position: relative;
   width: 170px;
   height: 90px;
+}
+
+@media (max-width: 1200px) {
+  .sponsors-heading {
+    font-size: 55px;
+  }
+
+  .old-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 940px) {
+  .sponsors-heading {
+    font-size: 45px;
+  }
+
+  .old-title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 540px) {
+  .sponsors-heading {
+    font-size: 35px;
+  }
+
+  .old-title {
+    font-size: 20px;
+  }
 }
