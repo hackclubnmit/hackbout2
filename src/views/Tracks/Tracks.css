@@ -1,8 +1,9 @@
 .tracks {
   background-color: #23b574;
   position: relative;
-  padding-top: 70px;
+  padding-top: 60px;
   top: -5px;
+  padding-bottom: 60px;
 }
 
 .tracks-heading {
@@ -12,4 +13,78 @@
   margin-block-start: 0;
   margin-block-end: 0;
   margin: 0 10px;
+}
+
+.track-cards {
+  grid-gap: 0px !important;
+}
+
+.row-tracks {
+  position: absolute;
+  bottom: -95px;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  overflow: hidden;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1550px) {
+  .row-tracks {
+    bottom: -85px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .row-tracks {
+    bottom: -70px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tracks-heading {
+    font-size: 55px;
+  }
+
+  .row-tracks {
+    bottom: -60px;
+  }
+}
+
+@media (max-width: 940px) {
+  .tracks-heading {
+    font-size: 45px;
+  }
+
+  .row-tracks {
+    bottom: -45px;
+  }
+}
+@media (max-width: 720px) {
+  .row-tracks {
+    bottom: -35px;
+  }
+}
+
+@media (max-width: 540px) {
+  .tracks-heading {
+    font-size: 35px;
+  }
+
+  .track-cards {
+    grid-gap: 0px !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .row-tracks {
+    bottom: -23px;
+  }
+}
+
+@media (max-width: 360px) {
+  .row-tracks {
+    bottom: -20px;
+  }
 }
