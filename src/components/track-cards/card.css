@@ -1,15 +1,16 @@
 .backdrop {
-  margin: auto;
+  margin: 10px;
   margin-top: 40px;
-  width: 600px;
-  height: 350px;
+  margin-left: 20px;
+  width: 85%;
+  height: 250px;
   border-radius: 20px;
   padding: 10px;
   background: #fff;
 }
 
 .text {
-  font-size: 45px;
+  font-size: 28px;
   font-family: 'Archive';
   margin: 0;
   border-radius: 18px;
@@ -25,7 +26,7 @@
 .lighten {
   color: black;
   mix-blend-mode: lighten;
-  background: rgb(177, 214, 185);
+  background: rgb(255, 255, 255);
 }
 
 .img1 {
@@ -60,4 +61,112 @@
 
 .img6 {
   background: url('../../assets/tracks/OI.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1200px) {
+  .backdrop {
+    width: 80%;
+    height: 200px;
+  }
+
+  .text {
+    font-size: 22px;
+  }
+
+  .lighten {
+    color: black;
+    mix-blend-mode: lighten;
+    background: rgb(255, 255, 255);
+  }
+}
+
+@media (max-width: 900px) {
+  .backdrop {
+    width: 80%;
+    height: 200px;
+  }
+
+  .text {
+    font-size: 20px;
+    width: 60%;
+  }
+
+  .lighten {
+    color: black;
+    mix-blend-mode: lighten;
+    background: rgb(255, 255, 255);
+  }
+}
+
+@media (max-width: 800px) {
+  .backdrop {
+    width: 150px;
+    height: 150px;
+  }
+
+  .text {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .lighten {
+    color: black;
+    mix-blend-mode: lighten;
+    background: rgb(255, 255, 255);
+  }
+}
+
+@media (max-width: 800px) {
+  .backdrop {
+    width: 150px;
+    height: 150px;
+  }
+
+  .text {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .lighten {
+    color: black;
+    mix-blend-mode: lighten;
+    background: rgb(255, 255, 255);
+  }
+}
+
+@media (max-width: 540px) {
+  .backdrop {
+    width: 70%;
+    height: 200px;
+  }
+
+  .text {
+    font-size: 16px;
+    font-family: 'Archive';
+    margin: 0;
+    border-radius: 18px;
+    height: 30%;
+    width: 100%;
+    position: relative;
+    top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+  }
+
+  .lighten {
+    color: black;
+    mix-blend-mode: lighten;
+    background: rgb(255, 255, 255);
+  }
+}
+
+@media (max-width: 360px) {
+  .text {
+    font-size: 14px;
+  }
 }
