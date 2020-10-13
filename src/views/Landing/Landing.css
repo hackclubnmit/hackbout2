@@ -108,7 +108,7 @@
 
 @media (max-width: 1200px) {
   .landing {
-    min-height: 60vh;
+    min-height: 70vh;
   }
 
   .landing__heading {
@@ -142,12 +142,7 @@
   }
 
   .landing__container {
-    position: relative;
     top: 50px;
-    display: flex;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
   }
 }
 
@@ -172,11 +167,7 @@
 
   .landing__container {
     position: relative;
-    top: 150px;
-    display: flex;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
+    top: 90px;
   }
 }
 
