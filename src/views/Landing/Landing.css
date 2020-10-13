@@ -2,11 +2,12 @@
   position: relative;
   min-height: 80vh;
   background-color: #08aeea;
-  background: linear-gradient(225deg, #08aeeaa2 0%, #2af59a94 100%),
+  background: linear-gradient(225deg, #08aeeace 0%, #2af59a94 100%),
     url('../../assets/landingBg.jpg');
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
+  /* background-attachment: fixed; */
 }
 
 .landing__container {
@@ -56,27 +57,26 @@
   margin: 80px;
 }
 
-.custom-shape-divider-bottom-1600448666 {
+.svg-wave {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  overflow: hidden;
   line-height: 0;
+  overflow: hidden;
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1600448666 svg {
+.svg-wave svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 150px;
 }
 
-.custom-shape-divider-bottom-1600448666 .shape-fill {
+.svg-wave .shape-fill {
   fill: #ffffff;
 }
-/* font-family: 'Cinzel', serif; */
 
 @keyframes moveInTop {
   0% {
@@ -103,5 +103,107 @@
   100% {
     opacity: 1;
     transform: translateX(0px);
+  }
+}
+
+@media (max-width: 1200px) {
+  .landing {
+    min-height: 60vh;
+  }
+
+  .landing__heading {
+    font-size: 90px;
+  }
+
+  .landing__sub-heading {
+    font-size: 32px;
+  }
+
+  .landing__logo {
+    height: 250px;
+  }
+}
+
+@media (max-width: 940px) {
+  .landing {
+    min-height: 60vh;
+  }
+
+  .landing__heading {
+    font-size: 70px;
+  }
+
+  .landing__sub-heading {
+    font-size: 22px;
+  }
+
+  .landing__logo {
+    height: 150px;
+  }
+
+  .landing__container {
+    position: relative;
+    top: 50px;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 725px) {
+  .landing {
+    min-height: 60vh;
+  }
+
+  .landing__heading {
+    font-size: 60px;
+  }
+
+  .landing__sub-heading {
+    font-size: 20px;
+  }
+
+  .landing__logo {
+    height: 125px;
+    margin: 0;
+    margin-right: 30px;
+  }
+
+  .landing__container {
+    position: relative;
+    top: 150px;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .landing {
+    min-height: 85vh;
+  }
+
+  .landing__heading {
+    font-size: 55px;
+  }
+
+  .landing__container {
+    flex-direction: column-reverse;
+  }
+
+  .landing__sub-heading {
+    font-size: 18px;
+  }
+
+  .landing__logo {
+    height: 225px;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  .landing__container {
+    top: 20px;
   }
 }
