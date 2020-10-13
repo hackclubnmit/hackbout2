@@ -221,8 +221,7 @@ const Sponsors = () => {
           />
         </div>
       </div>
-      <div></div>
-      <div className="row-mentors">
+      {/* <div className="row-mentors">
         <div>
           <svg
             className="svg-separator sep3"
@@ -245,7 +244,7 @@ const Sponsors = () => {
             ></path>
           </svg>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
