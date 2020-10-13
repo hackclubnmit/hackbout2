@@ -6,9 +6,9 @@ const About = () => {
   return (
     <section id="about" className="about">
       <h1 className="about-heading">About HackBout</h1>
-      <div className="archive">
+      <div className="archive about-main">
         <div>
-          <p className="about_des">
+          <p className="about_des des_main">
             For centuries humanity has enjoyed bouts in action-packed sports
             such as sword fighting and boxing, With the same intensity and
             competition, Nitte Meenakshi Institute of Technology presents
@@ -27,11 +27,10 @@ const About = () => {
         <div className="about_hex">
           <div className="hex img-1"></div>
           <div className="hex img-2"></div>
-          <div></div>
           <div className="hex img-3"></div>
         </div>
       </div>
-      <div className="row red">
+      <div className="row-about">
         <div>
           <svg
             preserveAspectRatio="xMidYMax meet"
