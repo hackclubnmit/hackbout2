@@ -104,6 +104,10 @@
     left: 80px;
     top: 295px;
   }
+
+  .row-about {
+    margin-top: 45px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -138,6 +142,10 @@
   .img-3 {
     left: 70px;
     top: 265px;
+  }
+
+  .row-about {
+    margin-top: 30px;
   }
 }
 
@@ -230,7 +238,7 @@
   }
 
   .row-about {
-    margin-top: 90px;
+    margin-top: 50px;
   }
 }
 
@@ -272,5 +280,9 @@
   .img-3 {
     left: -40px;
     top: 60px;
+  }
+
+  .row-about {
+    margin-top: 70px;
   }
 }
