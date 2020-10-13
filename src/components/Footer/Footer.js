@@ -33,53 +33,55 @@ const Footer = () => {
           <img src={hackBout} alt="HackBout-Logo" />
           <h1>HackBout</h1>
         </div>
-        <div className="footer__sec-1">
-          <h3>Sections</h3>
-          <a href="#">Tracks</a>
-          <a href="#">Schedule</a>
-          <a href="#">Mentors</a>
-          <a href="#">Sponsors</a>
-        </div>
-        <div className="footer__sec-2">
-          <h3>Resources</h3>
-          <a href="#">Sponsorship Brochure</a>
-          <a href="#">Code of Conduct</a>
-        </div>
-        <div className="footer__sec-3">
-          <h3>Contact Us</h3>
-          <div className="social__links">
-            <a href="" style={{ fontSize: '27px' }}>
-              <IconContext.Provider value={{ title: 'Instagram-Link' }}>
-                <TiSocialInstagram />
-              </IconContext.Provider>
-            </a>
-            <a href="">
-              <IconContext.Provider value={{ title: 'LinkedIn-Link' }}>
-                <FaLinkedin />
-              </IconContext.Provider>
-            </a>
-            <a href="">
-              <IconContext.Provider value={{ title: 'Facebook-Link' }}>
-                <FaFacebookF />
-              </IconContext.Provider>
-            </a>
-            <a href="">
-              <IconContext.Provider value={{ title: 'Github-Link' }}>
-                <FaGithub />
-              </IconContext.Provider>
-            </a>
+        <div className="footer__sections">
+          <div className="footer__sec-1">
+            <h3>Sections</h3>
+            <a href="#tracks">Tracks</a>
+            {/* <a href="#">Schedule</a> */}
+            <a href="#mentors">Mentors</a>
+            <a href="#sponsors">Sponsors</a>
           </div>
-          <div className="social__links-2">
-            <a href="">
-              <IconContext.Provider value={{ title: 'Email-Link' }}>
-                <MdEmail />
-              </IconContext.Provider>
-            </a>
-            <a href="">
-              <IconContext.Provider value={{ title: 'Telegram-Link' }}>
-                <FaTelegramPlane />
-              </IconContext.Provider>
-            </a>
+          <div className="footer__sec-2">
+            <h3>Resources</h3>
+            <a href="#">Sponsorship Brochure</a>
+            <a href="#">Code of Conduct</a>
+          </div>
+          <div className="footer__sec-3">
+            <h3>Contact Us</h3>
+            <div className="social__links">
+              <a href="" style={{ fontSize: '27px' }}>
+                <IconContext.Provider value={{ title: 'Instagram-Link' }}>
+                  <TiSocialInstagram />
+                </IconContext.Provider>
+              </a>
+              <a href="">
+                <IconContext.Provider value={{ title: 'LinkedIn-Link' }}>
+                  <FaLinkedin />
+                </IconContext.Provider>
+              </a>
+              <a href="">
+                <IconContext.Provider value={{ title: 'Facebook-Link' }}>
+                  <FaFacebookF />
+                </IconContext.Provider>
+              </a>
+              <a href="">
+                <IconContext.Provider value={{ title: 'Github-Link' }}>
+                  <FaGithub />
+                </IconContext.Provider>
+              </a>
+            </div>
+            <div className="social__links-2">
+              <a href="">
+                <IconContext.Provider value={{ title: 'Email-Link' }}>
+                  <MdEmail />
+                </IconContext.Provider>
+              </a>
+              <a href="">
+                <IconContext.Provider value={{ title: 'Telegram-Link' }}>
+                  <FaTelegramPlane />
+                </IconContext.Provider>
+              </a>
+            </div>
           </div>
         </div>
       </div>

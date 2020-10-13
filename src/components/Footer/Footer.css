@@ -5,7 +5,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(180deg, rgba(51, 51, 51, 0.603), #333333 90%),
+  background: linear-gradient(180deg, rgba(51, 51, 51, 0.603), #333333 80%),
     url('../../assets/footerBg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,18 +42,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin: 30px; */
-  /* margin-top: 50px; */
   width: 100%;
 }
 
 .footer__image {
-  /* background-image: linear-gradient(180deg, rgba(51, 51, 51, 0.349), #333333),
-    url('../../assets/footerBg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right 50% top 50px;
-  background-attachment: fixed; */
   height: 100px;
   width: 100%;
 }
@@ -64,6 +56,11 @@ footer {
   justify-content: flex-start;
   align-items: center;
   height: 200px;
+}
+
+.footer__sections {
+  display: flex;
+  flex-direction: row !important;
 }
 
 .footer h1 {
@@ -146,4 +143,81 @@ footer {
   font-family: 'Archive', sans-serif;
   /* font-style: italic; */
   color: #fff;
+}
+
+@media (max-width: 885px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .footer__sections {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__sec-1 {
+    margin: 30px;
+  }
+  .footer__sec-2 {
+    margin: 30px;
+  }
+  .footer__sec-3 {
+    margin: 30px;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer__sec-1 {
+    margin: 30px;
+  }
+  .footer__sec-2 {
+    margin: 30px;
+  }
+  .footer__sec-3 {
+    margin: 30px;
+    justify-content: flex-start;
+  }
+
+  .footer h3 {
+    font-family: 'Archive';
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 5px;
+    border-bottom: 0.1px solid rgb(168, 168, 168);
+  }
+
+  .footer a {
+    font-family: 'Alegreya Sans', sans-serif;
+    /* font-style: italic; */
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 5px 0px;
+  }
+}
+
+@media (max-width: 530px) {
+  .footer__sec-1 {
+    margin: 5px;
+  }
+  .footer__sec-2 {
+    margin: 5px;
+  }
+  .footer__sec-3 {
+    display: none !important;
+    margin: 5px;
+    justify-content: flex-start;
+  }
+
+  .footer__end {
+    width: 80%;
+    font-size: 15px;
+  }
 }
