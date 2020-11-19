@@ -1,7 +1,7 @@
 {
   "name": "hackbout2",
   "version": "0.2.0",
-  "homepage": "https://hackbout.tech",
+  "homepage": "https://hackclubnmit.github.io/hackbout2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
