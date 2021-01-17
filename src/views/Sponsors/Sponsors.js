@@ -1,42 +1,86 @@
-import React from "react";
-import "./Sponsors.css";
+import React from 'react';
+import './Sponsors.css';
 
-import github from "../../assets/sponsors/old/github-2.svg";
-import devfolio from "../../assets/sponsors/old/Devfolio.png";
-import ibm from "../../assets/sponsors/old/ibm.svg";
-import hackClub from "../../assets/sponsors/old/hack-club.svg";
-import matic from "../../assets/sponsors/old/Matic.png";
-import fold from "../../assets/sponsors/old/fold-logo-inverted.svg";
-import codingBlocks from "../../assets/sponsors/old/codingBlocks.png";
-import stickerMule from "../../assets/sponsors/old/sticker-mule-logo.png";
-import voiceFlow from "../../assets/sponsors/old/voiceFlow.png";
-import digitalOcean from "../../assets/sponsors/old/digitalOcean-logo.png";
-import IEEE from "../../assets/sponsors/old/ieee-cs-logo.png";
-import girlGeeks from "../../assets/sponsors/old/girlGeeks.png";
-import gatsby from "../../assets/sponsors/old/gatsby.png";
-import inVision from "../../assets/sponsors/old/invision.png";
-import jetBrains from "../../assets/sponsors/old/jetbrains.svg";
-import bugsee from "../../assets/sponsors/old/bugsee.png";
-import wolfram from "../../assets/sponsors/old/Wolfram.png";
-import blockchained from "../../assets/sponsors/old/blockchained-india.png";
-import challengeRocket from "../../assets/sponsors/old/rocket.svg";
-import snapchat from "../../assets/sponsors/old/snap.jpg";
-import creativeTim from "../../assets/sponsors/old/creativetim.png";
-import map from "../../assets/sponsors/old/map.png";
-import cloudSploit from "../../assets/sponsors/old/cloudsploit.png";
-import sketch from "../../assets/sponsors/old/sketch.png";
-import codeNinja from "../../assets/sponsors/old/ninja.svg";
-import restDB from "../../assets/sponsors/old/restdb.webp";
-import balsmiq from "../../assets/sponsors/old/balsamiq.svg";
-import mozIndia from "../../assets/sponsors/old/moz.jpg";
-import devFacebook from "../../assets/sponsors/old/fbdev.png";
+// import github from "../../assets/sponsors/old/github-2.svg";
+// import devfolio from "../../assets/sponsors/old/Devfolio.png";
+// import ibm from "../../assets/sponsors/old/ibm.svg";
+// import hackClub from "../../assets/sponsors/old/hack-club.svg";
+// import matic from "../../assets/sponsors/old/Matic.png";
+// import fold from "../../assets/sponsors/old/fold-logo-inverted.svg";
+// import codingBlocks from "../../assets/sponsors/old/codingBlocks.png";
+// import stickerMule from "../../assets/sponsors/old/sticker-mule-logo.png";
+// import voiceFlow from "../../assets/sponsors/old/voiceFlow.png";
+// import digitalOcean from "../../assets/sponsors/old/digitalOcean-logo.png";
+// import IEEE from "../../assets/sponsors/old/ieee-cs-logo.png";
+// import girlGeeks from "../../assets/sponsors/old/girlGeeks.png";
+// import gatsby from "../../assets/sponsors/old/gatsby.png";
+// import inVision from "../../assets/sponsors/old/invision.png";
+// import jetBrains from "../../assets/sponsors/old/jetbrains.svg";
+// import bugsee from "../../assets/sponsors/old/bugsee.png";
+// import wolfram from "../../assets/sponsors/old/Wolfram.png";
+// import blockchained from "../../assets/sponsors/old/blockchained-india.png";
+// import challengeRocket from "../../assets/sponsors/old/rocket.svg";
+// import snapchat from "../../assets/sponsors/old/snap.jpg";
+// import creativeTim from "../../assets/sponsors/old/creativetim.png";
+// import map from "../../assets/sponsors/old/map.png";
+// import cloudSploit from "../../assets/sponsors/old/cloudsploit.png";
+// import sketch from "../../assets/sponsors/old/sketch.png";
+// import codeNinja from "../../assets/sponsors/old/ninja.svg";
+// import restDB from "../../assets/sponsors/old/restdb.webp";
+// import balsmiq from "../../assets/sponsors/old/balsamiq.svg";
+// import mozIndia from "../../assets/sponsors/old/moz.jpg";
+// import devFacebook from "../../assets/sponsors/old/fbdev.png";
+
+import jetbrains from '../../assets/sponsors/new/jetbrains.svg';
+import onePass from '../../assets/sponsors/new/1password-icon.svg';
+import crypto from '../../assets/sponsors/new/cryptopolitan.png';
+import repl from '../../assets/sponsors/new/replit-icon.svg';
 
 const Sponsors = () => {
   return (
     <section id="sponsors" className="sponsors">
       <h1 className="sponsors-heading">Sponsors</h1>
-      <h3 className="old-title">Our Previous Sponsors</h3>
-      <div className="archive old__sponsors">
+      <div className="archive new__sponsors">
+        <a href="https://repl.it/" rel="noopener noreferer">
+          <img
+            src={repl}
+            className="sponsors__img"
+            target="_blank"
+            style={{ height: '100px', width: '100px' }}
+            alt="repl.it"
+          />
+        </a>
+        <a href="https://www.jetbrains.com/" rel="noopener noreferer">
+          <img
+            src={jetbrains}
+            className="sponsors__img"
+            target="_blank"
+            style={{ height: '100px', width: '100px' }}
+            alt="jetbrains"
+          />
+        </a>
+        <a href="https://1password.com/" rel="noopener noreferer">
+          <img
+            src={onePass}
+            className="sponsors__img"
+            target="_blank"
+            style={{ height: '100px', width: '100px' }}
+            alt="one password"
+          />
+        </a>
+        <a href="https://www.cryptopolitan.com/" rel="noopener noreferer">
+          <img
+            src={crypto}
+            className="sponsors__img"
+            target="_blank"
+            style={{ height: '50px', width: '300px' }}
+            alt="cryptopolitan"
+          />
+        </a>
+      </div>
+
+      {/* <h3 className="old-title">Our Previous Sponsors</h3> */}
+      {/* <div className="archive old__sponsors">
         <div>
           <img
             className="sponsors__img github"
@@ -220,7 +264,7 @@ const Sponsors = () => {
             alt="mozIndia-logo"
           />
         </div>
-      </div>
+      </div> */}
       {/* <div className="row-mentors">
         <div>
           <svg

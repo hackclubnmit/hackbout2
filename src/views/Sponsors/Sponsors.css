@@ -21,11 +21,13 @@
   overflow: hidden;
 }
 
+.new__sponsors,
 .old__sponsors {
   margin: 50px 70px;
 }
 
-.archive.old__sponsors div {
+.archive.new__sponsors a,
+.archive.old__sponsors a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,12 +36,12 @@
 .sponsors__img {
   height: 70px;
   width: 120px;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: all 0.3s ease-out;
 }
 
 .sponsors__img:hover {
-  filter: grayscale(0);
+  /* filter: grayscale(0); */
   transform: scale(1.3);
 }
 
