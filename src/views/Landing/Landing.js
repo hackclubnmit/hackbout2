@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import HackBout from "../../assets/HackBout.svg";
-import "./Landing.css";
+import HackBout from '../../assets/HackBout.svg';
+import './Landing.css';
 
 const Landing = () => {
   return (
@@ -12,6 +12,17 @@ const Landing = () => {
           <h2 className="landing__sub-heading">
             A <strong>Hack Club NMIT's</strong> Hackathon
           </h2>
+          <h2 className="landing__sub-heading">24th-25th April</h2>
+          <h4 className="landing__sub-heading-2">
+            Registrations opening soon!
+          </h4>
+          <a
+            href="https://forms.gle/1bQ9b9TKh1hyX4F58"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="landing__btn">Notify Me!</button>
+          </a>
         </div>
         <div className="landing__sub-2">
           <img src={HackBout} alt="hackbout-logo" className="landing__logo" />

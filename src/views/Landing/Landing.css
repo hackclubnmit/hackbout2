@@ -47,6 +47,43 @@
   animation-duration: 1s;
 }
 
+.landing__sub-heading-2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.landing__btn {
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23b574;
+  border: none;
+  outline: none;
+  border-radius: 14px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+  color: #000;
+  font-size: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.landing__btn:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.377);
+  /* transform: translateY(-5px); */
+  background-color: #2ea56f;
+  scale: 1.06;
+}
+
+a {
+  text-decoration: none;
+}
+
 .landing__sub-heading strong {
   font-weight: 700;
 }
