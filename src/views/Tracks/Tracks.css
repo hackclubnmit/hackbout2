@@ -1,32 +1,53 @@
 .tracks {
-  background-color: #23b574;
   position: relative;
-  padding-top: 60px;
-  top: -5px;
-  padding-bottom: 60px;
+  height: 120%;
+  background-color: #23b574;
+  top: -20px;
+  /* padding: 100px 0; */
+  background-image: linear-gradient(45deg, #214653 0%, #0e1f23 74%);
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+
+#particles_2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .tracks-heading {
   font-size: 65px;
   font-family: 'Archive';
+  color: #fff;
   font-display: swap;
   margin-block-start: 0;
   margin-block-end: 0;
-  margin: 0 10px;
+  margin: 20px 30px;
+  /* padding: 100px 0; */
+  padding-top: 100px;
+  padding-bottom: 25px;
 }
 
 .track-cards {
   grid-gap: 0px !important;
+  width: 100%;
 }
 
 .row-tracks {
   position: absolute;
   bottom: -95px;
+  padding-bottom: 100px;
   left: 0;
   width: 100%;
   line-height: 0;
   overflow: hidden;
   transform: rotate(180deg);
+}
+
+.last__card {
+  padding-bottom: 100px;
 }
 
 @media (max-width: 1550px) {
