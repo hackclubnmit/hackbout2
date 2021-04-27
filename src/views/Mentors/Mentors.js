@@ -22,7 +22,9 @@ import mSeventeen from '../../assets/mentors/old/Kartik.jpg';
 const Mentors = () => {
   return (
     <section id="mentors" className="mentors">
-      <h1 className="mentors-heading">Mentors</h1>
+      <h1 className="mentors-heading">
+        Our <span className="green">Mentors</span>
+      </h1>
       <article className="new-mentors"></article>
       <article className="old-mentors">
         <h3 className="old-title">Our Previous Mentors</h3>
