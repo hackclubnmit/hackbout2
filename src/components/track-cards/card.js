@@ -5,7 +5,9 @@ import './card.css';
 const Card = (props) => {
   return (
     <article className={['backdrop', props.img].join(' ')}>
-      <p className="text lighten">{props.children}</p>
+      <div className="over-front">
+        <p className="text lighten">{props.children}</p>
+      </div>
     </article>
   );
 };

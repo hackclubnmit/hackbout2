@@ -7,6 +7,18 @@
   border-radius: 20px;
   padding: 10px;
   background: #fff;
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  transition: all 0.3s ease;
+}
+
+.backdrop:hover {
+  transform: scale(1.07);
+}
+
+.over-front {
+  height: 100%;
 }
 
 .text {
@@ -21,12 +33,15 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
+  z-index: 3;
+  transform: translateZ(20px);
 }
 
 .lighten {
   color: black;
   mix-blend-mode: lighten;
   background: rgb(255, 255, 255);
+  transform: translateZ(20px);
 }
 
 .img1 {
