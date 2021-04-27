@@ -9,7 +9,7 @@ footer {
     url('../../assets/footerBg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right 50% top 100px;
+  background-position: center top 20px;
   background-attachment: fixed;
   height: 600px;
   /* background-attachment: fixed;
@@ -17,25 +17,25 @@ footer {
   z-index: -5; */
 }
 
-.custom-shape-divider-top-1601424739 {
+.custom-shape-divider-top-1619379941 {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(180deg);
+  transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1601424739 svg {
+.custom-shape-divider-top-1619379941 svg {
   position: relative;
   display: block;
-  width: calc(100% + 1.3px);
-  height: 128px;
+  width: calc(107% + 1.3px);
+  height: 150px;
 }
 
-.custom-shape-divider-top-1601424739 .shape-fill {
-  fill: #ffffff;
+.custom-shape-divider-top-1619379941 .shape-fill {
+  fill: #ccd0d6;
 }
 
 .footer {
@@ -204,16 +204,65 @@ footer {
 }
 
 @media (max-width: 530px) {
+  .footer {
+    height: 800px;
+  }
+
   .footer__sec-1 {
+    position: relative;
     margin: 5px;
+    top: -30px;
   }
   .footer__sec-2 {
+    position: relative;
     margin: 5px;
+    top: -30px;
   }
   .footer__sec-3 {
-    display: none !important;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-55%);
     margin: 5px;
-    justify-content: flex-start;
+    display: flex;
+    height: 100px !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 25vh;
+  }
+
+  .social__links {
+    width: 280px;
+    margin: 0;
+    height: 100px !important;
+    justify-content: center !important;
+  }
+
+  .social__links a {
+    font-size: 22px;
+    margin: 15px !important;
+  }
+
+  .social__links a:first-child {
+    position: relative;
+    top: 1px;
+    font-size: 22px;
+  }
+
+  .social__links-2 {
+    height: 100px !important;
+    margin: 0;
+    position: relative;
+  }
+
+  .social__links-2 a {
+    font-size: 22px;
+    margin: 15px !important;
+  }
+
+  .footer__sec-3 h3 {
+    display: none;
   }
 
   .footer__end {

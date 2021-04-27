@@ -4,7 +4,6 @@ import { TiSocialInstagram } from 'react-icons/ti';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-import { FaTelegramPlane } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { RiHeart2Fill } from 'react-icons/ri';
 
@@ -14,7 +13,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer>
-      <div class="custom-shape-divider-top-1601424739">
+      <div className="custom-shape-divider-top-1619379941">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +21,7 @@ const Footer = () => {
           preserveAspectRatio="none"
         >
           <path
-            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
             class="shape-fill"
           ></path>
         </svg>
@@ -43,42 +42,64 @@ const Footer = () => {
           </div>
           <div className="footer__sec-2">
             <h3>Resources</h3>
-            <a href="#">Sponsorship Brochure</a>
+            <a
+              href="https://drive.google.com/file/d/1P1LMcvudLiWL0nBSIvKOLU7i3EKAcKA4/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer noopener "
+            >
+              Sponsorship Brochure
+            </a>
             <a href="#">Code of Conduct</a>
           </div>
           <div className="footer__sec-3">
             <h3>Contact Us</h3>
             <div className="social__links">
-              <a href="" style={{ fontSize: '27px' }}>
+              <a
+                href="https://www.instagram.com/hackclubnmit/"
+                target="_blank"
+                rel="noreferrer noopener "
+                style={{ fontSize: '27px' }}
+              >
                 <IconContext.Provider value={{ title: 'Instagram-Link' }}>
                   <TiSocialInstagram />
                 </IconContext.Provider>
               </a>
-              <a href="">
+              <a
+                href="https://in.linkedin.com/company/hackclubnmit"
+                target="_blank"
+                rel="noreferrer noopener "
+              >
                 <IconContext.Provider value={{ title: 'LinkedIn-Link' }}>
                   <FaLinkedin />
                 </IconContext.Provider>
               </a>
-              <a href="">
+              <a
+                href="https://www.facebook.com/pg/hackclubnmit/posts/"
+                target="_blank"
+                rel="noreferrer noopener "
+              >
                 <IconContext.Provider value={{ title: 'Facebook-Link' }}>
                   <FaFacebookF />
                 </IconContext.Provider>
               </a>
-              <a href="">
+              <a
+                href="https://github.com/hackclubnmit"
+                target="_blank"
+                rel="noreferrer noopener "
+              >
                 <IconContext.Provider value={{ title: 'Github-Link' }}>
                   <FaGithub />
                 </IconContext.Provider>
               </a>
             </div>
             <div className="social__links-2">
-              <a href="">
+              <a
+                href="mailto:hackclub@nmit.ac.in"
+                target="_blank"
+                rel="noreferrer noopener "
+              >
                 <IconContext.Provider value={{ title: 'Email-Link' }}>
                   <MdEmail />
-                </IconContext.Provider>
-              </a>
-              <a href="">
-                <IconContext.Provider value={{ title: 'Telegram-Link' }}>
-                  <FaTelegramPlane />
                 </IconContext.Provider>
               </a>
             </div>
