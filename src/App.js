@@ -4,8 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Landing from './views/Landing/Landing';
 import About from './views/About/About';
 import Tracks from './views/Tracks/Tracks';
-import Mentors from './views/Mentors/Mentors';
+// import Mentors from './views/Mentors/Mentors';
+import Prizes from './views/Prizes/Prizes';
 import Sponsors from './views/Sponsors/Sponsors';
+import Faqs from './views/Faqs/Faqs';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
@@ -15,8 +17,10 @@ function App() {
       <Landing />
       <About />
       <Tracks />
-      <Mentors />
+      <Prizes />
+      {/* <Mentors /> */}
       <Sponsors />
+      <Faqs />
       <Footer />
     </Fragment>
   );
