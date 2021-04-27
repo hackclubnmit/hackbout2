@@ -1,7 +1,11 @@
 .sponsors {
   position: relative;
-  padding-top: 40px;
-  /* padding-bottom: 60px; */
+  background-color: #eef6f3;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sponsors-heading {
@@ -11,6 +15,7 @@
   margin-block-start: 0;
   margin-block-end: 0;
   margin: 0 10px;
+  color: #052d35;
 }
 
 .row-sponsors {
@@ -21,9 +26,42 @@
   overflow: hidden;
 }
 
-.new__sponsors,
-.old__sponsors {
-  margin: 50px 70px;
+.new__sponsors h3 {
+  font-family: 'Archive';
+  font-display: swap;
+  font-size: 45px;
+  color: #052d35;
+  padding: 50px 0;
+}
+
+.new__sponsors h4 {
+  font-family: 'Archive';
+  color: #052d35;
+  font-display: swap;
+  font-size: 35px;
+  padding: 55px 0;
+  text-align: center;
+}
+
+.sponsors-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsors__main {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
 }
 
 .archive.new__sponsors a,
@@ -34,170 +72,48 @@
 }
 
 .sponsors__img {
-  height: 70px;
-  width: 120px;
-  /* filter: grayscale(1); */
-  transition: all 0.3s ease-out;
+  transition: all ease 0.3s;
 }
 
 .sponsors__img:hover {
-  /* filter: grayscale(0); */
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
+
+/* SEPARATE SPONSOR STYLES */
 
 .devfolio {
-  position: relative;
-  height: 40px;
-  width: 170px;
+  width: 600px;
 }
 
-.ibm {
-  position: relative;
-  height: 40px;
-  width: 100px;
+.polygon {
+  width: 320px;
 }
 
-.hackClub {
-  position: relative;
-  width: 170px;
-}
-
-.matic {
-  position: relative;
-  width: 190px;
-  height: 50px;
-}
-
-.fold {
-  position: relative;
-  width: 130px;
-  height: 45px;
-}
-
-.codingBlocks {
-  position: relative;
-  width: 160px;
-  height: 65px;
-}
-
-.stickerMule {
-  position: relative;
-  width: 190px;
-  height: 25px;
-}
-
-.voiceFlow {
-  position: relative;
-  width: 130px;
-  height: 35px;
-}
-
-.digitalOcean {
-  position: relative;
-  width: 90px;
-  height: 85px;
-}
-
-.IEEE {
-  position: relative;
-  width: 170px;
-  height: 125px;
-}
-
-.girlGeeks {
-  position: relative;
-  width: 120px;
-  height: 75px;
-}
-
-.gatsby {
-  position: relative;
-  width: 140px;
-  height: 95px;
-}
-
-.inVision {
-  position: relative;
-  width: 140px;
-  height: 55px;
-}
-
-.jetBrains {
-  position: relative;
-  width: 140px;
-  height: 110px;
-}
-
-.bugsee {
-  position: relative;
-  width: 110px;
-  height: 100px;
-}
-
-.wolfram {
-  position: relative;
-  width: 160px;
-  height: 60px;
-}
-
-.blockchained {
-  position: relative;
-  width: 100px;
-  height: 100px;
-}
-
-.challengeRocket {
-  position: relative;
-  width: 160px;
-  height: 60px;
-}
-
-.snapchat {
-  position: relative;
-  width: 80px;
-  height: 80px;
-}
-
-.creativeTim {
-  position: relative;
-  width: 150px;
-  height: 120px;
-}
-
-.map {
-  position: relative;
-  width: 160px;
-  height: 60px;
-}
-
-.cloudSploit {
-  position: relative;
-  width: 170px;
-  height: 40px;
-}
-
-.sketch {
-  position: relative;
-  width: 90px;
-  height: 90px;
-}
-
-.restDB {
-  position: relative;
-  width: 150px;
-  height: 140px;
-}
-
-.devFacebook {
-  position: relative;
+.portis {
   width: 280px;
-  height: 30px;
 }
 
-.mozIndia {
-  position: relative;
-  width: 170px;
-  height: 90px;
+.celo {
+  width: 300px;
+}
+
+.tezos {
+  width: 250px;
+}
+
+.replit {
+  width: 100px;
+}
+
+.jetbrains {
+  width: 120px;
+}
+.onepassword {
+  width: 100px;
+}
+
+.cryptopolitan {
+  width: 350px;
 }
 
 @media (max-width: 1200px) {
@@ -215,17 +131,93 @@
     font-size: 45px;
   }
 
-  .old-title {
+  .sponsors-grid {
+    gap: 4rem;
+  }
+
+  .new__sponsors h3 {
+    font-size: 35px;
+  }
+  .new__sponsors h4 {
     font-size: 25px;
+  }
+
+  .devfolio {
+    width: 500px;
   }
 }
 
 @media (max-width: 540px) {
+  .devfolio {
+    width: 300px;
+  }
+
   .sponsors-heading {
     font-size: 35px;
   }
 
+  .sponsors__main {
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+
+  .new__sponsors h3 {
+    font-size: 25px;
+    padding: 20px 0;
+  }
+  .new__sponsors h4 {
+    font-size: 20px;
+    padding: 20px 0;
+    padding-bottom: 45px;
+  }
+
   .old-title {
     font-size: 20px;
+  }
+
+  .sponsors-grid {
+    gap: 4rem;
+  }
+
+  .polygon {
+    width: 270px;
+  }
+
+  .portis {
+    width: 230px;
+  }
+
+  .celo {
+    width: 270px;
+  }
+
+  .tezos {
+    width: 220px;
+  }
+
+  .replit {
+    width: 90px;
+  }
+
+  .jetbrains {
+    width: 100px;
+  }
+  .onepassword {
+    width: 90px;
+  }
+
+  .cryptopolitan {
+    width: 280px;
+  }
+}
+
+@media (max-width: 450px) {
+  .devfolio {
+    width: 280px;
+  }
+
+  .sponsors-grid {
+    display: flex;
+    flex-direction: column;
   }
 }
