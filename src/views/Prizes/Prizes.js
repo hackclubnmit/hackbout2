@@ -4,6 +4,11 @@ import first from '../../assets/prizes/first.png';
 import second from '../../assets/prizes/second.png';
 import third from '../../assets/prizes/third.png';
 
+import celo from '../../assets/sponsors/new/Celo Logo Color@2x.png';
+import portis from '../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png';
+import polygon from '../../assets/sponsors/new/Portis_Logo-Colored@2x.png';
+import tezos from '../../assets/sponsors/new/Tezos_Logo-Colored@2x.png';
+
 import './Prizes.css';
 
 const Prizes = () => {
@@ -24,8 +29,75 @@ const Prizes = () => {
           <p>INR 20,000</p>
         </div>
       </div>
-      <h3 className="prizes__title--sub green">Bounties</h3>
-      <div className="prizes__sub">To Be Announced Soon!</div>
+      <div className="prizes__sub">
+        <h3 className="prizes__title--sub green">Bounties</h3>
+        <div className="prizes__grid">
+          <div className="bounty__card b_polygon">
+            <div>
+              <img src={polygon} alt="polygon bounty" />
+              <p>Polygon API track prize</p>
+            </div>
+            <div>
+              <a
+                href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link"
+              >
+                Know More
+              </a>
+            </div>
+          </div>
+          <div className="bounty__card b_portis">
+            <div>
+              <img src={portis} alt="portis bounty" />
+              <p>Portis API track prize</p>
+            </div>
+            <div>
+              <a
+                href="https://www.notion.so/Portis-by-Shapeshift-Devfolio-Hackathon-Season-Prize-e198dfd094a9411b8cd0f80d76a04a90"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link"
+              >
+                Know More
+              </a>
+            </div>
+          </div>
+          <div className="bounty__card b_celo">
+            <div>
+              <img src={celo} alt="celo bounty" />
+              <p>Celo API track prize</p>
+            </div>
+            <div>
+              <a
+                href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link"
+              >
+                Know More
+              </a>
+            </div>
+          </div>
+          <div className="bounty__card b_tezos">
+            <div>
+              <img src={tezos} alt="tezos bounty" />
+              <p>Tezos API track prize</p>
+            </div>
+            <div>
+              <a
+                href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link"
+              >
+                Know More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

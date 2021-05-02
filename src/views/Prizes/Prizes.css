@@ -6,13 +6,14 @@
   align-items: center;
   background-image: linear-gradient(180deg, #ccd0d6 0%, #fff 100%);
   top: -30px;
+  padding-bottom: 100px;
 }
 
 .prizes__main {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .prizes__title {
@@ -82,12 +83,83 @@
   font-size: 45px;
   font-family: 'Archive';
   font-display: swap;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .prizes__sub {
-  font-family: 'Archive';
+  /* font-family: 'Archive';
   font-display: swap;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  */
+  width: 90vw;
+}
+
+.prizes__grid {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.bounty__card {
+  width: 300px;
+  height: 350px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px rgba(119, 119, 119, 0.836);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.bounty__card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Archive';
+  font-size: 20px;
+}
+
+.bounty__card-link {
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(45deg, #3f7c64, #00ff99);
+  color: #052d35;
+  transition: all 0.3s ease;
+}
+
+.bounty__card-link:hover {
+  transform: scale(1.05);
+}
+
+.bounty__card img {
+  width: 250px;
+}
+
+.b_polygon {
+  background-image: linear-gradient(45deg, #9e6fce, #52308f 60%);
+}
+
+.b_portis {
+  background-image: linear-gradient(45deg, #48c5ef, #6f87d6 60%);
+}
+
+.b_celo {
+  background-image: linear-gradient(45deg, #fbcc5c 15%, #35d07f 120%);
+}
+
+.b_tezos {
+  background-image: linear-gradient(45deg, #6db2d8, #183a85 80%);
 }
 
 @media (max-width: 1100px) {
@@ -99,6 +171,13 @@
 
   .prizes__img {
     width: 140px;
+  }
+}
+
+@media (min-width: 600px) {
+  .prizes__grid {
+    align-items: center;
+    justify-items: center;
   }
 }
 
@@ -138,5 +217,24 @@
 
   .prizes__title--sub {
     font-size: 30px;
+  }
+
+  .bounty__card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .bounty__card {
+    width: 250px;
+    height: 300px;
+  }
+
+  .bounty__card img {
+    width: 230px;
+  }
+
+  .bounty__card div {
+    font-size: 18px;
   }
 }
