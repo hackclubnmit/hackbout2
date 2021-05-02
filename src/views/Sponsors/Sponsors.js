@@ -9,10 +9,10 @@ import portis from '../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png';
 import polygon from '../../assets/sponsors/new/Portis_Logo-Colored@2x.png';
 import tezos from '../../assets/sponsors/new/Tezos_Logo-Colored@2x.png';
 
-import jetbrains from '../../assets/sponsors/new/jetbrains.svg';
-import onePass from '../../assets/sponsors/new/1password-icon.svg';
-import crypto from '../../assets/sponsors/new/cryptopolitan.png';
-import repl from '../../assets/sponsors/new/replit-icon.svg';
+// import jetbrains from '../../assets/sponsors/new/jetbrains.svg';
+// import onePass from '../../assets/sponsors/new/1password-icon.svg';
+// import crypto from '../../assets/sponsors/new/cryptopolitan.png';
+// import repl from '../../assets/sponsors/new/replit-icon.svg';
 
 const Sponsors = () => {
   return (
@@ -98,7 +98,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="article">
+            {/* <div className="article">
               <a
                 href="https://repl.it/"
                 target="_blank"
@@ -149,7 +149,7 @@ const Sponsors = () => {
                   alt="sponsor cryptopolitan"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
