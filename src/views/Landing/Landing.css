@@ -31,6 +31,7 @@
   align-items: center;
   height: 100%;
   padding: 100px 0;
+  margin-left: 70px;
   /* margin-top: 170px; */
 }
 
@@ -75,6 +76,8 @@
 .landing__btn {
   height: 50px;
   width: 150px;
+  position: relative;
+  z-index: 2;
   padding: 10px;
   margin: 10px;
   display: flex;
