@@ -49,7 +49,13 @@ const Footer = () => {
             >
               Sponsorship Brochure
             </a>
-            <a href="#">Code of Conduct</a>
+            <a
+              href="https://devfolio.co/code-of-conduct"
+              target="_blank"
+              rel="noreferrer noopener "
+            >
+              Code of Conduct
+            </a>
           </div>
           <div className="footer__sec-3">
             <h3>Contact Us</h3>
