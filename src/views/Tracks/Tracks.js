@@ -121,7 +121,16 @@ const Tracks = () => {
           retina_detect: true,
         }}
       />
-      <h1 className="tracks-heading">Tracks</h1>
+      <h1
+        className="tracks-heading"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+      >
+        Tracks
+      </h1>
       <div className="archive track-cards">
         <Card img={'img1'}>
           <span>ML&nbsp;</span>

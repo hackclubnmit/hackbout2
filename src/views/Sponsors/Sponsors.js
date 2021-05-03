@@ -17,12 +17,25 @@ import tezos from '../../assets/sponsors/new/Tezos_Logo-Colored@2x.png';
 const Sponsors = () => {
   return (
     <section id="sponsors" className="sponsors">
-      <h1 className="sponsors-heading">
+      <h1
+        className="sponsors-heading"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+      >
         Our <span className="green">Sponsors</span>
       </h1>
       <div className="new__sponsors">
         <div className="sponsors__main">
-          <h3>
+          <h3
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <span className="green">Title</span> Sponsors
           </h3>
           <div className="sponsors-grid">
@@ -36,13 +49,24 @@ const Sponsors = () => {
                 src={devfolio}
                 className="sponsors__img devfolio"
                 alt="sponsor devfolio"
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos-easing="ease"
               />
             </a>
           </div>
         </div>
 
         <div className="sponsors__sub">
-          <h4>
+          <h4
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             <span className="green">Associate</span> Sponsors
           </h4>
           <div className="sponsors-grid">
@@ -56,6 +80,11 @@ const Sponsors = () => {
                   src={polygon}
                   className="sponsors__img polygon"
                   alt="sponsor polygon"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
                 />
               </a>
             </div>
@@ -69,6 +98,11 @@ const Sponsors = () => {
                   src={portis}
                   className="sponsors__img portis"
                   alt="sponnsor portis"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
                 />
               </a>
             </div>
@@ -82,6 +116,11 @@ const Sponsors = () => {
                   src={celo}
                   className="sponsors__img celo"
                   alt="sponsor celo"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
                 />
               </a>
             </div>
@@ -95,6 +134,11 @@ const Sponsors = () => {
                   src={tezos}
                   className="sponsors__img tezos"
                   alt="sponsor tezos"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
                 />
               </a>
             </div>

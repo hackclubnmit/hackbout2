@@ -1,4 +1,6 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Landing from './views/Landing/Landing';
@@ -12,6 +14,12 @@ import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   const mainJsx = (
     <Fragment>
       <Landing />

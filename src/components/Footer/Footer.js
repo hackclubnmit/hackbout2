@@ -35,10 +35,30 @@ const Footer = () => {
         <div className="footer__sections">
           <div className="footer__sec-1">
             <h3>Sections</h3>
-            <a href="#tracks">Tracks</a>
+            <a
+              href="#tracks"
+              onClick={(e) => {
+                e.preventDefault();
+                document.querySelector('.tracks').scrollIntoView({
+                  behavior: 'smooth',
+                });
+              }}
+            >
+              Tracks
+            </a>
             {/* <a href="#">Schedule</a> */}
-            <a href="#mentors">Mentors</a>
-            <a href="#sponsors">Sponsors</a>
+            {/* <a href="#mentors">Mentors</a> */}
+            <a
+              href="#sponsors"
+              onClick={(e) => {
+                e.preventDefault();
+                document.querySelector('.sponsors').scrollIntoView({
+                  behavior: 'smooth',
+                });
+              }}
+            >
+              Sponsors
+            </a>
           </div>
           <div className="footer__sec-2">
             <h3>Resources</h3>

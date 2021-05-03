@@ -23,10 +23,28 @@ const Faqs = () => {
 
   return (
     <section className="faqs" id="faqs">
-      <h1 className="faqs__title green">FAQS</h1>
+      <h1
+        className="faqs__title green"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+      >
+        FAQS
+      </h1>
       <div className="faqs__main">
         <div className="faqs__sub-1">
-          <article className="accordion">What is a hackathon?</article>
+          <article
+            className="accordion"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            What is a hackathon?
+          </article>
           <div className="panel">
             <p>
               {' '}
@@ -37,15 +55,40 @@ const Faqs = () => {
               projects.
             </p>
           </div>
-          <article className="accordion">Who can register?</article>
+          <article
+            className="accordion"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            Who can register?
+          </article>
           <div className="panel">
             <p> Everyone's welcome. Student or Professional.</p>
           </div>
-          <article className="accordion">Is there a registration fee?</article>
+          <article
+            className="accordion"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            Is there a registration fee?
+          </article>
           <div className="panel">
             <p> Absolutely not. This event is totally free of cost :)</p>
           </div>
-          <article className="accordion">
+          <article
+            className="accordion"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             What's the last date of registrations?
           </article>
           <div className="panel">
@@ -55,7 +98,14 @@ const Faqs = () => {
               submit your ideas ASAP and don't wait for the last minute!
             </p>
           </div>
-          <article className="accordion">
+          <article
+            className="accordion"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             What are Bounties? How to win them?
           </article>
           <div className="panel">
@@ -69,7 +119,14 @@ const Faqs = () => {
           </div>
         </div>
         <div className="faqs__sub-2">
-          <article className="accordion">
+          <article
+            className="accordion"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             This is my first hackathon. What if I'm clueless?{' '}
           </article>
           <div className="panel">
@@ -81,7 +138,14 @@ const Faqs = () => {
               and workshops to help you with your project.
             </p>
           </div>
-          <article className="accordion">
+          <article
+            className="accordion"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             How many members are required in a team?
           </article>
           <div className="panel">
@@ -91,7 +155,14 @@ const Faqs = () => {
               to have company and not be alone on this amazing journey :)
             </p>
           </div>
-          <article className="accordion">
+          <article
+            className="accordion"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             What if I haven't formed a team yet !
           </article>
           <div className="panel">
@@ -101,7 +172,16 @@ const Faqs = () => {
               Channel to work on an idea in the same track to form a team !
             </p>
           </div>
-          <article className="accordion">How does judging work? </article>
+          <article
+            className="accordion"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            How does judging work?{' '}
+          </article>
           <div className="panel">
             <p>
               {' '}
@@ -109,7 +189,14 @@ const Faqs = () => {
               based on creativity, technical difficulty, design, and usefulness.
             </p>
           </div>
-          <article className="accordion">
+          <article
+            className="accordion"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
             I didn't find my question here, what can i do?
           </article>
           <div className="panel">
