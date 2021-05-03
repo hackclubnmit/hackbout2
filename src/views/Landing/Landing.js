@@ -14,7 +14,9 @@ const Landing = () => {
         scale: 1.03,
       });
     }
+  }, []);
 
+  useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://apply.devfolio.co/v2/sdk.js';
     script.async = true;
