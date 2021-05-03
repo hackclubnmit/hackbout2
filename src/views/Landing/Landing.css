@@ -174,7 +174,7 @@ a {
   fill: #ffffff;
 }
 
-.devfolioApplyNow {
+/* .devfolioApplyNow {
   background-color: #22b573;
   border-radius: 3px;
   border: none;
@@ -186,7 +186,6 @@ a {
   font-weight: 600;
   padding: 12px 20px;
   text-align: center;
-  /* text-transform: lowercase; */
   width: 240px;
   position: relative;
   display: flex;
@@ -194,7 +193,7 @@ a {
   justify-content: center;
   margin: 35px;
   transition: all 0.2s ease-in;
-}
+} */
 
 @keyframes moveInTop {
   0% {
