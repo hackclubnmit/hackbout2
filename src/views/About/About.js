@@ -5,11 +5,13 @@ import './About.css';
 
 const About = () => {
   useEffect(() => {
-    const landImg = document.querySelectorAll('.hex');
-    VanillaTilt.init(landImg, {
-      glare: true,
-      scale: 1.1,
-    });
+    if (window.innerWidth > 700) {
+      const landImg = document.querySelectorAll('.hex');
+      VanillaTilt.init(landImg, {
+        glare: true,
+        scale: 1.1,
+      });
+    }
   }, []);
 
   return (
@@ -47,7 +49,6 @@ const About = () => {
             data-aos-offset="200"
             data-aos-duration="1000"
             data-aos-easing="ease"
-            style={{ marginTop: '-10px' }}
           >
             With over 40 teams and 15 mentors in our first iteration, this year
             we return to conduct a hackathon bigger than ever.

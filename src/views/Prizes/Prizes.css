@@ -36,6 +36,13 @@
   align-items: center;
 }
 
+.prizes__sub {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
 .prizes__card p {
   font-size: 30px;
   font-family: 'Archive';
@@ -103,6 +110,8 @@
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  align-items: center;
+  justify-items: center;
 }
 
 .bounty__card {
@@ -173,13 +182,13 @@
     width: 140px;
   }
 }
-
+/* 
 @media (min-width: 600px) {
   .prizes__grid {
     align-items: center;
     justify-items: center;
   }
-}
+} */
 
 @media (max-width: 850px) {
   .prizes__main {
@@ -221,6 +230,15 @@
 
   .bounty__card {
     width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .prizes__grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
 
