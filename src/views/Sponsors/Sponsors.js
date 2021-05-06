@@ -8,7 +8,8 @@ import celo from '../../assets/sponsors/new/Celo Logo Color@2x.png';
 import portis from '../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png';
 import polygon from '../../assets/sponsors/new/Portis_Logo-Colored@2x.png';
 import tezos from '../../assets/sponsors/new/Tezos_Logo-Colored@2x.png';
-
+import StickerMule from '../../assets/sponsors/new/02-sticker-mule-logo-light-bg-stacked.svg';
+import convise from '../../assets/sponsors/new/coinvise.png';
 // import jetbrains from '../../assets/sponsors/new/jetbrains.svg';
 // import onePass from '../../assets/sponsors/new/1password-icon.svg';
 // import crypto from '../../assets/sponsors/new/cryptopolitan.png';
@@ -133,6 +134,42 @@ const Sponsors = () => {
                 <img
                   src={tezos}
                   className="sponsors__img tezos"
+                  alt="sponsor tezos"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://stickermule.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={StickerMule}
+                  className="sponsors__img stickermule"
+                  alt="sponsor tezos"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://www.coinvise.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={convise}
+                  className="sponsors__img coinvise"
                   alt="sponsor tezos"
                   data-aos="zoom-in"
                   data-aos-offset="200"
