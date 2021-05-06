@@ -1,6 +1,6 @@
 .landing {
   position: relative;
-  height: 100vh;
+  height: 110vh;
   background-color: #033043;
   background-image: linear-gradient(45deg, #27404fec 0%, #09232bed 74%),
     url('../../assets/landingBg.jpg');
@@ -195,10 +195,51 @@ a {
   transition: all 0.2s ease-in;
 } */
 
-/* #apply-button {
+#apply-button {
   position: absolute !important;
   z-index: 5 !important;
-} */
+  background-color: #22b573 !important;
+  cursor: pointer;
+  transition: all 0.3s ease !important;
+}
+
+#apply-button:hover {
+  background-color: #1c965f !important;
+  transform: scale(1.04);
+}
+
+.btn_telegram {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #0084c6;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 312px;
+  border-radius: 4px;
+  padding: 0 30px;
+  height: 44px;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  z-index: 5;
+  font-family: Nunito Sans, sans-serif;
+  transition: all 0.3s ease !important;
+  top: 90px;
+}
+
+.btn_telegram div {
+  position: relative;
+  top: 2px;
+  margin-left: 5px;
+}
+
+.btn_telegram:hover {
+  transform: scale(1.04);
+  background-color: #0075af;
+}
 
 .devfolio-button-iframe {
   position: absolute !important;
@@ -206,9 +247,24 @@ a {
   top: 370px;
 }
 
+.devfolio-button-iframe #apply-button {
+  background-color: #22b573 !important;
+  cursor: pointer;
+  transition: all 0.3s ease !important;
+}
+
+.devfolio-button-iframe #apply-button:hover {
+  background-color: #1c965f !important;
+  transform: scale(1.04);
+}
+
 @media (max-width: 1400px) {
   .devfolio-button-iframe {
     top: 340px !important;
+  }
+
+  .btn_telegram {
+    top: 95px;
   }
 }
 
@@ -216,11 +272,19 @@ a {
   .devfolio-button-iframe {
     top: 310px !important;
   }
+
+  .btn_telegram {
+    top: 95px;
+  }
 }
 
 @media (max-width: 1050px) {
   .devfolio-button-iframe {
     top: 260px !important;
+  }
+
+  .btn_telegram {
+    top: 95px;
   }
 }
 
@@ -228,11 +292,29 @@ a {
   .devfolio-button-iframe {
     top: 370px !important;
   }
+
+  .btn_telegram {
+    top: 95px;
+  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 540px) {
+  .devfolio-button-iframe {
+    top: 380px !important;
+  }
+
+  .btn_telegram {
+    top: 115px;
+  }
+}
+
+@media (max-width: 500px) {
   .devfolio-button-iframe {
     top: 435px !important;
+  }
+
+  .btn_telegram {
+    top: 115px;
   }
 }
 
@@ -414,8 +496,8 @@ a {
 
   .landing__logo {
     height: 150px;
-    top: 6.5%;
-    left: 50.5%;
+    top: 1.5%;
+    left: 50%;
     transform: translateX(-50%);
   }
 
@@ -487,7 +569,7 @@ a {
 
   .landing__logo {
     height: 155px;
-    top: 1.7%;
+    top: -0.3%;
     margin: 0;
     margin-top: 40px;
   }
@@ -540,7 +622,7 @@ a {
 
 @media (max-width: 360px) {
   .landing {
-    min-height: 120vh;
+    min-height: 130vh;
   }
 
   .hex__back-1 {
@@ -558,7 +640,7 @@ a {
 
 @media (max-width: 320px) {
   .landing {
-    min-height: 135vh;
+    min-height: 145vh;
   }
 
   .hex__back-1 {
