@@ -9,9 +9,15 @@ import portis from '../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png';
 import polygon from '../../assets/sponsors/new/Portis_Logo-Colored@2x.png';
 import tezos from '../../assets/sponsors/new/Tezos_Logo-Colored@2x.png';
 import StickerMule from '../../assets/sponsors/new/02-sticker-mule-logo-light-bg-stacked.svg';
+import echoAR from '../../assets/sponsors/new/echoAR - Logo 2020 - Dark.png';
+import sashido from '../../assets/sponsors/new/sashido-logo-for sites.png';
+import framer from '../../assets/sponsors/new/black-horizontal.svg';
+import interviewCake from '../../assets/sponsors/new/cake_logo_blue_gray.svg';
+import testMail from '../../assets/sponsors/new/testmail.jpg';
 import convise from '../../assets/sponsors/new/coinvise.png';
+import onePass from '../../assets/sponsors/new/1password-icon.svg';
+
 // import jetbrains from '../../assets/sponsors/new/jetbrains.svg';
-// import onePass from '../../assets/sponsors/new/1password-icon.svg';
 // import crypto from '../../assets/sponsors/new/cryptopolitan.png';
 // import repl from '../../assets/sponsors/new/replit-icon.svg';
 
@@ -171,6 +177,114 @@ const Sponsors = () => {
                   src={convise}
                   className="sponsors__img coinvise"
                   alt="sponsor tezos"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://1password.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={onePass}
+                  className="sponsors__img onepassword"
+                  alt="sponsors onepassword"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://www.echoar.xyz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={echoAR}
+                  className="sponsors__img echoAR"
+                  alt="sponsors echoAR"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://www.sashido.io/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={sashido}
+                  className="sponsors__img sashido"
+                  alt="sponsors sashido"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://www.framer.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={framer}
+                  className="sponsors__img framer"
+                  alt="sponsors framer"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://www.interviewcake.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={interviewCake}
+                  className="sponsors__img cake"
+                  alt="sponsors cake"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://testmail.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={testMail}
+                  className="sponsors__img testmail"
+                  alt="sponsors testmail"
                   data-aos="zoom-in"
                   data-aos-offset="200"
                   data-aos-delay="0"

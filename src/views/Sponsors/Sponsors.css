@@ -53,6 +53,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
 }
 
 .sponsors__main {
@@ -124,6 +125,26 @@
   width: 130px;
 }
 
+.echoAR {
+  width: 300px;
+}
+
+.sashido {
+  width: 350px;
+}
+
+.framer {
+  width: 250px;
+}
+
+.cake {
+  width: 400px;
+}
+
+.testmail {
+  width: 350px;
+}
+
 @media (max-width: 1200px) {
   .sponsors-heading {
     font-size: 55px;
@@ -179,6 +200,10 @@
     padding-bottom: 45px;
   }
 
+  .article {
+    height: 100px;
+  }
+
   .old-title {
     font-size: 20px;
   }
@@ -224,6 +249,26 @@
 
   .coinvise {
     width: 110px;
+  }
+
+  .echoAR {
+    width: 280px;
+  }
+
+  .sashido {
+    width: 300px;
+  }
+
+  .framer {
+    width: 250px;
+  }
+
+  .cake {
+    width: 300px;
+  }
+
+  .testmail {
+    width: 300px;
   }
 }
 
