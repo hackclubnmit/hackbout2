@@ -168,7 +168,7 @@ const Faqs = () => {
           <div className="panel">
             <p>
               {' '}
-              Don't worry you can collaborate with other hackers on our Discord
+              Don't worry you can collaborate with other hackers on our Telegram
               Channel to work on an idea in the same track to form a team !
             </p>
           </div>
