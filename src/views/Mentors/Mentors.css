@@ -1,7 +1,6 @@
 .mentors {
   position: relative;
   padding-top: 150px;
-  background-image: linear-gradient(180deg, #ccd0d6 0%, #fff 100%);
   top: -25px;
   padding-bottom: 60px;
   display: flex;
@@ -17,6 +16,17 @@
   margin-block-start: 0;
   margin-block-end: 0;
   margin: 0 10px;
+  margin-bottom: 100px;
+}
+
+.mentors__main {
+  width: 90%;
+}
+
+.mentor__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery {

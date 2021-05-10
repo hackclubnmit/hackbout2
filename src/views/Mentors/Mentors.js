@@ -1,32 +1,72 @@
 import React from 'react';
 import './Mentors.css';
 
-import mOne from '../../assets/mentors/old/kanirudh.jpg';
-import mTwo from '../../assets/mentors/old/Manav.jpg';
-import mThree from '../../assets/mentors/old/pranjal.jpeg';
-import mFour from '../../assets/mentors/old/vasanth.jpg';
-import mFive from '../../assets/mentors/old/karthikeyan.jpg';
-import mSix from '../../assets/mentors/old/himanshu.jpg';
-import mSeven from '../../assets/mentors/old/kalai.PNG';
-import mEight from '../../assets/mentors/old/sneha.jpg';
-import mNine from '../../assets/mentors/old/Swathi.jpg';
-import mTen from '../../assets/mentors/old/chandra.jpg';
-import mEleven from '../../assets/mentors/old/rachana.jpg';
-import mTwelve from '../../assets/mentors/old/swayam.jpg';
-import mThirteen from '../../assets/mentors/old/abhitej.jpg';
-import mFourteen from '../../assets/mentors/old/Nagaraja.jpg';
-import mFifteen from '../../assets/mentors/old/Vishwas.jpg';
-import mSixteen from '../../assets/mentors/old/Anand.jpeg';
-import mSeventeen from '../../assets/mentors/old/Kartik.jpg';
+import MentorCard from '../../components/MentorCards/MentorCards';
+
+import Shubham from '../../assets/mentors/new/shubham.png';
+import Smaranjit from '../../assets/mentors/new/Smaranjit_Ghose.jpeg';
+import jenil from '../../assets/mentors/new/Jenil.jpeg';
+
+// import mOne from '../../assets/mentors/old/kanirudh.jpg';
+// import mTwo from '../../assets/mentors/old/Manav.jpg';
+// import mThree from '../../assets/mentors/old/pranjal.jpeg';
+// import mFour from '../../assets/mentors/old/vasanth.jpg';
+// import mFive from '../../assets/mentors/old/karthikeyan.jpg';
+// import mSix from '../../assets/mentors/old/himanshu.jpg';
+// import mSeven from '../../assets/mentors/old/kalai.PNG';
+// import mEight from '../../assets/mentors/old/sneha.jpg';
+// import mNine from '../../assets/mentors/old/Swathi.jpg';
+// import mTen from '../../assets/mentors/old/chandra.jpg';
+// import mEleven from '../../assets/mentors/old/rachana.jpg';
+// import mTwelve from '../../assets/mentors/old/swayam.jpg';
+// import mThirteen from '../../assets/mentors/old/abhitej.jpg';
+// import mFourteen from '../../assets/mentors/old/Nagaraja.jpg';
+// import mFifteen from '../../assets/mentors/old/Vishwas.jpg';
+// import mSixteen from '../../assets/mentors/old/Anand.jpeg';
+// import mSeventeen from '../../assets/mentors/old/Kartik.jpg';
 
 const Mentors = () => {
   return (
     <section id="mentors" className="mentors">
-      <h1 className="mentors-heading">
+      <h1
+        className="mentors-heading"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+      >
         Our <span className="green">Mentors</span>
       </h1>
-      <article className="new-mentors"></article>
-      <article className="old-mentors">
+      <article className="mentors__main">
+        <div className="sponsors-grid">
+          <div className="mentor__container">
+            <MentorCard
+              name="Shubham Sharma"
+              img={Shubham}
+              occupation="Software Engineer @ Microsoft"
+              linkedIn="https://linkedin.com/in/shubham1172/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Smaranjit Ghose"
+              img={Smaranjit}
+              occupation="Research Assistant"
+              linkedIn=" https://www.linkedin.com/in/smaranjitghose/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Jenil Thakker"
+              img={jenil}
+              occupation="Founder @ Coinvise"
+              linkedIn=" https://www.linkedin.com/in/smaranjitghose/"
+            />
+          </div>
+        </div>
+      </article>
+      {/* <article className="old-mentors">
         <h3 className="old-title">Our Previous Mentors</h3>
         <div
           className="js-flickity gallery"
@@ -127,7 +167,7 @@ const Mentors = () => {
             </div>
           </div>
         </div>
-      </article>
+      </article> */}
     </section>
   );
 };
