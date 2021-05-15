@@ -61,7 +61,7 @@ const Mentors = () => {
               name="Jenil Thakker"
               img={jenil}
               occupation="Founder @ Coinvise"
-              linkedIn=" https://www.linkedin.com/in/smaranjitghose/"
+              linkedIn=" https://www.linkedin.com/in/jenilthakker/"
             />
           </div>
         </div>
