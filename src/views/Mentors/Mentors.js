@@ -6,7 +6,7 @@ import MentorCard from '../../components/MentorCards/MentorCards';
 import Shubham from '../../assets/mentors/new/shubham.png';
 import Smaranjit from '../../assets/mentors/new/Smaranjit_Ghose.jpeg';
 import jenil from '../../assets/mentors/new/Jenil.jpeg';
-
+import anush from '../../assets/mentors/new/bhatia_anush.png'
 // import mOne from '../../assets/mentors/old/kanirudh.jpg';
 // import mTwo from '../../assets/mentors/old/Manav.jpg';
 // import mThree from '../../assets/mentors/old/pranjal.jpeg';
@@ -62,6 +62,14 @@ const Mentors = () => {
               img={jenil}
               occupation="Founder @ Coinvise"
               linkedIn=" https://www.linkedin.com/in/jenilthakker/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Anush Bhatia"
+              img={anush}
+              occupation="Open Source Mentor"
+              linkedIn="https://www.linkedin.com/in/anushbhatia/"
             />
           </div>
         </div>
