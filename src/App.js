@@ -14,6 +14,7 @@ import Faqs from './views/Faqs/Faqs';
 import Footer from './components/Footer/Footer';
 import './App.css';
 import Founder from './views/founders/founders';
+import Navbar from './views/navbar/navbar';
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
 
   const mainJsx = (
     <Fragment>
+      <Navbar/>
       <Landing />
       <About />
       <Tracks />

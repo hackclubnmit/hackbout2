@@ -298,4 +298,19 @@
     display: flex;
     flex-direction: column;
   }
+  .sponsors__img {
+    width: 250px;
+  }
+  .coinvise {
+    width: 120px;
+  }
+  .onepassword {
+    width: 120px;
+  }
+  .xyz {
+    width: 150px;
+  }
+  .aicte {
+    width: 130px;
+  }
 }
