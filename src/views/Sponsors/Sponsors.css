@@ -145,6 +145,23 @@
   width: 350px;
 }
 
+.bindia {
+  width: 350px;
+}
+.codeparva {
+  width: 300px;
+
+}
+.xyz {
+  width: 180px;
+}
+.ieee {
+  width: 380px;
+}
+.aicte {
+  width: 180px;
+}
+
 @media (max-width: 1200px) {
   .sponsors-heading {
     font-size: 55px;

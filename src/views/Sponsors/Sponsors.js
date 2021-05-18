@@ -16,6 +16,11 @@ import interviewCake from '../../assets/sponsors/new/cake_logo_blue_gray.svg';
 import testMail from '../../assets/sponsors/new/testmail.jpg';
 import convise from '../../assets/sponsors/new/coinvise.png';
 import onePass from '../../assets/sponsors/new/1password-icon.svg';
+import bindia from '../../assets/sponsors/new/BIndia.png';
+import aicte from '../../assets/sponsors/new/aicte.png';
+import xyz from '../../assets/sponsors/new/xyz.png';
+import codeparva from '../../assets/sponsors/new/codeparva.svg';
+import ieee from '../../assets/sponsors/new/ieee-cs-logo.png';
 
 // import jetbrains from '../../assets/sponsors/new/jetbrains.svg';
 // import crypto from '../../assets/sponsors/new/cryptopolitan.png';
@@ -285,6 +290,96 @@ const Sponsors = () => {
                   src={testMail}
                   className="sponsors__img testmail"
                   alt="sponsors testmail"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://www.blockchainindia.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={bindia}
+                  className="sponsors__img bindia"
+                  alt="sponsors Blockchained India"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://codeparva.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={codeparva}
+                  className="sponsors__img codeparva"
+                  alt="sponsors codeparva"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://gen.xyz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={xyz}
+                  className="sponsors__img xyz"
+                  alt="sponsors XYZ"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://www.ieee.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={ieee}
+                  className="sponsors__img ieee"
+                  alt="sponsors IEEE"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://www.aicte-india.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={aicte}
+                  className="sponsors__img aicte"
+                  alt="sponsors AICTE"
                   data-aos="zoom-in"
                   data-aos-offset="200"
                   data-aos-delay="0"
