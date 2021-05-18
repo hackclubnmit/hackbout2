@@ -1,10 +1,19 @@
 
 
  .profile_wrap {
-    margin: 10px 10px;
-     padding: 0;
+    margin: 80px 10px;
+     padding: 10px;
      min-height: 1px;
-     flex: 1 0 17%;
+     display: grid;
+     border-radius: 40px;
+     height:400px;
+     width:300px;
+     background: #232526;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+     
+     
  }
 
  .profile-circle {
@@ -12,10 +21,9 @@
      width: 200px;
      height: 200px;
      left: 50%;
-     top: 50%;
      transform: translate(-50%, -60%);
      border-radius: 100%;
-     border: 4px solid black;
+     border: 4px solid #0F2027;
 }
  .profile-circle > img {
      width: 200px;
@@ -23,38 +31,6 @@
      border-radius: 100%;
      position:absolute;
      object-fit: cover;
-}
- .profile-overlay {
-     background: rgba(0,0,0,0.8);
-     position: absolute;
-     width: 200px;
-     height: 200px;
-     border-radius: 100%;
-     text-align: center;
-     transition: .95s ease;
-     opacity: 0;
-}
- #mouse-over:hover {
-     opacity: 1;
-     transition:all 1.2s ease;
-}
- .profile-overlay > a:nth-child(1){
-     color: #fff;
-     position: relative;
-     top: 25%;
-     font-weight: 500;
-     font-size: 23px;
-   
-     text-align: center;
-     text-decoration: none;
-}
- .profile-overlay > span:nth-child(3){
-     color: #c4bebe;
-     position: relative;
-     top: 35%;
-     font-weight: 500;
-     font-size: 20px;
-     text-align: center;
 }
 .icons-team {
     display: flex;
@@ -66,13 +42,13 @@
 }
 .icon-linkedin {
     background: #f3f3f3;
-     width:30px;
-     height: 30px;
+     width:50px;
+     height: 50px;
      line-height: 55px;
      border-radius: 100%;
      color: #212121;
      text-decoration: none;
-     font-size: 12px;
+     font-size: 18px;
      display: flex;
      justify-content: center;
      align-items:center;
@@ -83,13 +59,13 @@
 }
 .icon-twitter {
     background: #f3f3f3;
-     width:30px;
-     height: 30px;
+     width:50px;
+     height: 50px;
      line-height: 55px;
      border-radius: 100%;
      color: #212121;
      text-decoration: none;
-     font-size: 12px;
+     font-size: 18px;
      display: flex;
      justify-content: center;
      align-items:center;
@@ -97,15 +73,16 @@
 .icon-twitter:hover {
     background: #1da1f2;
      color: #fff;
-}.icon-instagram {
+}
+.icon-instagram {
     background: #f3f3f3;
-     width:30px;
-     height: 30px;
+     width:50px;
+     height: 50px;
      line-height: 55px;
      border-radius: 100%;
      color: #212121;
      text-decoration: none;
-     font-size: 12px;
+     font-size: 18px;
      display: flex;
      justify-content: center;
      align-items:center;
@@ -113,4 +90,35 @@
 .icon-instagram:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
      color: #fff;
+}
+.icon-github {
+    background: #f3f3f3;
+     width:50px;
+     height: 50px;
+     line-height: 55px;
+     border-radius: 100%;
+     color: #212121;
+     text-decoration: none;
+     font-size: 18px;
+     display: flex;
+     justify-content: center;
+     align-items:center;
+}
+.icon-github:hover {
+    background: #000;
+     color: #fff;
+}
+.profile-name {
+    color: white;
+    transform: translate(0, -150%);
+    font-family: Archive;
+    text-align: center;
+    font-size: 30px;
+}
+.profile-role {
+    color: white;
+    transform: translate(0, -200%);
+    font-family: Archive;
+    text-align: center;
+    font-size: 15px;
 }

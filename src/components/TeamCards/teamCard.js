@@ -9,18 +9,15 @@ const TeamCard = (props) => {
         <div class="profile_wrap">
             <div className="profile-circle">
                 <img src={props.image} alt="" class="profile-image" id="profile-image"/>
-                <div class="profile-overlay" id="mouse-over">
-                     <a href="">{props.name}</a>
-                    <br/>
-                    <span>{props.role}</span>
-                    <br/>
-                    <div class="icons-team">
-                        <a className="icon-linkedin" href={props.linkedin} ><i class="fa fa-linkedin" ></i></a>
-                        <a className="icon-twitter" href={props.twitter} ><i class="fa fa-twitter"></i></a>
-                        <a className="icon-instagram" href={props.instagram} ><i class="fa fa-instagram" ></i></a>
-                    </div>
-                </div>
             </div>
+            <div className="profile-name">{props.name}</div>
+            <div className="profile-role">{props.role}</div>
+            <div class="icons-team">
+                        <a className="icon-linkedin" href={props.linkedin} ><i class="fab fa-linkedin" ></i></a>
+                         <a className="icon-twitter" href={props.twitter} ><i class="fab fa-twitter"></i></a>
+                        {/* <a className="icon-instagram" href={props.instagram} ><i class="fab fa-instagram" ></i></a>  */}
+                        <a className="icon-github" href={props.instagram} ><i class="fab fa-github" ></i></a>
+                    </div>
         </div>
     )
 }

@@ -1,6 +1,12 @@
+:root {
+    background-image: linear-gradient(0deg, #ccd0d6 0%, #fff 100%);
+}
+
 .team {
     position: relative;
     padding-top: 150px;
+ 
+  
     top: -25px;
     padding-bottom: 60px;
     display: flex;

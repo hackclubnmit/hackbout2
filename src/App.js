@@ -32,15 +32,16 @@ function App() {
       <Prizes />
       <Mentors />
       <Sponsors />
-      {/* <Team />
-      <Founder/> */}
       <Faqs />
       <Footer />
     </Fragment>
   );
 
-  const sponsorsJsx = (
+  const teamJsx = (
     <Fragment>
+      <Navbar/>
+      <Team />
+      <Founder/>
       <Footer />
     </Fragment>
   );
@@ -48,7 +49,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/sponsors">{sponsorsJsx}</Route>
+        <Route path="/team">{teamJsx}</Route>
         <Route path="">{mainJsx}</Route>
       </Switch>
     </Router>

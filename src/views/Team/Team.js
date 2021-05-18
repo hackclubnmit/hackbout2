@@ -36,23 +36,30 @@ const Team = () => {
       <br/>
       <div class="team-card">
           <TeamCard role="Club Lead" name="Rudransh Tewari" linkedin="/" image={Rudy} />
-          <TeamCard name="Anshul Rai" image={Anshul1} role="co-lead"/>
+          <TeamCard name="Anshul Rai" image={Anshul1} role="Club Co-Lead"/>
       </div>
       <div class="team-card">
-          <TeamCard role="Design Lead" name="Purnima Sharma" image={Purnima} />
+      <TeamCard role="Sponsorship Lead" name="Anant Saxena" image={Anant} />
+
           <TeamCard role="Operation Lead" name="Somwya Sri" image={Somwya}/>
           <TeamCard role="Tech Lead" name="Kaushal" image={Kaushal} />
           <TeamCard role="Design Lead" name="Sayantan Ghosh" image={Sayantan} />
           <TeamCard role="Marketing Lead" name="Alisha Ahmed" image={Alisha} />
-          <TeamCard role="Operation Team" name="Yash Jaiswal" image={Yash}/>
+          <TeamCard role="Sponsorship Team" name="Aditya V" image={Adi} />
           <TeamCard role="Operation Team" name="Madan" image={Madan} />
           <TeamCard role="Tech Team" name="Satvik" image={Satvik} />
-          <TeamCard role="Operation Team" name="Piyush Aneja" image={Aneja}/>
-          <TeamCard role="Design Team" name="Aditya Vijaykumar" image={Adi} />
          <TeamCard role="Design Team" name="Anirudhha Sil" image={Ani} />
+
          <TeamCard role="Marketing Team" name="Harshitha P" image={Harshitha} />
-         <TeamCard role="Sponsorship Team" name="Anant Saxena" image={Anant} />
+
+         <TeamCard role="Operation Team" name="Piyush Aneja" image={Aneja}/>
+
+         <TeamCard role="Operation Team" name="Yash Jaiswal" image={Yash}/>
+         <TeamCard role="Design Team" name="Purnima Sharma" image={Purnima} />
+
+
       </div>
+     
         </section>
     )
 }

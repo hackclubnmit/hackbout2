@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <header className="Header">
-      <p>Hackbout</p>
+      <a href="/">Hackbout</a>
       <CSSTransition
         in={!isSmallScreen || isNavVisible}
         timeout={350}
@@ -42,7 +42,7 @@ export default function Header() {
         <a href="#tracks">Track</a>
         <a href="#prizes">Prizes</a>
         <a href="#mentors">Mentors</a>
-        <a href="#mentors">Team</a>
+        <a href="/team">Team</a>
         <a href="#sponsors">Sponsors</a>
         <a href="#faqs">Help</a>
         </nav>
