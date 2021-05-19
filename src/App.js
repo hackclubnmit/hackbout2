@@ -49,8 +49,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/team">{teamJsx}</Route>
-        <Route path="">{mainJsx}</Route>
+        <Route exact path="/team">{teamJsx}</Route>
+        <Route exact path="/">{mainJsx}</Route>
       </Switch>
     </Router>
   );
