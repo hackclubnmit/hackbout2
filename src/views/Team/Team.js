@@ -218,7 +218,7 @@ const Team = () => {
    
    
       <TeamCard
-       role="Sponsorship Team" 
+       role="Design Team" 
        name="Aditya Vijaykumar" 
        image={Adi} 
        github="https://github.com/aditya-vijaykumar"
