@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Landing from './views/Landing/Landing';
 import About from './views/About/About';
@@ -23,7 +23,8 @@ function App() {
     });
   }, []);
 
-  const mainJsx = (
+  const mainJsx = () => {
+    return (
     <Fragment>
       <Navbar/>
       <Landing />
@@ -35,22 +36,24 @@ function App() {
       <Faqs />
       <Footer />
     </Fragment>
-  );
+    );
+  }
 
-  const teamJsx = (
+  const teamJsx = () => {
+    return (
     <Fragment>
       <Navbar/>
       <Team />
       <Founder/>
       <Footer />
     </Fragment>
-  );
-
+    );
+  }
   return (
     <Router>
       <Switch>
-        <Route exact path="/team">{teamJsx}</Route>
-        <Route exact path="/">{mainJsx}</Route>
+        <Route exact path="/team" component={teamJsx}/>
+        <Route exact path="/" component={mainJsx}/>
       </Switch>
     </Router>
   );
