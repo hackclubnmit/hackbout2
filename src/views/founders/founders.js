@@ -56,7 +56,7 @@ const Founder = () => {
         name="Dheetu Gowda"
          image={Dheetu}
          linkedin="https://www.linkedin.com/in/dheemanth-m-d/"
-             twitter=""
+             twitter="https://twitter.com/dheemanthmd12"
              github="https://github.com/Dheemanth-gowda"
          />
 
