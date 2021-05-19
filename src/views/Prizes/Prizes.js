@@ -8,6 +8,8 @@ import celo from '../../assets/sponsors/new/Celo Logo Color@2x.png';
 import portis from '../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png';
 import polygon from '../../assets/sponsors/new/Portis_Logo-Colored@2x.png';
 import tezos from '../../assets/sponsors/new/Tezos_Logo-Colored@2x.png';
+import codeparva from '../../assets/sponsors/new/codeparva.svg';
+import girlgeeks from '../../assets/sponsors/new/girlGeeks.3f8ba886.png';
 
 import './Prizes.css';
 
@@ -162,6 +164,46 @@ const Prizes = () => {
                 Know More
               </a>
             </div>
+          </div>
+          <div
+            className="bounty__card b_code-Parva"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={codeparva} alt="codeparva bounty" />
+              <p>Code Parva Bounty</p>
+            </div>
+            <div>
+              <a
+                href="https://drive.google.com/file/d/1hv3s_mOQ6uFfINH1o9NxH577cgIXl9Ou/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link"
+              >
+                Know More
+              </a>
+            </div>
+          </div>
+          <div
+            className="bounty__card b_girlgeek"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={girlgeeks} alt="girlsgeek bounty" />
+              <p>GirlGeek Bounty</p>
+            </div>
+            <article>
+              Bring a Team with majority of girls and 2 teams stand a chance to
+              win INR 10000 and INR 5000
+            </article>
           </div>
         </div>
       </div>
