@@ -8,12 +8,12 @@
      border-radius: 40px;
      height:400px;
      width:300px;
-     background: #232526;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-     
-     
-     
+     background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
  }
 
  .profile-circle {
@@ -23,7 +23,7 @@
      left: 50%;
      transform: translate(-50%, -60%);
      border-radius: 100%;
-     border: 4px solid #0F2027;
+     border: 4px solid #38ef7d;
 }
  .profile-circle > img {
      width: 200px;
@@ -36,8 +36,8 @@
     display: flex;
     justify-content:center;
     align-items:baseline;
-    margin: 85px auto;
-    column-gap: 5px;
+    margin: 60px auto;
+    column-gap: 15px;
     
 }
 .icon-linkedin {
@@ -74,7 +74,7 @@
     background: #1da1f2;
      color: #fff;
 }
-.icon-instagram {
+/* .icon-instagram {
     background: #f3f3f3;
      width:50px;
      height: 50px;
@@ -90,7 +90,7 @@
 .icon-instagram:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
      color: #fff;
-}
+} */
 .icon-github {
     background: #f3f3f3;
      width:50px;
@@ -109,16 +109,16 @@
      color: #fff;
 }
 .profile-name {
-    color: white;
+    color: black;
     transform: translate(0, -150%);
     font-family: Archive;
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
 }
 .profile-role {
-    color: white;
+    color: black;
     transform: translate(0, -200%);
     font-family: Archive;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
 }

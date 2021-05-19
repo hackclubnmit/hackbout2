@@ -2,6 +2,7 @@ import React from 'react'
 import TeamCard from '../../components/TeamCards/teamCard'
 import './founders.css'
 
+import Yash from '../../assets/team/yash.jpg'
 import Anurag from '../../assets/founders/Anurag.jfif'
 import Rachet from '../../assets/founders/rachet.jpeg'
 import Avinash from '../../assets/founders/avinash.jpeg'
@@ -26,17 +27,76 @@ const Founder = () => {
       </h1>
       <br/>
       <div class="founder-card">
-          <TeamCard role="Founder" name="Anurag Singh" image={Anurag} />
-          <TeamCard role="Co-Founder" name="Rachet Mudnur" image={Rachet}/>
+          <TeamCard
+           role="Founder"
+            name="Anurag Singh"
+             image={Anurag}
+             linkedin="https://www.linkedin.com/in/ashleymavericks/"
+             twitter="https://twitter.com/ashleymavericks"
+             github="https://github.com/ashleymavericks"
+             />
+          <TeamCard
+           role="Co-Founder" 
+           name="Rachet Mudnur" 
+           image={Rachet}
+           linkedin="https://www.linkedin.com/in/rachetm/"
+             twitter="https://twitter.com/rachet_m"
+             github="https://github.com/rachetm"
+           />
+      <TeamCard
+       role="Operations Head"
+        name="Avinash Singh" 
+        image={Avinash}
+        linkedin="https://www.linkedin.com/in/avinash-kumar-singh-0b127017b/"
+             twitter=""
+             github=""
+        />
+      <TeamCard
+       role="Sponsor Head"
+        name="Dheetu Gowda"
+         image={Dheetu}
+         linkedin="https://www.linkedin.com/in/dheemanth-m-d/"
+             twitter=""
+             github="https://github.com/Dheemanth-gowda"
+         />
+
       </div>
       <div class="founder-card">
-          <TeamCard role="Design Lead" name="Arpit Giri" image={Arpit} />
-          <TeamCard role="Sponsor Lead" name="Dheetu Gowda" image={Dheetu} />
-          <TeamCard role="Tech Lead" name="Abhi Kedia" image={Abhishek} />
-          <TeamCard role="Operations Laad" name="Avinash Singh" image={Avinash} />
-          <TeamCard role="Public Relation Lead" name="Sagar M" image={Sagar} />
+          <TeamCard
+           role="Design Head"
+            name="Arpit Giri"
+             image={Arpit} 
+             linkedin="https://www.linkedin.com/in/arpitgiri027/"
+             twitter=""
+             github=""
+             />
+          <TeamCard
+           role="Tech Head"
+            name="Abhi Kedia"
+             image={Abhishek}
+             linkedin="https://www.linkedin.com/in/abhikedia/"
+             twitter="https://twitter.com/abhikedia_"
+             github="https://github.com/abhikedia"
+             />
          
+          <TeamCard
+           role="Public Relation Head"
+            name="Sagar M"
+             image={Sagar}
+             linkedin="https://www.linkedin.com/in/sagar-mohan-0654321b1/"
+             twitter=""
+             github="https://github.com/sarohan"
+             />
+          <TeamCard 
+          role="Marketing Head"
+           name="Yash Jaiswal" 
+           image={Yash}
+           linkedin="https://www.linkedin.com/in/yashjaiswal1/"
+             twitter=""
+             github="https://github.com/yashjaiswal1"
+           />
       </div>
+
         </section>
     )
 }

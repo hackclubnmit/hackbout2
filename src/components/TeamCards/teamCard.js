@@ -16,7 +16,7 @@ const TeamCard = (props) => {
                         <a className="icon-linkedin" href={props.linkedin} ><i class="fab fa-linkedin" ></i></a>
                          <a className="icon-twitter" href={props.twitter} ><i class="fab fa-twitter"></i></a>
                         {/* <a className="icon-instagram" href={props.instagram} ><i class="fab fa-instagram" ></i></a>  */}
-                        <a className="icon-github" href={props.instagram} ><i class="fab fa-github" ></i></a>
+                        <a className="icon-github" href={props.github} ><i class="fab fa-github" ></i></a>
                     </div>
         </div>
     )

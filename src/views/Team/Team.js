@@ -34,33 +34,207 @@ const Team = () => {
         Team <span className="green">Members</span>
       </h1>
       <br/>
+      <h4
+        className="team-heading"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+      >
+        Club <span className="green">Leads</span>
+      </h4>
       <div class="team-card">
-          <TeamCard role="Club Lead" name="Rudransh Tewari" linkedin="/" image={Rudy} />
-          <TeamCard name="Anshul Rai" image={Anshul1} role="Club Co-Lead"/>
+          <TeamCard
+           role="Club Lead"
+            name="Rudransh Tewari" 
+            image={Rudy} 
+            linkedin="https://www.linkedin.com/in/rudy7/" 
+            github="https://github.com/rudyt7"
+            twitter=""
+            />
+          <TeamCard
+           name="Anshul Rai"
+           role="Club Co-Lead"
+            image={Anshul1}
+            linkedin="https://www.linkedin.com/in/auralshin" 
+            github="https://github.com/auralshin"
+            twitter="https://twitter.com/auralshin"
+             />
       </div>
-      <div class="team-card">
-      <TeamCard role="Sponsorship Lead" name="Anant Saxena" image={Anant} />
-
-          <TeamCard role="Operation Lead" name="Somwya Sri" image={Somwya}/>
-          <TeamCard role="Tech Lead" name="Kaushal" image={Kaushal} />
-          <TeamCard role="Design Lead" name="Sayantan Ghosh" image={Sayantan} />
-          <TeamCard role="Marketing Lead" name="Alisha Ahmed" image={Alisha} />
-          <TeamCard role="Sponsorship Team" name="Aditya V" image={Adi} />
-          <TeamCard role="Operation Team" name="Madan" image={Madan} />
-          <TeamCard role="Tech Team" name="Satvik" image={Satvik} />
-         <TeamCard role="Design Team" name="Anirudhha Sil" image={Ani} />
-
-         <TeamCard role="Marketing Team" name="Harshitha P" image={Harshitha} />
-
-         <TeamCard role="Operation Team" name="Piyush Aneja" image={Aneja}/>
-
-         <TeamCard role="Operation Team" name="Yash Jaiswal" image={Yash}/>
-         <TeamCard role="Design Team" name="Purnima Sharma" image={Purnima} />
-
-
+      <div className="res-full">
+        <div className="half-container">
+          <h4
+            className="team-heading"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            Tech <span className="green">Team</span>
+          </h4>
+          <div class="team-card">
+              <TeamCard
+               role="Tech Lead"
+                name="Kaushal"
+                 image={Kaushal}
+                 linkedin="https://www.linkedin.com/in/kaushal-bhat-8374451a2/" 
+                 github="https://github.com/k4u5h4L"
+                 twitter=""
+                 />
+              <TeamCard 
+              role="Tech Team"
+               name="Satvik" 
+               image={Satvik}
+               github="https://github.com/Blazeleo"
+               linkedin="https://www.linkedin.com/in/satvik-a-aa087b1a2/" 
+               twitter="https://twitter.com/Satvik51236"
+                />
+          </div>
+        </div>
+        <div class="half-container">
+          <h4
+            className="team-heading"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            Public Relation's <span className="green">Team</span>
+          </h4>
+          <div class="team-card">
+          <TeamCard
+           role="Marketing Lead"
+            name="Alisha Ahmed"
+             image={Alisha}
+             github=""
+             linkedin="https://www.linkedin.com/in/alisha-ahmed-0786/" 
+             twitter=""
+             />
+          <TeamCard
+           role="Marketing Team"
+            name="Harshitha P" 
+            image={Harshitha} 
+            github="https://github.com/harshithap2000"
+            linkedin="https://www.linkedin.com/in/harshitha-p22/" 
+            twitter=""
+            />
+          </div>
+        </div>
       </div>
      
-        </section>
+      <div className="res-full">
+        <div className="half-container">
+      <h4
+        className="team-heading"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+      >
+        Operation's <span className="green">Team</span>
+      </h4>
+      <div class="team-card">
+      <TeamCard
+       role="Operation Lead"
+        name="Sowmya Sri" 
+        image={Somwya}
+        github=""
+        linkedin="https://www.linkedin.com/in/sowmya-sri-p-355a57192/" 
+        twitter=""
+        />
+      <TeamCard
+       role="Operation Team"
+        name="Piyush Aneja"
+         image={Aneja}
+         github="https://github.com/Piyush-Aneja"
+         linkedin="https://www.linkedin.com/in/piyush-aneja-a29a221a9/" 
+         twitter="https://twitter.com/Piyush__Aneja"
+         />
+
+      </div>
+</div>
+<div className="half-container">
+      <h4
+        className="team-heading"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+      >
+        Sponsorship <span className="green">Team</span>
+      </h4>
+      <div class="team-card">
+      <TeamCard
+       role="Sponsorship Lead"
+        name="Anant Saxena" 
+        image={Anant} 
+        github=""
+        linkedin="" 
+        twitter=""
+        />
+      <TeamCard 
+      role="Operation Team" 
+      name="Madan" 
+      image={Madan} 
+      github=""
+      linkedin="" 
+      twitter=""
+      />
+      </div>
+     </div>
+     </div>
+     <h4
+        className="team-heading"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+      >
+        Design <span className="green">Team</span>
+      </h4>
+      <div class="team-card">
+      <TeamCard
+       role="Design Lead" 
+       name="Sayantan Ghosh"
+        image={Sayantan} 
+        github=""
+        linkedin="https://www.linkedin.com/in/sintancos/" 
+        twitter=""
+        />
+      <TeamCard
+       role="Design Team" 
+       name="Anirudhha Sil" 
+       image={Ani}
+       github="https://github.com/lawlesx"
+        linkedin="https://www.linkedin.com/in/aniruddha-sil-251555196/" 
+        twitter=""
+       />
+   
+   
+      <TeamCard
+       role="Sponsorship Team" 
+       name="Aditya Vijaykumar" 
+       image={Adi} 
+       github="https://github.com/aditya-vijaykumar"
+       linkedin="https://www.linkedin.com/in/aditya-vijaykumar/" 
+       twitter=""
+       />
+      <TeamCard
+       role="Design Team" 
+       name="Purnima Sharma"
+        image={Purnima} 
+        github=""
+        linkedin="https://www.linkedin.com/in/purnima-sharma-212106158/" 
+        twitter=""
+        /> 
+      </div>
+             </section>
     )
 }
 
