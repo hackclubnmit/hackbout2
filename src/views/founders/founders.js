@@ -48,8 +48,8 @@ const Founder = () => {
         name="Avinash Singh" 
         image={Avinash}
         linkedin="https://www.linkedin.com/in/avinash-kumar-singh-0b127017b/"
-             twitter=""
-             github=""
+             twitter="https://twitter.com/avi18sngh"
+             github="https://github.com/gitavinashsingh"
         />
       <TeamCard
        role="Sponsor Head"

@@ -7,6 +7,8 @@ import Shubham from '../../assets/mentors/new/shubham.png';
 import Smaranjit from '../../assets/mentors/new/Smaranjit_Ghose.jpeg';
 import jenil from '../../assets/mentors/new/Jenil.jpeg';
 import anush from '../../assets/mentors/new/bhatia_anush.png'
+import avi from '../../assets/mentors/new/AVI.jpg'
+import galicia from '../../assets/mentors/new/galicia.jfif'
 // import mOne from '../../assets/mentors/old/kanirudh.jpg';
 // import mTwo from '../../assets/mentors/old/Manav.jpg';
 // import mThree from '../../assets/mentors/old/pranjal.jpeg';
@@ -70,6 +72,22 @@ const Mentors = () => {
               img={anush}
               occupation="Open Source Mentor"
               linkedIn="https://www.linkedin.com/in/anushbhatia/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Avi Dwivedi"
+              img={avi}
+              occupation="Founder @ XRDI"
+              linkedIn="https://www.linkedin.com/in/avi-dwivedi-45120055/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Galicia Gordon"
+              img={galicia}
+              occupation="Founder @ Leading Learners"
+              linkedIn="https://www.linkedin.com/in/galicia-gordon/"
             />
           </div>
         </div>

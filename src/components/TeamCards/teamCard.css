@@ -9,8 +9,9 @@
      height:400px;
      width:300px;
      background: #11998e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 2px 4px 2px grey, -1px -4px 3px #A0A0A0 ;
 
 
 
@@ -24,6 +25,7 @@ background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, 
      transform: translate(-50%, -60%);
      border-radius: 100%;
      border: 4px solid #38ef7d;
+    box-shadow: -1px -4px 3px #A0A0A0 ;
 }
  .profile-circle > img {
      width: 200px;

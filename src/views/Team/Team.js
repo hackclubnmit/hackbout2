@@ -56,7 +56,7 @@ const Team = () => {
           <TeamCard
            name="Anshul Rai"
            role="Club Co-Lead"
-            image={Anshul1}
+            image={Anshul}
             linkedin="https://www.linkedin.com/in/auralshin" 
             github="https://github.com/auralshin"
             twitter="https://twitter.com/auralshin"
@@ -102,7 +102,7 @@ const Team = () => {
             data-aos-duration="1000"
             data-aos-easing="ease"
           >
-            Promotion <span className="green">Team</span>
+            Marketing <span className="green">Team</span>
           </h4>
           <div class="team-card">
           <TeamCard
