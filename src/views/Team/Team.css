@@ -44,7 +44,7 @@
     float: left;
   width: 50%;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
     .res-full {
         flex-direction: row;
     }

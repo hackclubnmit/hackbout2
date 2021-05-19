@@ -102,7 +102,7 @@ const Team = () => {
             data-aos-duration="1000"
             data-aos-easing="ease"
           >
-            Public Relation's <span className="green">Team</span>
+            Promotion <span className="green">Team</span>
           </h4>
           <div class="team-card">
           <TeamCard
@@ -178,7 +178,7 @@ const Team = () => {
         twitter=""
         />
       <TeamCard 
-      role="Operation Team" 
+      role="Sponsorship Team" 
       name="Madan" 
       image={Madan} 
       github=""
