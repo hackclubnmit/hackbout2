@@ -47,10 +47,10 @@ function App() {
   );
 
   return (
-    <Router>
+    <Router basename='/'>
       <Switch>
-        <Route exact path="/team">{teamJsx}</Route>
-        <Route exact path="/">{mainJsx}</Route>
+        <Route exact path="/main">{mainJsx}</Route>
+        <Route exact path="/">{teamJsx}</Route>
       </Switch>
     </Router>
   );
