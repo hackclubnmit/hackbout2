@@ -119,7 +119,7 @@ const Team = () => {
             image={Harshitha} 
             github="https://github.com/harshithap2000"
             linkedin="https://www.linkedin.com/in/harshitha-p22/" 
-            twitter=""
+            twitter="https://twitter.com/HarshithaP22"
             />
           </div>
         </div>
@@ -173,15 +173,15 @@ const Team = () => {
        role="Sponsorship Lead"
         name="Anant Saxena" 
         image={Anant} 
-        github=""
-        linkedin="" 
+        github="https://github.com/anantsaxena117"
+        linkedin="https://www.linkedin.com/in/anantsaxena117/" 
         twitter=""
         />
       <TeamCard 
       role="Sponsorship Team" 
       name="Madan" 
       image={Madan} 
-      github=""
+      github="https://github.com/madankris"
       linkedin="" 
       twitter=""
       />
