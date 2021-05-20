@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { CSSTransition } from "react-transition-group";
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link'
+
 export default function Header() {
   const [isNavVisible, setNavVisibility] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -38,13 +40,13 @@ export default function Header() {
         unmountOnExit
       >
         <nav className="Nav">
-        <a href="#about">About</a>
-        <a href="#tracks">Track</a>
-        <a href="#prizes">Prizes</a>
-        <a href="#mentors">Mentors</a>
+        <HashLink to="/#about">About</HashLink>
+        <HashLink to="/#tracks">Track</HashLink>
+        <HashLink to="/#prizes">Prizes</HashLink>
+        <HashLink to="/#mentors">Mentors</HashLink>
         <Link to="/team">Team</Link>
-        <a href="#sponsors">Sponsors</a>
-        <a href="#faqs">Help</a>
+        <HashLink to="/#sponsors">Sponsors</HashLink>
+        <HashLink to="/#faqs">Help</HashLink>
         </nav>
       </CSSTransition>
       <button onClick={toggleNav} className="Burger">
