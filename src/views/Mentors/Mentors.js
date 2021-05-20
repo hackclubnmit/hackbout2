@@ -9,6 +9,7 @@ import jenil from '../../assets/mentors/new/Jenil.jpeg';
 import anush from '../../assets/mentors/new/bhatia_anush.png'
 import avi from '../../assets/mentors/new/AVI.jpg'
 import galicia from '../../assets/mentors/new/galicia.jfif'
+import sukhjeet from '../../assets/mentors/new/sukhjeet.jpg'
 // import mOne from '../../assets/mentors/old/kanirudh.jpg';
 // import mTwo from '../../assets/mentors/old/Manav.jpg';
 // import mThree from '../../assets/mentors/old/pranjal.jpeg';
@@ -88,6 +89,14 @@ const Mentors = () => {
               img={galicia}
               occupation="Founder @ Leading Learners"
               linkedIn="https://www.linkedin.com/in/galicia-gordon/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Sukhjeet Singh Sandhu"
+              img={sukhjeet}
+              occupation="Software Engineer @ CodeParva"
+              linkedIn="https://www.linkedin.com/in/sukhjeet-sandhu-3aa404108/"
             />
           </div>
         </div>
