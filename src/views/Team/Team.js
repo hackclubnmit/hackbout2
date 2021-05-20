@@ -225,14 +225,15 @@ const Team = () => {
        linkedin="https://www.linkedin.com/in/aditya-vijaykumar/" 
        twitter=""
        />
-      <TeamCard
+      {/* Not in club any more
+       <TeamCard
        role="Design Team" 
        name="Purnima Sharma"
         image={Purnima} 
         github=""
         linkedin="https://www.linkedin.com/in/purnima-sharma-212106158/" 
         twitter=""
-        /> 
+        />  */}
       </div>
              </section>
     )

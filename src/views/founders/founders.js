@@ -43,7 +43,7 @@ const Founder = () => {
              twitter="https://twitter.com/rachet_m"
              github="https://github.com/rachetm"
            />
-      <TeamCard
+      {/* <TeamCard
        role="Operations Head"
         name="Avinash Singh" 
         image={Avinash}
@@ -58,20 +58,30 @@ const Founder = () => {
          linkedin="https://www.linkedin.com/in/dheemanth-m-d/"
              twitter="https://twitter.com/dheemanthmd12"
              github="https://github.com/Dheemanth-gowda"
-         />
+         /> */}
 
       </div>
+      <h1
+        className="mentors-heading"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+      >
+        Club <span className="green"> Leads 2020</span>
+      </h1>
       <div class="founder-card">
-          <TeamCard
+          {/* <TeamCard
            role="Design Head"
             name="Arpit Giri"
              image={Arpit} 
              linkedin="https://www.linkedin.com/in/arpitgiri027/"
              twitter=""
              github=""
-             />
+             /> */}
           <TeamCard
-           role="Tech Head"
+           role="Club Lead"
             name="Abhi Kedia"
              image={Abhishek}
              linkedin="https://www.linkedin.com/in/abhikedia/"
@@ -80,21 +90,21 @@ const Founder = () => {
              />
          
           <TeamCard
-           role="Public Relation Head"
+           role="Club Co-Lead"
             name="Sagar M"
              image={Sagar}
              linkedin="https://www.linkedin.com/in/sagar-mohan-0654321b1/"
              twitter=""
              github="https://github.com/sarohan"
              />
-          <TeamCard 
+          {/* <TeamCard 
           role="Marketing Head"
            name="Yash Jaiswal" 
            image={Yash}
            linkedin="https://www.linkedin.com/in/yashjaiswal1/"
              twitter=""
              github="https://github.com/yashjaiswal1"
-           />
+           /> */}
       </div>
 
         </section>
