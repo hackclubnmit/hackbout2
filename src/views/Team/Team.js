@@ -109,7 +109,7 @@ const Team = () => {
            role="Marketing Lead"
             name="Alisha Ahmed"
              image={Alisha}
-             github=""
+             github="https://github.com/Alisha-Ahmed"
              linkedin="https://www.linkedin.com/in/alisha-ahmed-0786/" 
              twitter=""
              />
