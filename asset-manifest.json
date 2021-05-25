@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd7be956.chunk.css",
-    "main.js": "/static/js/main.8b928185.chunk.js",
-    "main.js.map": "/static/js/main.8b928185.chunk.js.map",
+    "main.css": "/static/css/main.bfce7545.chunk.css",
+    "main.js": "/static/js/main.cd5c9d41.chunk.js",
+    "main.js.map": "/static/js/main.cd5c9d41.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e1adfb5.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e1adfb5.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.3ef3cc91.chunk.js.map": "/static/js/2.3ef3cc91.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.bd7be956.chunk.css.map": "/static/css/main.bd7be956.chunk.css.map",
+    "static/css/main.bfce7545.chunk.css.map": "/static/css/main.bfce7545.chunk.css.map",
     "static/js/2.3ef3cc91.chunk.js.LICENSE.txt": "/static/js/2.3ef3cc91.chunk.js.LICENSE.txt",
     "static/media/02-sticker-mule-logo-light-bg-stacked.04b92667.svg": "/static/media/02-sticker-mule-logo-light-bg-stacked.04b92667.svg",
     "static/media/1password-icon.32ca56a2.svg": "/static/media/1password-icon.32ca56a2.svg",
@@ -44,6 +44,7 @@
     "static/media/bhatia_anush.e23ec201.png": "/static/media/bhatia_anush.e23ec201.png",
     "static/media/black-horizontal.c01be520.svg": "/static/media/black-horizontal.c01be520.svg",
     "static/media/cake_logo_blue_gray.2fa0fe0a.svg": "/static/media/cake_logo_blue_gray.2fa0fe0a.svg",
+    "static/media/clerky.a7dc38e6.png": "/static/media/clerky.a7dc38e6.png",
     "static/media/codeparva.cb41e9b2.svg": "/static/media/codeparva.cb41e9b2.svg",
     "static/media/coinvise.79f93681.png": "/static/media/coinvise.79f93681.png",
     "static/media/echoAR - Logo 2020 - Dark.aa923df9.png": "/static/media/echoAR - Logo 2020 - Dark.aa923df9.png",
@@ -56,7 +57,7 @@
     "static/media/kaushal.441f339f.jpeg": "/static/media/kaushal.441f339f.jpeg",
     "static/media/Landing.css": "/static/media/landingBg.bd60aa1b.jpg",
     "static/media/rachet.e644761a.jpeg": "/static/media/rachet.e644761a.jpeg",
-    "static/media/repl.68704cca.png": "/static/media/repl.68704cca.png",
+    "static/media/repl.a445fef5.png": "/static/media/repl.a445fef5.png",
     "static/media/sagar.c81f8467.jpg": "/static/media/sagar.c81f8467.jpg",
     "static/media/sashido-logo-for sites.42a264bf.png": "/static/media/sashido-logo-for sites.42a264bf.png",
     "static/media/satvik.470d6610.png": "/static/media/satvik.470d6610.png",
@@ -67,6 +68,7 @@
     "static/media/somwya.e3c3783f.jpeg": "/static/media/somwya.e3c3783f.jpeg",
     "static/media/sukhjeet.528f7010.jpg": "/static/media/sukhjeet.528f7010.jpg",
     "static/media/testmail.d56f9853.jpg": "/static/media/testmail.d56f9853.jpg",
+    "static/media/testmail.dee3e5c5.png": "/static/media/testmail.dee3e5c5.png",
     "static/media/third.552c4133.png": "/static/media/third.552c4133.png",
     "static/media/xyz.b6b34e55.png": "/static/media/xyz.b6b34e55.png",
     "static/media/yash.574ab088.jpg": "/static/media/yash.574ab088.jpg"
@@ -75,7 +77,7 @@
     "static/js/runtime-main.0e1adfb5.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.3ef3cc91.chunk.js",
-    "static/css/main.bd7be956.chunk.css",
-    "static/js/main.8b928185.chunk.js"
+    "static/css/main.bfce7545.chunk.css",
+    "static/js/main.cd5c9d41.chunk.js"
   ]
 }
