@@ -95,7 +95,7 @@ const Mentors = () => {
             <MentorCard
               name="Sukhjeet Singh Sandhu"
               img={sukhjeet}
-              occupation="Software Engineer @ CodeParva"
+              occupation="Senior Software Engineer @ CodeParva"
               linkedIn="https://www.linkedin.com/in/sukhjeet-sandhu-3aa404108/"
             />
           </div>
