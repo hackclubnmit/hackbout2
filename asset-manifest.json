@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cc785ff2.chunk.css",
-    "main.js": "/static/js/main.cd5c9d41.chunk.js",
-    "main.js.map": "/static/js/main.cd5c9d41.chunk.js.map",
+    "main.js": "/static/js/main.d0866201.chunk.js",
+    "main.js.map": "/static/js/main.d0866201.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e1adfb5.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e1adfb5.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/AVI.31c86258.jpg": "/static/media/AVI.31c86258.jpg",
     "static/media/Abhishek.3a5b13e5.jpg": "/static/media/Abhishek.3a5b13e5.jpg",
     "static/media/Anant.c1c56ab0.jfif": "/static/media/Anant.c1c56ab0.jfif",
+    "static/media/Anitha.5386cf91.jpg": "/static/media/Anitha.5386cf91.jpg",
     "static/media/Anshul.8da60671.jpg": "/static/media/Anshul.8da60671.jpg",
     "static/media/Anshul1.0a4bcbdf.jpg": "/static/media/Anshul1.0a4bcbdf.jpg",
     "static/media/Anurag.220bafe1.jfif": "/static/media/Anurag.220bafe1.jfif",
@@ -44,6 +45,7 @@
     "static/media/bhatia_anush.e23ec201.png": "/static/media/bhatia_anush.e23ec201.png",
     "static/media/black-horizontal.c01be520.svg": "/static/media/black-horizontal.c01be520.svg",
     "static/media/cake_logo_blue_gray.2fa0fe0a.svg": "/static/media/cake_logo_blue_gray.2fa0fe0a.svg",
+    "static/media/chandra.785b607f.jfif": "/static/media/chandra.785b607f.jfif",
     "static/media/clerky.a7dc38e6.png": "/static/media/clerky.a7dc38e6.png",
     "static/media/codeparva.cb41e9b2.svg": "/static/media/codeparva.cb41e9b2.svg",
     "static/media/coinvise.79f93681.png": "/static/media/coinvise.79f93681.png",
@@ -78,6 +80,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.3ef3cc91.chunk.js",
     "static/css/main.cc785ff2.chunk.css",
-    "static/js/main.cd5c9d41.chunk.js"
+    "static/js/main.d0866201.chunk.js"
   ]
 }
