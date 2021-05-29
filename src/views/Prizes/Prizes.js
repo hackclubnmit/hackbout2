@@ -10,6 +10,25 @@ import polygon from '../../assets/sponsors/new/Portis_Logo-Colored@2x.png';
 import tezos from '../../assets/sponsors/new/Tezos_Logo-Colored@2x.png';
 import codeparva from '../../assets/sponsors/new/codeparva.svg';
 import girlgeeks from '../../assets/sponsors/new/girlGeeks.3f8ba886.png';
+import bindia from '../../assets/sponsors/new/BIndia.png';
+import clerky from '../../assets/sponsors/new/clerky.png'
+import devfolio from '../../assets/sponsors/new/Devfolio_Logo-Colored@2x.png';
+
+import StickerMule from '../../assets/sponsors/new/02-sticker-mule-logo-light-bg-stacked.svg';
+import echoAR from '../../assets/sponsors/new/echoAR - Logo 2020 - Dark.png';
+import sashido from '../../assets/sponsors/new/sashido-logo-for sites.png';
+import framer from '../../assets/sponsors/new/black-horizontal.svg';
+import interviewCake from '../../assets/sponsors/new/cake_logo_blue_gray.svg';
+import testMail from '../../assets/sponsors/new/testmail.png';
+import convise from '../../assets/sponsors/new/coinvise.png';
+import onePass from '../../assets/sponsors/new/1password-icon.svg';
+
+
+import xyz from '../../assets/sponsors/new/xyz.png';
+
+import ieee from '../../assets/sponsors/new/ieee-cs-logo.png';
+import jetbrains from '../../assets/sponsors/new/jetbrains_logo.png'
+import replit from '../../assets/sponsors/new/repl.png'
 
 import './Prizes.css';
 
@@ -61,6 +80,125 @@ const Prizes = () => {
           <p>INR 20,000</p>
         </div>
       </div>
+      <div className="prizes__sub">
+        <h3
+          className="prizes__title--sub green"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+        >
+          Sponsored Prizes
+        </h3>
+        <div className="prizes__grid">
+        <div
+            className="bounty__card b_bindia"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={bindia} alt="Blockchained India bounty" />
+              <p className="bindia_p">100 Days of Code Scholarship</p>
+            </div>
+            <article>
+              Winning Team of Hackbout will get complete Scholarship for Blockchained India's 4th Cohort of <strong>100 Days of Code</strong>
+            </article>
+            <div>
+              <a
+                href="https://medium.com/blockchainedindia/a-glimpse-of-the-first-50-days-of-our-100-days-of-code-initiative-6e3d97ee2fb4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link bindia_btn"
+              >
+                About 100 Days of Code
+              </a>
+          </div>
+        </div>
+        <div
+            className="bounty__card b_clerky"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={clerky} alt="Blockchained India bounty" />
+              <p className="bindia_p">Incubation Offer</p>
+            </div>
+            <article>
+               <strong>$ 799 </strong> to the winning team to incubate their idea into a company based in delaware, USA.
+            </article>
+            <div>
+              <a
+                href="https://www.clerky.com/pricing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link"
+              >
+                Know More
+              </a>
+            </div>
+        </div>
+        <div
+            className="bounty__card b_sashido"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={sashido} alt="sashido Prize" />
+              <p className="bindia_p">SashiDo Internship Oppurtunity</p>
+            </div>
+            <article>
+             SashiDo will be providing <strong>free credits </strong> for their platform also internship oppurtunities oppurtunities to the winners.
+            </article>
+            <div>
+              <a
+                href="https://www.sashido.io/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link bindia_btn"
+              >
+                Know More
+              </a>
+          </div>
+        </div>
+
+       <div
+            className="bounty__card b_cake"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={interviewCake} alt="interviewcake prize" />
+              <p className="bindia_p">Interview Prep Course</p>
+            </div>
+            <article>
+            Interview Preparation Course to the <strong>winners</strong> of Hackbout from Interview Cake.
+            </article>
+            <div>
+              <a
+                href="https://www.interviewcake.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link bindia_btn"
+              >
+                Know More
+              </a>
+          </div>
+        </div>
+        </div>
+        </div>
       <div className="prizes__sub">
         <h3
           className="prizes__title--sub green"
@@ -205,8 +343,181 @@ const Prizes = () => {
               win INR 10000 and INR 5000
             </article>
           </div>
-        </div>
+          
       </div>
+      </div>
+      <div className="prizes__sub">
+        <h3
+          className="prizes__title--sub green"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+        >
+          Other Prizes
+        </h3>
+        <div className="prizes__grid">
+    
+       
+        <div
+            className="bounty__card b_onepass"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={onePass} alt="1Password Prize" />
+              <p className="bindia_p">Free Premium Membership</p>
+            </div>
+            <article>
+              Winning Team of Hackbout will get <strong>1 year free Membership </strong> from 1Password
+            </article>
+            <div>
+              <a
+                href="https://1password.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link bindia_btn"
+              >
+                Know More
+              </a>
+          </div>
+        </div>
+        <div
+            className="bounty__card b_echoar"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={echoAR} alt="Blockchained India bounty" />
+              <p className="bindia_p">EchoAR for ALL</p>
+            </div>
+            <article>
+              For the teams building AR project can use echoAR platform for <strong>free</strong> during Hackathon.
+            </article>
+            <div>
+              <a
+                href="https://www.echoar.xyz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link bindia_btn"
+              >
+                Know More
+              </a>
+          </div>
+        </div>
+        <div
+            className="bounty__card b_replit"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={replit} alt="Replit" />
+              <p className="bindia_p">Repl.it Hacker Plan</p>
+            </div>
+            <article>
+              For all the Participants 3 month Hacker plan for <strong>free</strong> from <strong>Repl.it</strong>
+            </article>
+            <div>
+              <a
+                href="http://repl.it/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link bindia_btn"
+              >
+                Know More
+              </a>
+          </div>
+        </div>
+        <div
+            className="bounty__card b_xyz"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={xyz} alt="XYZ prizes" />
+              <p className="bindia_p">.xyz domain for all</p>
+            </div>
+            <article>
+             For all the participants of Hackbout <strong>free</strong> .xyz domain.
+            </article>
+            <div>
+              <a
+                href="https://www.gen.xyz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link bindia_btn"
+              >
+                Know More
+              </a>
+          </div>
+        </div>
+        <div
+            className="bounty__card b_testmail"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={testMail} alt="testmail" />
+              <p className="bindia_p">Testmail premium testmail account</p>
+            </div>
+            <article>
+            Winning Team of Hackbout will get <strong> free premium accont </strong> from testmail.app
+            </article>
+            <div>
+              <a
+                href="https://www.testmail.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link bindia_btn"
+              >
+                Know More
+              </a>
+          </div>
+        </div>
+        <div
+            className="bounty__card b_framer"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={framer} alt="framer prize" />
+              <p className="bindia_p">Framer Premium Subscription</p>
+            </div>
+            <article>
+              Framer providing pro subscription to <strong>winners</strong> of Hackathon.
+            </article>
+            <div>
+              <a
+                href="https://www.framer.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link bindia_btn"
+              >
+                Know More
+              </a>
+          </div>
+        </div>
+        </div>
+        </div>
     </section>
   );
 };

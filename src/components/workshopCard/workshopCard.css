@@ -1,0 +1,24 @@
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display:grid;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 15vh auto;
+    display: flex;
+    width: 50vw;
+    height: 30vh;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 0.4s;
+    align-items: center;
+    
+}
+
+
+
+.card:hover {
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}

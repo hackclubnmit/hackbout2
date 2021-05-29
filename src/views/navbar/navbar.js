@@ -45,6 +45,7 @@ export default function Header() {
         <HashLink to="/#prizes">Prizes</HashLink>
         <HashLink to="/#mentors">Mentors</HashLink>
         <Link to="/team">Team</Link>
+        {/* <Link to="/workshops">W</Link> */}
         <HashLink to="/#sponsors">Sponsors</HashLink>
         <HashLink to="/#faqs">Help</HashLink>
         </nav>

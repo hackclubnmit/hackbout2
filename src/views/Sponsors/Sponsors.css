@@ -161,6 +161,15 @@
 .aicte {
   width: 180px;
 }
+.jetbrains {
+  width: 180px
+}
+.replit {
+  width: 300px;
+}
+.clerky {
+  width: 250px;
+}
 
 @media (max-width: 1200px) {
   .sponsors-heading {
@@ -311,6 +320,9 @@
     width: 150px;
   }
   .aicte {
+    width: 130px;
+  }
+  .jetbrains {
     width: 130px;
   }
 }

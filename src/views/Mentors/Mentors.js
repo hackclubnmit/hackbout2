@@ -10,6 +10,9 @@ import anush from '../../assets/mentors/new/bhatia_anush.png'
 import avi from '../../assets/mentors/new/AVI.jpg'
 import galicia from '../../assets/mentors/new/galicia.jfif'
 import sukhjeet from '../../assets/mentors/new/sukhjeet.jpg'
+import shivam from '../../assets/mentors/new/shivamgoyal.png'
+import chandra from '../../assets/mentors/new/chandra.jfif'
+import anitha from '../../assets/mentors/new/Anitha.jpg'
 // import mOne from '../../assets/mentors/old/kanirudh.jpg';
 // import mTwo from '../../assets/mentors/old/Manav.jpg';
 // import mThree from '../../assets/mentors/old/pranjal.jpeg';
@@ -59,14 +62,14 @@ const Mentors = () => {
               linkedIn=" https://www.linkedin.com/in/smaranjitghose/"
             />
           </div>
-          <div className="mentor__container">
+          {/* <div className="mentor__container">
             <MentorCard
               name="Jenil Thakker"
               img={jenil}
               occupation="Founder @ Coinvise"
               linkedIn=" https://www.linkedin.com/in/jenilthakker/"
             />
-          </div>
+          </div> */}
           <div className="mentor__container">
             <MentorCard
               name="Anush Bhatia"
@@ -97,6 +100,30 @@ const Mentors = () => {
               img={sukhjeet}
               occupation="Senior Software Engineer @ CodeParva"
               linkedIn="https://www.linkedin.com/in/sukhjeet-sandhu-3aa404108/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Shivam Goyal"
+              img={shivam}
+              occupation="Application Engineer @ Google"
+              linkedIn="https://www.linkedin.com/in/shivamgoyal1899/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Chandra Sekhar Nayak"
+              img={chandra}
+              occupation="Lead Software Engg. @ Money View"
+              linkedIn="https://www.linkedin.com/in/chandra-sekhar-nayak-1aba6538/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Anitha Thoguluva"
+              img={anitha}
+              occupation="CTO @ CodeParva"
+              linkedIn="https://www.linkedin.com/in/anitha-thoguluva-78377960/"
             />
           </div>
         </div>

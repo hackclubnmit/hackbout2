@@ -21,7 +21,9 @@ import aicte from '../../assets/sponsors/new/aicte.png';
 import xyz from '../../assets/sponsors/new/xyz.png';
 import codeparva from '../../assets/sponsors/new/codeparva.svg';
 import ieee from '../../assets/sponsors/new/ieee-cs-logo.png';
-
+import jetbrains from '../../assets/sponsors/new/jetbrains_logo.png'
+import replit from '../../assets/sponsors/new/repl.png'
+import clerky from '../../assets/sponsors/new/clerky.png'
 // import jetbrains from '../../assets/sponsors/new/jetbrains.svg';
 // import crypto from '../../assets/sponsors/new/cryptopolitan.png';
 // import repl from '../../assets/sponsors/new/replit-icon.svg';
@@ -48,7 +50,7 @@ const Sponsors = () => {
             data-aos-duration="1000"
             data-aos-easing="ease"
           >
-            <span className="green">Title</span> Sponsors
+            <span className="green">Title</span> Sponsor
           </h3>
           <div className="sponsors-grid">
             <a
@@ -192,6 +194,24 @@ const Sponsors = () => {
             </div>
             <div className="article">
               <a
+                href="https://www.coinvise.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={clerky}
+                  className="sponsors__img clerky"
+                  alt="sponsor tezos"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
                 href="https://1password.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -218,6 +238,42 @@ const Sponsors = () => {
                   src={echoAR}
                   className="sponsors__img echoAR"
                   alt="sponsors echoAR"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://replit.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={replit}
+                  className="sponsors__img replit"
+                  alt="sponsors replit"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://www.jetbrains.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={jetbrains}
+                  className="sponsors__img jetbrains"
+                  alt="sponsors jetbrains"
                   data-aos="zoom-in"
                   data-aos-offset="200"
                   data-aos-delay="0"
