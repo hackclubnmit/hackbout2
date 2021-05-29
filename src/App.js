@@ -15,6 +15,8 @@ import Footer from './components/Footer/Footer';
 import './App.css';
 import Founder from './views/founders/founders';
 import Navbar from './views/navbar/navbar';
+import Workshop from './views/workshops/workshop'
+
 
 function App() {
   useEffect(() => {
@@ -49,11 +51,22 @@ function App() {
     </Fragment>
     );
   }
+
+  const workshopJsx = () => {
+    return (
+      <Fragment>
+        <Navbar/>
+        <Workshop/>
+        <Footer/>
+      </Fragment>
+    );
+  }
   return (
     <Router>
       <Switch>
         <Route exact path="/team" component={teamJsx}/>
         <Route exact path="/" component={mainJsx}/>
+        <Route exact path="/workshops" component={workshopJsx}/>
       </Switch>
     </Router>
   );
