@@ -20,7 +20,7 @@ import sashido from '../../assets/sponsors/new/sashido-logo-for sites.png';
 import framer from '../../assets/sponsors/new/black-horizontal.svg';
 import interviewCake from '../../assets/sponsors/new/cake_logo_blue_gray.svg';
 import testMail from '../../assets/sponsors/new/testmail.png';
-import convise from '../../assets/sponsors/new/coinvise.png';
+import convise from '../../assets/sponsors/new/coinvise (2).png';
 import onePass from '../../assets/sponsors/new/1password-icon.svg';
 
 
@@ -144,6 +144,7 @@ const Prizes = () => {
               </a>
             </div>
         </div>
+        
         <div
             className="bounty__card b_sashido"
             data-aos="fade-up"
@@ -157,7 +158,7 @@ const Prizes = () => {
               <p className="bindia_p">SashiDo Internship Oppurtunity</p>
             </div>
             <article>
-             SashiDo will be providing <strong>free credits </strong> for their platform also internship oppurtunities oppurtunities to the winners.
+             SashiDo will be providing <strong>free credits </strong> for their platform also internship oppurtunities to the winners.
             </article>
             <div>
               <a
@@ -304,6 +305,33 @@ const Prizes = () => {
             </div>
           </div>
           <div
+            className="bounty__card b_coinvise"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div>
+              <img src={convise} alt="Coinvise Bounty" />
+              <p className="coinvise_p">Coinvise SDK Track</p>
+            </div>
+            <article style={{fontSize:"16px",color:"#F5F5F5"}}>
+            Coinvise will be giving <strong>Rs.15000</strong> for the best hack built on top of Coinvise SDK  during the hackathon.
+              Projects will receive seed funding of <strong>$5000</strong> and Oppurtunity to join Coinvise Team.
+            </article>
+            <div>
+              <a
+                href="https://www.notion.so/Coinvise-Devfolio-Hackathon-Season-Prize-b44b4790de2f4fefae5492cc606f5bcf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link"
+              >
+                Know More
+              </a>
+            </div>
+        </div>
+          <div
             className="bounty__card b_code-Parva"
             data-aos="fade-up"
             data-aos-offset="200"
@@ -338,10 +366,19 @@ const Prizes = () => {
               <img src={girlgeeks} alt="girlsgeek bounty" />
               <p>GirlGeek Bounty</p>
             </div>
-            <article>
-              Bring a Team with majority of girls and 2 teams stand a chance to
-              win INR 10000 and INR 5000
-            </article>
+            {/* <article>
+              Bounty Worth 15k 
+            </article> */}
+            <div>
+              <a
+                href="https://www.notion.so/hackclubnmit/GirlGeeksHack-Submission-Guidelines-138b0b82608243df90c32f3db0710518"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bounty__card-link"
+              >
+                Know More
+              </a>
+            </div>
           </div>
           
       </div>

@@ -13,6 +13,10 @@ import sukhjeet from '../../assets/mentors/new/sukhjeet.jpg'
 import shivam from '../../assets/mentors/new/shivamgoyal.png'
 import chandra from '../../assets/mentors/new/chandra.jfif'
 import anitha from '../../assets/mentors/new/Anitha.jpg'
+import Shubhendra from '../../assets/mentors/new/shubhendra.jfif'
+import swayam from '../../assets/mentors/new/swayam.jfif'
+import rachana from '../../assets/mentors/new/rachvis1.jfif'
+import yuktesh from '../../assets/mentors/new/yuktesh.jfif'
 // import mOne from '../../assets/mentors/old/kanirudh.jpg';
 // import mTwo from '../../assets/mentors/old/Manav.jpg';
 // import mThree from '../../assets/mentors/old/pranjal.jpeg';
@@ -62,14 +66,14 @@ const Mentors = () => {
               linkedIn=" https://www.linkedin.com/in/smaranjitghose/"
             />
           </div>
-          {/* <div className="mentor__container">
+          <div className="mentor__container">
             <MentorCard
               name="Jenil Thakker"
               img={jenil}
               occupation="Founder @ Coinvise"
               linkedIn=" https://www.linkedin.com/in/jenilthakker/"
             />
-          </div> */}
+          </div>
           <div className="mentor__container">
             <MentorCard
               name="Anush Bhatia"
@@ -104,6 +108,14 @@ const Mentors = () => {
           </div>
           <div className="mentor__container">
             <MentorCard
+              name="Anitha Thoguluva"
+              img={anitha}
+              occupation="CTO @ CodeParva"
+              linkedIn="https://www.linkedin.com/in/anitha-thoguluva-78377960/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
               name="Shivam Goyal"
               img={shivam}
               occupation="Application Engineer @ Google"
@@ -120,10 +132,34 @@ const Mentors = () => {
           </div>
           <div className="mentor__container">
             <MentorCard
-              name="Anitha Thoguluva"
-              img={anitha}
-              occupation="CTO @ CodeParva"
-              linkedIn="https://www.linkedin.com/in/anitha-thoguluva-78377960/"
+              name="Swayam Mittal"
+              img={swayam}
+              occupation="Senior Research Engineer @ Hitachi"
+              linkedIn="https://www.linkedin.com/in/swayam-mittal-5b571768/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Shubhendra Singh Chauhan"
+              img={Shubhendra}
+              occupation="Developer Advoc @ DeepSource"
+              linkedIn="https://www.linkedin.com/in/withshubh/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Rachana Vishwanathula"
+              img={rachana}
+              occupation="Developer Advoc @ IBM"
+              linkedIn="https://developer.ibm.com/profiles/rachvis1/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Yuktesh Chintamadaka"
+              img={yuktesh}
+              occupation="Developer Advoc @ IBM"
+              linkedIn="https://developer.ibm.com/profiles/ychinmka/"
             />
           </div>
         </div>

@@ -120,7 +120,12 @@
 .stickermule {
   width: 250px;
 }
-
+.gfi {
+  width: 400px;
+}
+.deepsource {
+  width: 300px;
+}
 .coinvise {
   width: 130px;
 }
@@ -136,7 +141,9 @@
 .framer {
   width: 250px;
 }
-
+.egghead {
+  width: 250px;
+}
 .cake {
   width: 400px;
 }
@@ -199,6 +206,12 @@
 
   .devfolio {
     width: 500px;
+  }
+  .deepsource {
+    width: 400px;
+  }
+  .replit {
+    width: 400px;
   }
 }
 

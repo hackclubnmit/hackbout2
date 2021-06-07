@@ -52,11 +52,11 @@ function App() {
     );
   }
 
-  const workshopJsx = () => {
+  const MentorJsx = () => {
     return (
       <Fragment>
         <Navbar/>
-        <Workshop/>
+        <Mentors/>
         <Footer/>
       </Fragment>
     );
@@ -66,7 +66,7 @@ function App() {
       <Switch>
         <Route exact path="/team" component={teamJsx}/>
         <Route exact path="/" component={mainJsx}/>
-        <Route exact path="/workshops" component={workshopJsx}/>
+        <Route exact path="/mentors" component={MentorJsx}/>
       </Switch>
     </Router>
   );

@@ -24,6 +24,9 @@ import ieee from '../../assets/sponsors/new/ieee-cs-logo.png';
 import jetbrains from '../../assets/sponsors/new/jetbrains_logo.png'
 import replit from '../../assets/sponsors/new/repl.png'
 import clerky from '../../assets/sponsors/new/clerky.png'
+import DeepSource from '../../assets/sponsors/new/deepsource.svg'
+import gfi from '../../assets/sponsors/new/gfi-logo-white.svg'
+import egghead from  '../../assets/sponsors/new/egghead.PNG'
 // import jetbrains from '../../assets/sponsors/new/jetbrains.svg';
 // import crypto from '../../assets/sponsors/new/cryptopolitan.png';
 // import repl from '../../assets/sponsors/new/replit-icon.svg';
@@ -238,6 +241,60 @@ const Sponsors = () => {
                   src={echoAR}
                   className="sponsors__img echoAR"
                   alt="sponsors echoAR"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://www.egghead.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={egghead}
+                  className="sponsors__img egghead"
+                  alt="sponsors egghead"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://goodfirstissue.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={gfi}
+                  className="sponsors__img gfi"
+                  alt="sponsors gfi"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+            <div className="article">
+              <a
+                href="https://deepsource.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={DeepSource}
+                  className="sponsors__img deepsource"
+                  alt="sponsors DeepSource"
                   data-aos="zoom-in"
                   data-aos-offset="200"
                   data-aos-delay="0"

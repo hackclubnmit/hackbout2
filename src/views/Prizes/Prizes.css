@@ -221,8 +221,17 @@ background: linear-gradient(to bottom, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, 
 .bindia_p {
   text-align: center;
 }
+.coinvise_p {
+  text-align: center;
+}
 .b_polygon {
   background-image: linear-gradient(45deg, #9e6fce, #52308f 60%);
+}
+.b_coinvise {
+  background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .b_portis {
