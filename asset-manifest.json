@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b6c99c03.chunk.css",
-    "main.js": "/static/js/main.0737c8f6.chunk.js",
-    "main.js.map": "/static/js/main.0737c8f6.chunk.js.map",
+    "main.js": "/static/js/main.dc3882a1.chunk.js",
+    "main.js.map": "/static/js/main.dc3882a1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e1adfb5.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e1adfb5.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
@@ -67,6 +67,7 @@
     "static/media/rachet.e644761a.jpeg": "/static/media/rachet.e644761a.jpeg",
     "static/media/rachvis1.6ff1581d.jfif": "/static/media/rachvis1.6ff1581d.jfif",
     "static/media/repl.a445fef5.png": "/static/media/repl.a445fef5.png",
+    "static/media/rishab.48fff091.jpg": "/static/media/rishab.48fff091.jpg",
     "static/media/sagar.c81f8467.jpg": "/static/media/sagar.c81f8467.jpg",
     "static/media/sashido-logo-for sites.42a264bf.png": "/static/media/sashido-logo-for sites.42a264bf.png",
     "static/media/satvik.470d6610.png": "/static/media/satvik.470d6610.png",
@@ -90,6 +91,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.3ef3cc91.chunk.js",
     "static/css/main.b6c99c03.chunk.css",
-    "static/js/main.0737c8f6.chunk.js"
+    "static/js/main.dc3882a1.chunk.js"
   ]
 }
