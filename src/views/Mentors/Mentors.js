@@ -17,6 +17,9 @@ import Shubhendra from '../../assets/mentors/new/shubhendra.jfif'
 import swayam from '../../assets/mentors/new/swayam.jfif'
 import rachana from '../../assets/mentors/new/rachvis1.jfif'
 import yuktesh from '../../assets/mentors/new/yuktesh.jfif'
+import manav from '../../assets/mentors/new/manav.jpg'
+import aishwary from '../../assets/mentors/new/aishwary.JPG'
+import rishab from '../../assets/mentors/new/rishab.jpg'
 // import mOne from '../../assets/mentors/old/kanirudh.jpg';
 // import mTwo from '../../assets/mentors/old/Manav.jpg';
 // import mThree from '../../assets/mentors/old/pranjal.jpeg';
@@ -90,14 +93,14 @@ const Mentors = () => {
               linkedIn="https://www.linkedin.com/in/avi-dwivedi-45120055/"
             />
           </div>
-          <div className="mentor__container">
+          {/* <div className="mentor__container">
             <MentorCard
               name="Galicia Gordon"
               img={galicia}
               occupation="Founder @ Leading Learners"
               linkedIn="https://www.linkedin.com/in/galicia-gordon/"
             />
-          </div>
+          </div> */}
           <div className="mentor__container">
             <MentorCard
               name="Sukhjeet Singh Sandhu"
@@ -160,6 +163,30 @@ const Mentors = () => {
               img={yuktesh}
               occupation="Developer Advoc @ IBM"
               linkedIn="https://developer.ibm.com/profiles/ychinmka/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Manav Ailawadi"
+              img={manav}
+              occupation="Co-Founder @ Blockchained India"
+              linkedIn="https://www.linkedin.com/in/manav-ailawadi-55138854/"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Aishwary Kumar"
+              img={aishwary}
+              occupation="Senior Software Engineer @ CodeParva"
+              linkedIn="https://www.linkedin.com/in/aishwaryk"
+            />
+          </div>
+          <div className="mentor__container">
+            <MentorCard
+              name="Rishabh Kumar"
+              img={rishab}
+              occupation="Data Scientist @ Bitgrit"
+              linkedIn="https://www.linkedin.com/in/rishabh-kumar14"
             />
           </div>
         </div>

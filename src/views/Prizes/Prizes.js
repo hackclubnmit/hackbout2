@@ -158,7 +158,7 @@ const Prizes = () => {
               <p className="bindia_p">SashiDo Internship Oppurtunity</p>
             </div>
             <article>
-             SashiDo will be providing <strong>free credits </strong> for their platform also internship oppurtunities to the winners.
+             SashiDo will be providing <strong>free credits </strong> for their platform also internship opportunities to the winners.
             </article>
             <div>
               <a
