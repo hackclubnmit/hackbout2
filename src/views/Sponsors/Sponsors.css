@@ -1,3 +1,10 @@
+.tobeannounced{
+  font-size: 40px;
+  font-family: 'Archive';
+  font-display: swap;
+  margin: 5rem auto;
+}
+
 .sponsors {
   position: relative;
   background-color: #eef6f3;

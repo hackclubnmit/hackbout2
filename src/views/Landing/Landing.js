@@ -152,10 +152,10 @@ const Landing = () => {
             </strong>{' '}
             Hackathon
           </h2>
-          <h2 className="landing__sub-heading green">19th-20th June</h2>
-          {/* <h4 className="landing__sub-heading-2">
+          {/* <h2 className="landing__sub-heading green">19th-20th June</h2> */}
+           <h4 className="landing__sub-heading-2">
             Registrations opening soon!
-          </h4> */}
+          </h4> 
 
           {/* <a
             href="https://forms.gle/1bQ9b9TKh1hyX4F58"
@@ -170,7 +170,7 @@ const Landing = () => {
             data-button-theme="light"
             style={{ width: '312px', height: '44px' }}
           ></div>
-          <a
+          {/* <a
             href="https://t.me/hackbout"
             target="_blank"
             rel="noreferrer noopener "
@@ -194,7 +194,7 @@ const Landing = () => {
               </svg>
               <div>Join Our Telegram</div>
             </button>
-          </a>
+          </a> */}
         </div>
         <div className="landing__sub-2">
           <svg

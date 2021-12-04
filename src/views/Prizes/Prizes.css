@@ -7,6 +7,7 @@
   background-image: linear-gradient(180deg, #ccd0d6 0%, #fff 100%);
   top: -30px;
   padding-bottom: 100px;
+  
 }
 
 .prizes__main {
@@ -14,6 +15,7 @@
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 100px;
+  
 }
 
 .prizes__title {
@@ -21,6 +23,12 @@
   font-family: 'Archive';
   font-display: swap;
   margin: 100px 0;
+}
+.prizes__title_2 {
+  font-size: 40px;
+  font-family: 'Archive';
+  font-display: swap;
+  margin: 40px 0;
 }
 
 .prizes__card {
@@ -34,6 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  filter: blur(8px);
 }
 
 .prizes__sub {

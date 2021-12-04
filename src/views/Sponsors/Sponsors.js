@@ -45,6 +45,17 @@ const Sponsors = () => {
         Our <span className="green">Sponsors</span>
       </h1>
       <div className="new__sponsors">
+      <div className="sponsors__main">
+      <div className="sponsors-grid">
+        <div className="tobeannounced">
+    <span> To be Announced...</span>
+    </div>
+    </div>
+    </div>
+
+        </div>
+       {/*
+      <div className="new__sponsors">
         <div className="sponsors__main">
           <h3
             data-aos="fade-up"
@@ -76,7 +87,7 @@ const Sponsors = () => {
           </div>
         </div>
 
-        <div className="sponsors__sub">
+        {<div className="sponsors__sub">
           <h4
             data-aos="fade-up"
             data-aos-offset="200"
@@ -552,10 +563,10 @@ const Sponsors = () => {
                   alt="sponsor cryptopolitan"
                 />
               </a>
-            </div> */}
-          </div>
-        </div>
-      </div>
+       </div> 
+          </div> 
+        </div> 
+      </div> */}
     </section>
   );
 };

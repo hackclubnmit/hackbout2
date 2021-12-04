@@ -3,6 +3,8 @@ import './Mentors.css';
 
 import MentorCard from '../../components/MentorCards/MentorCards';
 
+import shadow from '../../assets/mentors/new/shadow.png';
+
 import Shubham from '../../assets/mentors/new/shubham.png';
 import Smaranjit from '../../assets/mentors/new/Smaranjit_Ghose.jpeg';
 import jenil from '../../assets/mentors/new/Jenil.jpeg';
@@ -53,7 +55,19 @@ const Mentors = () => {
       </h1>
       <article className="mentors__main">
         <div className="sponsors-grid">
-          <div className="mentor__container">
+
+
+        <div className="mentor__container">
+          <MentorCard
+
+            name="To be announced..."
+              img={shadow}
+              occupation=" "
+              linkedIn="https://linkedin.com/in"
+          />
+          </div>
+          </div>
+         {/* <div className="mentor__container">
             <MentorCard
               name="Shubham Sharma"
               img={Shubham}
@@ -93,14 +107,14 @@ const Mentors = () => {
               linkedIn="https://www.linkedin.com/in/avi-dwivedi-45120055/"
             />
           </div>
-          {/* <div className="mentor__container">
+           <div className="mentor__container">
             <MentorCard
               name="Galicia Gordon"
               img={galicia}
               occupation="Founder @ Leading Learners"
               linkedIn="https://www.linkedin.com/in/galicia-gordon/"
             />
-          </div> */}
+          </div> 
           <div className="mentor__container">
             <MentorCard
               name="Sukhjeet Singh Sandhu"
@@ -188,8 +202,8 @@ const Mentors = () => {
               occupation="Data Scientist @ Bitgrit"
               linkedIn="https://www.linkedin.com/in/rishabh-kumar14"
             />
-          </div>
-        </div>
+          </div> 
+        </div>  */}
       </article>
       {/* <article className="old-mentors">
         <h3 className="old-title">Our Previous Mentors</h3>

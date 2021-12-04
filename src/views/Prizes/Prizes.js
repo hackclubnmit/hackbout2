@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 
 import first from '../../assets/prizes/first.png';
 import second from '../../assets/prizes/second.png';
@@ -45,6 +45,14 @@ const Prizes = () => {
       >
         Prizes
       </h1>
+      <h5  className="prizes__title_2 black"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="0"
+        data-aos-duration="500"
+        data-aos-easing="ease">
+          To Be Reveled... </h5>
+
       <div className="prizes__main">
         <div
           className="prizes__card second"
@@ -91,7 +99,23 @@ const Prizes = () => {
         >
           Sponsored Prizes
         </h3>
+
         <div className="prizes__grid">
+        <div
+            className="bounty__card b_bindia"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            <div> 
+              <span> to be Announced....</span>
+            </div>
+            </div>
+            
+          </div>
+       {/* <div className="prizes__grid">
         <div
             className="bounty__card b_bindia"
             data-aos="fade-up"
@@ -198,9 +222,9 @@ const Prizes = () => {
               </a>
           </div>
         </div>
+        </div>*/}
         </div>
-        </div>
-      <div className="prizes__sub">
+     {/* <div className="prizes__sub">
         <h3
           className="prizes__title--sub green"
           data-aos="fade-up"
@@ -368,7 +392,7 @@ const Prizes = () => {
             </div>
             {/* <article>
               Bounty Worth 15k 
-            </article> */}
+            </article>
             <div>
               <a
                 href="https://www.notion.so/hackclubnmit/GirlGeeksHack-Submission-Guidelines-138b0b82608243df90c32f3db0710518"
@@ -554,7 +578,7 @@ const Prizes = () => {
           </div>
         </div>
         </div>
-        </div>
+        </div>*/}
     </section>
   );
 };
