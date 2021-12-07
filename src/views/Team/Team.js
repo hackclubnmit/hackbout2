@@ -19,6 +19,22 @@ import Madan from '../../assets/team/Madan.jpeg'
 import Anant from '../../assets/team/Anant.jfif'
 import Anshul from '../../assets/team/Anshul.jpg'
 import Anshul1 from '../../assets/team/Anshul1.jpg'
+import Onkar from "../../assets/team/onkar.jpg"
+import Nitish from "../../assets/team/nitish.jpg"
+import Ayush from "../../assets/team/ayush.jpg"
+
+import Nancy from "../../assets/team/nancy.jpg"
+import Utsav from "../../assets/team/utsav.jpg"
+import Kalyan from "../../assets/team/kalyan.jpg"
+import Lasya from "../../assets/team/lasya.jpg"
+import Viswambhari from "../../assets/team/viswambhari.jpg"
+import shubhamprasad from "../../assets/team/shubhamprasad.jpg"
+import shreya from "../../assets/team/shreya.jpg"
+import kannad from "../../assets/team/kanaad.jpg"
+import kartik from "../../assets/team/kartik.jpg"
+import saishwaranand from "../../assets/team/saishwaranand.jpg"
+
+
 const Team = () => {
     return (
     <section id="team" className="team">
@@ -47,8 +63,8 @@ const Team = () => {
       <div class="team-card">
           <TeamCard
            role="Club Lead"
-            name="Rudransh Tewari" 
-            image={Rudy} 
+            name="Satvik A" 
+            image={Satvik} 
             linkedin="https://www.linkedin.com/in/rudy7/" 
             github="https://github.com/rudyt7"
             twitter=""
@@ -78,7 +94,7 @@ const Team = () => {
               <TeamCard
                role="Tech Lead"
                 name="Kaushal"
-                 image={Kaushal}
+                 image={Onkar}
                  linkedin="https://www.linkedin.com/in/kaushal-bhat-8374451a2/" 
                  github="https://github.com/k4u5h4L"
                  twitter=""
@@ -86,11 +102,28 @@ const Team = () => {
               <TeamCard 
               role="Tech Team"
                name="Satvik" 
-               image={Satvik}
+               image={Nitish}
                github="https://github.com/Blazeleo"
                linkedin="https://www.linkedin.com/in/satvik-a-aa087b1a2/" 
                twitter="https://twitter.com/Satvik51236"
                 />
+                <TeamCard 
+              role="Tech Team"
+               name="Satvik" 
+               image={Ayush}
+               github="https://github.com/Blazeleo"
+               linkedin="https://www.linkedin.com/in/satvik-a-aa087b1a2/" 
+               twitter="https://twitter.com/Satvik51236"
+                />
+                 <TeamCard 
+              role="Tech Team"
+               name="Kalyan B" 
+               image={Kalyan}
+               github="https://github.com/Blazeleo"
+               linkedin="https://www.linkedin.com/in/satvik-a-aa087b1a2/" 
+               twitter="https://twitter.com/Satvik51236"
+                />
+               
           </div>
         </div>
         <div class="half-container">
@@ -105,18 +138,35 @@ const Team = () => {
             Marketing <span className="green">Team</span>
           </h4>
           <div class="team-card">
-          <TeamCard
-           role="Marketing Lead"
-            name="Alisha Ahmed"
-             image={Alisha}
-             github="https://github.com/Alisha-Ahmed"
-             linkedin="https://www.linkedin.com/in/alisha-ahmed-0786/" 
-             twitter=""
-             />
+         
           <TeamCard
            role="Marketing Team"
             name="Harshitha P" 
             image={Harshitha} 
+            github="https://github.com/harshithap2000"
+            linkedin="https://www.linkedin.com/in/harshitha-p22/" 
+            twitter="https://twitter.com/HarshithaP22"
+            />
+             <TeamCard
+           role="Marketing Team"
+            name="Lasya Sistla" 
+            image={Lasya} 
+            github="https://github.com/harshithap2000"
+            linkedin="https://www.linkedin.com/in/harshitha-p22/" 
+            twitter="https://twitter.com/HarshithaP22"
+            />
+             <TeamCard
+           role="Marketing Team"
+            name="Viswambhari A" 
+            image={Viswambhari} 
+            github="https://github.com/harshithap2000"
+            linkedin="https://www.linkedin.com/in/harshitha-p22/" 
+            twitter="https://twitter.com/HarshithaP22"
+            />
+            <TeamCard
+           role="Marketing Team"
+            name="shubham Prasad" 
+            image={shubhamprasad} 
             github="https://github.com/harshithap2000"
             linkedin="https://www.linkedin.com/in/harshitha-p22/" 
             twitter="https://twitter.com/HarshithaP22"
@@ -138,18 +188,43 @@ const Team = () => {
         Operation's <span className="green">Team</span>
       </h4>
       <div class="team-card">
-      <TeamCard
-       role="Operation Lead"
-        name="Sowmya Sri" 
-        image={Somwya}
-        github=""
-        linkedin="https://www.linkedin.com/in/sowmya-sri-p-355a57192/" 
-        twitter=""
-        />
+     
       <TeamCard
        role="Operation Team"
         name="Piyush Aneja"
          image={Aneja}
+         github="https://github.com/Piyush-Aneja"
+         linkedin="https://www.linkedin.com/in/piyush-aneja-a29a221a9/" 
+         twitter="https://twitter.com/Piyush__Aneja"
+         />
+         <TeamCard
+       role="Operation Team"
+        name="Madan"
+         image={Madan}
+         github="https://github.com/Piyush-Aneja"
+         linkedin="https://www.linkedin.com/in/piyush-aneja-a29a221a9/" 
+         twitter="https://twitter.com/Piyush__Aneja"
+         />
+         <TeamCard
+       role="Operation Team"
+        name="Shreya Nanduri"
+         image={shreya}
+         github="https://github.com/Piyush-Aneja"
+         linkedin="https://www.linkedin.com/in/piyush-aneja-a29a221a9/" 
+         twitter="https://twitter.com/Piyush__Aneja"
+         />
+          <TeamCard
+       role="Operation Team"
+        name="Kanaad D S"
+         image={kannad}
+         github="https://github.com/Piyush-Aneja"
+         linkedin="https://www.linkedin.com/in/piyush-aneja-a29a221a9/" 
+         twitter="https://twitter.com/Piyush__Aneja"
+         />
+          <TeamCard
+       role="Operation Team"
+        name="Kartik Saini"
+         image={kartik}
          github="https://github.com/Piyush-Aneja"
          linkedin="https://www.linkedin.com/in/piyush-aneja-a29a221a9/" 
          twitter="https://twitter.com/Piyush__Aneja"
@@ -179,8 +254,8 @@ const Team = () => {
         />
       <TeamCard 
       role="Sponsorship Team" 
-      name="Madan" 
-      image={Madan} 
+      name="Saishwar Anand" 
+      image={saishwaranand} 
       github="https://github.com/madankris"
       linkedin="" 
       twitter=""
@@ -201,16 +276,16 @@ const Team = () => {
       <div class="team-card">
       <TeamCard
        role="Design Lead" 
-       name="Sayantan Ghosh"
-        image={Sayantan} 
+       name="Anirudhha Sil"
+        image={Ani} 
         github=""
         linkedin="https://www.linkedin.com/in/sintancos/" 
         twitter=""
         />
       <TeamCard
        role="Design Team" 
-       name="Anirudhha Sil" 
-       image={Ani}
+       name="Utsav Sinha" 
+       image={Utsav}
        github="https://github.com/lawlesx"
         linkedin="https://www.linkedin.com/in/aniruddha-sil-251555196/" 
         twitter=""
@@ -219,8 +294,8 @@ const Team = () => {
    
       <TeamCard
        role="Design Team" 
-       name="Aditya Vijaykumar" 
-       image={Adi} 
+       name="Nancy Biyahut" 
+       image={Nancy} 
        github="https://github.com/aditya-vijaykumar"
        linkedin="https://www.linkedin.com/in/aditya-vijaykumar/" 
        twitter=""
