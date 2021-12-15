@@ -34,26 +34,26 @@ const Landing = () => {
         params={{
           particles: {
             number: {
-              value: 5,
+              value: 110,
               density: {
                 enable: true,
                 value_area: 800,
               },
             },
             color: {
-              value: '#6e6e6e',
+              value: "#6e6e6e",
             },
             shape: {
-              type: 'circle',
+              type: "square",
               stroke: {
                 width: 1,
-                color: '#000',
+                color: "#000",
               },
               polygon: {
                 nb_sides: 10,
               },
               image: {
-                src: '',
+                src: "",
                 width: 100,
                 height: 100,
               },
@@ -69,29 +69,29 @@ const Landing = () => {
               },
             },
             size: {
-              value: 160,
+              value: 0.1,
               random: false,
               anim: {
                 enable: true,
-                speed: 10,
-                size_min: 40,
+                speed: 8,
+                size_min: 8,
                 sync: false,
               },
             },
             line_linked: {
               enable: false,
               distance: 200,
-              color: '#ffffff',
+              color: "#ffffff",
               opacity: 1,
               width: 2,
             },
             move: {
               enable: true,
               speed: 6.313181133058181,
-              direction: 'top-right',
+              direction: "top-right",
               random: false,
               straight: false,
-              out_mode: 'out',
+              out_mode: "out",
               bounce: false,
               attract: {
                 enable: false,
@@ -101,15 +101,15 @@ const Landing = () => {
             },
           },
           interactivity: {
-            detect_on: 'window',
+            detect_on: "window",
             events: {
               onhover: {
                 enable: false,
-                mode: 'grab',
+                mode: "grab",
               },
               onclick: {
                 enable: false,
-                mode: 'push',
+                mode: "push",
               },
               resize: true,
             },
@@ -146,16 +146,16 @@ const Landing = () => {
         <div className="landing__sub-1">
           <h1 className="landing__heading">HACKBOUT</h1>
           <h2 className="landing__sub-heading">
-            A{' '}
+            A{" "}
             <strong>
               Hack Club <span className="green">NMIT's</span>
-            </strong>{' '}
+            </strong>{" "}
             Hackathon
           </h2>
           {/* <h2 className="landing__sub-heading green">19th-20th June</h2> */}
-           <h4 className="landing__sub-heading-2">
+          <h4 className="landing__sub-heading-2">
             Registrations opening soon!
-          </h4> 
+          </h4>
 
           {/* <a
             href="https://forms.gle/1bQ9b9TKh1hyX4F58"
@@ -168,7 +168,7 @@ const Landing = () => {
             class="apply-button"
             data-hackathon-slug="hackbout2"
             data-button-theme="light"
-            style={{ width: '312px', height: '44px' }}
+            style={{ width: "312px", height: "44px" }}
           ></div>
           {/* <a
             href="https://t.me/hackbout"
@@ -228,7 +228,7 @@ const Landing = () => {
         </div>
       </article>
       <div className="custom-shape-divider-bottom-1618824420">
-        <svg
+        {/* <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
@@ -238,7 +238,9 @@ const Landing = () => {
             d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
             className="shape-fill"
           ></path>
-        </svg>
+        </svg> */}
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L0,256L288,256L288,192L576,192L576,160L864,160L864,256L1152,256L1152,96L1440,96L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path></svg>
       </div>
     </section>
   );
