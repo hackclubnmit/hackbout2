@@ -19,6 +19,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "^4.0.0",
     "react-transition-group": "^4.4.1",
+    "react-wavify": "^1.5.4",
     "vanilla-tilt": "^1.7.0"
   },
   "scripts": {

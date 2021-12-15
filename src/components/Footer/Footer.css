@@ -11,7 +11,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center top 20px;
   background-attachment: fixed;
-  height: 600px;
+  height: 400px;
   /* background-attachment: fixed;
   bottom: 0;
   z-index: -5; */
@@ -36,6 +36,15 @@ footer {
 
 .custom-shape-divider-top-1619379941 .shape-fill {
   fill: #D6D9DE;
+}
+
+.wave{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .footer {
