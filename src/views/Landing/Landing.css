@@ -1,8 +1,8 @@
 .landing {
   position: relative;
   height: 110vh;
-  background-color: #02151d;
-  background-image: linear-gradient(45deg, #27404fec 0%, #09232bed 74%),
+  background-color: #1d2228;
+  background-image: linear-gradient(45deg, #1d2228 0%, #09232bed 74%),
     url('../../assets/landingBg.jpg');
   background-size: cover;
   background-position: bottom;
@@ -49,7 +49,7 @@
   margin: 0 20px;
   animation-name: moveInTop;
   animation-duration: 1s;
-  color: #fff;
+  color: #E1E2E2;
 }
 
 .landing__sub-heading {
@@ -71,7 +71,7 @@
 }
 
 .green {
-  color: #10aa62;
+  color: #FB8122;
 }
 
 .landing__btn {

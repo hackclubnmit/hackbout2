@@ -93,7 +93,7 @@ const Team = () => {
           <div class="team-card">
               <TeamCard
                role="Tech Lead"
-                name="Kaushal"
+                name="Onkar Bharatesh"
                  image={Onkar}
                  linkedin="https://www.linkedin.com/in/kaushal-bhat-8374451a2/" 
                  github="https://github.com/k4u5h4L"
@@ -101,7 +101,7 @@ const Team = () => {
                  />
               <TeamCard 
               role="Tech Team"
-               name="Satvik" 
+               name="Nitish kumar" 
                image={Nitish}
                github="https://github.com/Blazeleo"
                linkedin="https://www.linkedin.com/in/satvik-a-aa087b1a2/" 
@@ -109,7 +109,7 @@ const Team = () => {
                 />
                 <TeamCard 
               role="Tech Team"
-               name="Satvik" 
+               name="Aayush Kumar" 
                image={Ayush}
                github="https://github.com/Blazeleo"
                linkedin="https://www.linkedin.com/in/satvik-a-aa087b1a2/" 

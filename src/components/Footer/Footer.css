@@ -66,13 +66,13 @@ footer {
 .footer h1 {
   font-family: 'Archive';
   font-size: 30px;
-  color: #ffffff;
+  color: #E1E2E2;
 }
 
 .footer h3 {
   font-family: 'Archive';
   font-size: 22px;
-  color: #ffffff;
+  color: #E1E2E2;
   padding-bottom: 5px;
   border-bottom: 0.1px solid rgb(168, 168, 168);
 }
@@ -80,7 +80,7 @@ footer {
 .footer a {
   font-family: 'Alegreya Sans', sans-serif;
   /* font-style: italic; */
-  color: #fff;
+  color: #E1E2E2;
   font-size: 18px;
   text-decoration: none;
   margin: 5px 0px;
@@ -141,7 +141,7 @@ footer {
   font-size: 18px;
   font-family: 'Archive', sans-serif;
   /* font-style: italic; */
-  color: #fff;
+  color: #E1E2E2;
 }
 
 @media (min-width: 700px) {
@@ -196,7 +196,7 @@ footer {
   .footer h3 {
     font-family: 'Archive';
     font-size: 18px;
-    color: #ffffff;
+    color: #E1E2E2;
     padding-bottom: 5px;
     border-bottom: 0.1px solid rgb(168, 168, 168);
   }

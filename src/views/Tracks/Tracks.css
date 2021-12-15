@@ -1,10 +1,10 @@
 .tracks {
   position: relative;
   height: 120%;
-  background-color: #23b574;
+  background-color: #1D2228;
   top: -20px;
   /* padding: 100px 0; */
-  background-image: linear-gradient(45deg, #214653 0%, #0e1f23 74%);
+  background-image: linear-gradient(45deg, #1D2228 0%, #0e1f23 74%);
   /* display: flex;
   flex-direction: column;
   align-items: center;

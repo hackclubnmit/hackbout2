@@ -1,7 +1,7 @@
 .accordion {
-  background-color: #41af65;
+  background-color: #FB8122;
   color: #052d35;
-  border: 1px solid #00ff62;
+  border: 1px solid #f88934;
   cursor: pointer;
   padding: 18px;
   margin: 20px;
@@ -19,7 +19,7 @@
 /* 5caa7a */
 .active,
 .accordion:hover {
-  background-color: rgb(42, 151, 93);
+  background-color: #fb8022c7;
 }
 
 .accordion:after {
@@ -36,7 +36,7 @@
 
 .panel {
   padding: 0 18px;
-  background-color: #41af65;
+  background-color: #FB8122;
   color: #052d35;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 18px;
