@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.89d632af.chunk.css",
-    "main.js": "/static/js/main.ab47e276.chunk.js",
-    "main.js.map": "/static/js/main.ab47e276.chunk.js.map",
+    "main.css": "/static/css/main.bded599b.chunk.css",
+    "main.js": "/static/js/main.ba1c9d6b.chunk.js",
+    "main.js.map": "/static/js/main.ba1c9d6b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e1adfb5.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e1adfb5.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.cfad4061.chunk.js.map": "/static/js/2.cfad4061.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.89d632af.chunk.css.map": "/static/css/main.89d632af.chunk.css.map",
+    "static/css/main.bded599b.chunk.css.map": "/static/css/main.bded599b.chunk.css.map",
     "static/js/2.cfad4061.chunk.js.LICENSE.txt": "/static/js/2.cfad4061.chunk.js.LICENSE.txt",
     "static/media/02-sticker-mule-logo-light-bg-stacked.04b92667.svg": "/static/media/02-sticker-mule-logo-light-bg-stacked.04b92667.svg",
     "static/media/1password-icon.32ca56a2.svg": "/static/media/1password-icon.32ca56a2.svg",
@@ -56,7 +56,6 @@
     "static/media/echoAR - Logo 2020 - Dark.aa923df9.png": "/static/media/echoAR - Logo 2020 - Dark.aa923df9.png",
     "static/media/egghead.5ecdcfdf.PNG": "/static/media/egghead.5ecdcfdf.PNG",
     "static/media/first.1346eef4.png": "/static/media/first.1346eef4.png",
-    "static/media/Footer.css": "/static/media/footerBg.b45bd92c.jpg",
     "static/media/galicia.cd410c87.jfif": "/static/media/galicia.cd410c87.jfif",
     "static/media/gfi-logo-white.3af5c15f.svg": "/static/media/gfi-logo-white.3af5c15f.svg",
     "static/media/girlGeeks.3f8ba886.e960ecde.png": "/static/media/girlGeeks.3f8ba886.e960ecde.png",
@@ -66,7 +65,6 @@
     "static/media/kanaad.2c21e221.jpg": "/static/media/kanaad.2c21e221.jpg",
     "static/media/kartik.03beca4c.jpg": "/static/media/kartik.03beca4c.jpg",
     "static/media/kaushal.441f339f.jpeg": "/static/media/kaushal.441f339f.jpeg",
-    "static/media/Landing.css": "/static/media/landingBg.bd60aa1b.jpg",
     "static/media/lasya.873d377e.jpg": "/static/media/lasya.873d377e.jpg",
     "static/media/manav.7b91bafb.jpg": "/static/media/manav.7b91bafb.jpg",
     "static/media/nancy.a19950ce.jpg": "/static/media/nancy.a19950ce.jpg",
@@ -104,7 +102,7 @@
     "static/js/runtime-main.0e1adfb5.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.cfad4061.chunk.js",
-    "static/css/main.89d632af.chunk.css",
-    "static/js/main.ab47e276.chunk.js"
+    "static/css/main.bded599b.chunk.css",
+    "static/js/main.ba1c9d6b.chunk.js"
   ]
 }
