@@ -51,7 +51,7 @@ const Prizes = () => {
         data-aos-delay="0"
         data-aos-duration="500"
         data-aos-easing="ease">
-          To Be Reveled... </h5>
+          To Be Revealed... </h5>
 
       <div className="prizes__main">
         <div

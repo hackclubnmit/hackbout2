@@ -47,7 +47,7 @@ const Footer = () => {
      
       <div className="footer__image">&nbsp;</div>
       <div className="footer">
-        <div className="footer__logo">
+        <div className="footer__logo" style={{zIndex:'15'}}>
           <img src={hackBout} alt="HackBout-Logo" />
           <h1>HackBout</h1>
         </div>

@@ -52,8 +52,10 @@
 
 .sponsors-grid {
   display: grid;
-  gap: 4rem;
+   gap: 4rem; 
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  /* grid-template-columns: 500px 500px; */
+  
 }
 
 .article {
@@ -87,14 +89,16 @@
   transform: scale(1.1);
 }
 
+
+
 /* SEPARATE SPONSOR STYLES */
 
 .devfolio {
-  width: 600px;
+  width: 450px;
 }
 
 .polygon {
-  width: 320px;
+  width: 450px;
 }
 
 .portis {

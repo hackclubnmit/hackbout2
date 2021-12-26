@@ -50,17 +50,17 @@ const About = () => {
             data-aos-duration="1000"
             data-aos-easing="ease"
           >
-            With over 40 teams and 15 mentors in our first iteration, this year
+            With over 50 teams and 15 mentors in our second iteration, this year
             we return to conduct a hackathon bigger than ever.
           </p>
-          <h2 className="about-sub_head" data-aos={'fade-up'}>
+          {/* <h2 className="about-sub_head" data-aos={'fade-up'}>
             <span className="green">COVID</span> Update
           </h2>
           <p className="about_des" data-aos={'fade-up'}>
             Due to the unprecedented pandemic at hand we have decided to host a
             Virtual event this year for the well-being of all the participants
             and the mentors.
-          </p>
+          </p> */}
         </div>
         <div className="about_hex">
           <div

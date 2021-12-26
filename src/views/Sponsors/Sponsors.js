@@ -1,32 +1,32 @@
-import React from 'react';
+import React from "react";
 // import { motion } from 'framer-motion';
 
-import './Sponsors.css';
+import "./Sponsors.css";
 
-import devfolio from '../../assets/sponsors/new/Devfolio_Logo-Colored@2x.png';
-import celo from '../../assets/sponsors/new/Celo Logo Color@2x.png';
-import portis from '../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png';
-import polygon from '../../assets/sponsors/new/Portis_Logo-Colored@2x.png';
-import tezos from '../../assets/sponsors/new/Tezos_Logo-Colored@2x.png';
-import StickerMule from '../../assets/sponsors/new/02-sticker-mule-logo-light-bg-stacked.svg';
-import echoAR from '../../assets/sponsors/new/echoAR - Logo 2020 - Dark.png';
-import sashido from '../../assets/sponsors/new/sashido-logo-for sites.png';
-import framer from '../../assets/sponsors/new/black-horizontal.svg';
-import interviewCake from '../../assets/sponsors/new/cake_logo_blue_gray.svg';
-import testMail from '../../assets/sponsors/new/testmail.jpg';
-import convise from '../../assets/sponsors/new/coinvise.png';
-import onePass from '../../assets/sponsors/new/1password-icon.svg';
-import bindia from '../../assets/sponsors/new/BIndia.png';
-import aicte from '../../assets/sponsors/new/aicte.png';
-import xyz from '../../assets/sponsors/new/xyz.png';
-import codeparva from '../../assets/sponsors/new/codeparva.svg';
-import ieee from '../../assets/sponsors/new/ieee-cs-logo.png';
-import jetbrains from '../../assets/sponsors/new/jetbrains_logo.png'
-import replit from '../../assets/sponsors/new/repl.png'
-import clerky from '../../assets/sponsors/new/clerky.png'
-import DeepSource from '../../assets/sponsors/new/deepsource.svg'
-import gfi from '../../assets/sponsors/new/gfi-logo-white.svg'
-import egghead from  '../../assets/sponsors/new/egghead.PNG'
+import devfolio from "../../assets/sponsors/new/Devfolio_Logo-Colored@2x.png";
+import celo from "../../assets/sponsors/new/Celo Logo Color@2x.png";
+import portis from "../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png";
+import polygon from "../../assets/sponsors/new/Portis_Logo-Colored@2x.png";
+import tezos from "../../assets/sponsors/new/Tezos_Logo-Colored@2x.png";
+import StickerMule from "../../assets/sponsors/new/02-sticker-mule-logo-light-bg-stacked.svg";
+import echoAR from "../../assets/sponsors/new/echoAR - Logo 2020 - Dark.png";
+import sashido from "../../assets/sponsors/new/sashido-logo-for sites.png";
+import framer from "../../assets/sponsors/new/black-horizontal.svg";
+import interviewCake from "../../assets/sponsors/new/cake_logo_blue_gray.svg";
+import testMail from "../../assets/sponsors/new/testmail.jpg";
+import convise from "../../assets/sponsors/new/coinvise.png";
+import onePass from "../../assets/sponsors/new/1password-icon.svg";
+import bindia from "../../assets/sponsors/new/BIndia.png";
+import aicte from "../../assets/sponsors/new/aicte.png";
+import xyz from "../../assets/sponsors/new/xyz.png";
+import codeparva from "../../assets/sponsors/new/codeparva.svg";
+import ieee from "../../assets/sponsors/new/ieee-cs-logo.png";
+import jetbrains from "../../assets/sponsors/new/jetbrains_logo.png";
+import replit from "../../assets/sponsors/new/repl.png";
+import clerky from "../../assets/sponsors/new/clerky.png";
+import DeepSource from "../../assets/sponsors/new/deepsource.svg";
+import gfi from "../../assets/sponsors/new/gfi-logo-white.svg";
+import egghead from "../../assets/sponsors/new/egghead.PNG";
 // import jetbrains from '../../assets/sponsors/new/jetbrains.svg';
 // import crypto from '../../assets/sponsors/new/cryptopolitan.png';
 // import repl from '../../assets/sponsors/new/replit-icon.svg';
@@ -44,60 +44,81 @@ const Sponsors = () => {
       >
         Our <span className="green">Sponsors</span>
       </h1>
-      <div className="new__sponsors">
-      <div className="sponsors__main">
-      <div className="sponsors-grid">
-        <div className="tobeannounced">
-    <span> To be Announced...</span>
-    </div>
-    </div>
-    </div>
 
-        </div>
-       {/*
-      <div className="new__sponsors">
-        <div className="sponsors__main">
-          <h3
-            data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
-          >
-            <span className="green">Title</span> Sponsor
-          </h3>
-          <div className="sponsors-grid">
-            <a
-              href="https://devfolio.co/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="a_devfolio"
+      {
+        <div className="new__sponsors">
+          <div className="sponsors__main">
+            <h3
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              data-aos-easing="ease"
             >
-              <img
-                src={devfolio}
-                className="sponsors__img devfolio"
-                alt="sponsor devfolio"
-                data-aos="zoom-in"
+              <span className="green">Title</span> Sponsor
+            </h3>
+            <div className="sponsors-grid">
+              <a
+                href="https://devfolio.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="a_devfolio"
+              >
+                <img
+                  src={devfolio}
+                  className="sponsors__img devfolio"
+                  alt="sponsor devfolio"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+              
+              <a
+                href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={polygon}
+                  className="sponsors__img polygon"
+                  alt="sponsor polygon"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div className="sponsors__sub">
+            <h4
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              data-aos-easing="ease"
+            >
+              <span className="green">Associate</span> Sponsors
+            </h4>
+
+            <div className="tobeannounced">
+              <h4
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-delay="0"
                 data-aos-duration="1000"
                 data-aos-easing="ease"
-              />
-            </a>
-          </div>
-        </div>
+              >
+                <span> To be Announced...</span>
+              </h4>
+            </div>
 
-        {<div className="sponsors__sub">
-          <h4
-            data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
-          >
-            <span className="green">Associate</span> Sponsors
-          </h4>
-          <div className="sponsors-grid">
+            {/*    <div className="sponsors-grid">
             <div className="article">
               <a
                 href="https://polygon.technology/"
@@ -116,7 +137,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            <div className="article">
+             <div className="article">
               <a
                 href="https://www.portis.io/  "
                 target="_blank"
@@ -512,7 +533,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-            {/* <div className="article">
+             <div className="article">
               <a
                 href="https://repl.it/"
                 target="_blank"
@@ -563,10 +584,11 @@ const Sponsors = () => {
                   alt="sponsor cryptopolitan"
                 />
               </a>
-       </div> 
-          </div> 
-        </div> 
-      </div> */}
+       </div>  
+          </div> */}
+          </div>
+        </div>
+      }
     </section>
   );
 };
