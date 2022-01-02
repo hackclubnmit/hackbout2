@@ -174,6 +174,7 @@ const Sponsors = () => {
                 />
       </a>
             </div>*/}
+            <div className="associate-sponsor">
             <div className="article">
               <a
                 href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff/"
@@ -211,6 +212,7 @@ const Sponsors = () => {
                 />
               </a>
              
+            </div>
             </div>
             {/*
             <div className="article">
