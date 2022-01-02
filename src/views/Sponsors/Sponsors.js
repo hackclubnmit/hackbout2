@@ -76,7 +76,7 @@ const Sponsors = () => {
                   data-aos-easing="ease"
                 />
               </a>
-              
+
               <a
                 href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c"
                 target="_blank"
@@ -155,6 +155,46 @@ const Sponsors = () => {
                   data-aos-easing="ease"
                 />
               </a>
+          </div> */}
+
+           
+            <div className="associate-sponsor">
+              <div className="article">
+                <a
+                  href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={tezos}
+                    className="sponsors__img tezos"
+                    alt="sponsor tezos"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+              <div className="article">
+                <a
+                  href="https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={filecoin}
+                    className="sponsors__img filecoin"
+                    alt="sponsor tezos"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
             </div>
             <div className="article">
               <a
@@ -172,47 +212,7 @@ const Sponsors = () => {
                   data-aos-duration="1000"
                   data-aos-easing="ease"
                 />
-      </a>
-            </div>*/}
-            <div className="associate-sponsor">
-            <div className="article">
-              <a
-                href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={tezos}
-                  className="sponsors__img tezos"
-                  alt="sponsor tezos"
-                  data-aos="zoom-in"
-                  data-aos-offset="200"
-                  data-aos-delay="0"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease"
-                />
               </a>
-             
-            </div> 
-            <div className="article">
-              <a
-                href="https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={filecoin}
-                  className="sponsors__img tezos"
-                  alt="sponsor tezos"
-                  data-aos="zoom-in"
-                  data-aos-offset="200"
-                  data-aos-delay="0"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease"
-                />
-              </a>
-             
-            </div>
             </div>
             {/*
             <div className="article">

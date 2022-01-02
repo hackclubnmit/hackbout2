@@ -226,7 +226,13 @@ footer {
   .footer {
     height: 800px;
   }
-
+  .footer__sections{
+        margin-top: 0px;
+  }
+  .footer_logo_img{
+    width: 80% !important;
+    height: 140px !important;
+  }
   .footer__sec-1 {
     position: relative;
     margin: 5px;

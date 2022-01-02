@@ -120,6 +120,11 @@
 .tezos {
   width: 250px;
 }
+.filecoin {
+  width: 160px;
+  
+}
+
 
 .replit {
   width: 100px;
@@ -210,6 +215,7 @@
 @media (max-width: 940px) {
   .sponsors-heading {
     font-size: 45px;
+   
   }
 
   .sponsors-grid {
@@ -224,7 +230,10 @@
   }
 
   .devfolio {
-    width: 500px;
+    width: 320px;
+  }
+  .polygon {
+    width: 320px;
   }
   .deepsource {
     width: 400px;
@@ -237,6 +246,11 @@
 @media (max-width: 540px) {
   .devfolio {
     width: 300px;
+  }
+  .sponsors-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .sponsors-heading {
@@ -331,19 +345,24 @@
 }
 
 @media (max-width: 450px) {
+  
   .devfolio {
-    width: 280px;
+    width: 270px;
   }
 
   .sponsors-grid {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   .sponsors__img {
     width: 250px;
   }
   .coinvise {
     width: 120px;
+  }
+  .filecoin {
+    width:100px;
   }
   .onepassword {
     width: 120px;
@@ -356,5 +375,8 @@
   }
   .jetbrains {
     width: 130px;
+  }
+  .tezos{
+    width:120px;
   }
 }

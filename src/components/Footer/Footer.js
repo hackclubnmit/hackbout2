@@ -29,7 +29,7 @@ const Footer = () => {
           </svg> */}
         {/* </Wave> */}
       </div>
-
+ 
       <Wave
         style={{
           zIndex: 10,
