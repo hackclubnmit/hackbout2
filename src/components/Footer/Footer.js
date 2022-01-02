@@ -6,7 +6,7 @@ import { FaFacebookF } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { RiHeart2Fill } from 'react-icons/ri';
-import Wave from 'react-wavify'
+import Wave from 'react-wavify';
 
 import hackBout from '../../assets/HackBout.svg';
 import './Footer.css';
@@ -15,9 +15,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="custom-shape-divider-top-1619379941">
-       
-        
-          {/* <svg
+        {/* <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1200 120"
@@ -32,23 +30,28 @@ const Footer = () => {
         {/* </Wave> */}
       </div>
 
-      
-        <Wave
-        style={{ zIndex: 10, overflow:'hidden' , position:'absolute', marginBottom:'45vh', marginLeft:0}}
-        fill='#1d2228'
-         
-           paused={false}
-           options={{
-             height: 35,
-             amplitude: 25,
-             speed: 0.25,
-             points: 4
-           }} />
-     
+      <Wave
+        style={{
+          zIndex: 10,
+          overflow: 'hidden',
+          position: 'absolute',
+          marginBottom: '45vh',
+          marginLeft: 0,
+        }}
+        fill="#1d2228"
+        paused={false}
+        options={{
+          height: 35,
+          amplitude: 25,
+          speed: 0.25,
+          points: 4,
+        }}
+      />
+
       <div className="footer__image">&nbsp;</div>
       <div className="footer">
-        <div className="footer__logo" style={{zIndex:'15'}}>
-          <img src={hackBout} alt="HackBout-Logo" />
+        <div className="footer__logo" style={{ zIndex: '15' }}>
+          <img src={hackBout} className="footer_logo_img" alt="HackBout-Logo" />
           <h1>HackBout</h1>
         </div>
         <div className="footer__sections">
@@ -160,8 +163,6 @@ const Footer = () => {
         </IconContext.Provider>
         &nbsp; <span>HackClub NMIT</span>
       </div>
-
-     
     </footer>
   );
 };

@@ -25,11 +25,11 @@ const Faqs = () => {
     <section className="faqs" id="faqs">
       <h1
         className="faqs__title green"
-        data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="0"
-        data-aos-duration="1000"
-        data-aos-easing="ease"
+        // data-aos="fade-up"
+        // data-aos-offset="200"
+        // data-aos-delay="0"
+        // data-aos-duration="1000"
+        // data-aos-easing="ease"
       >
         FAQS
       </h1>
@@ -37,11 +37,11 @@ const Faqs = () => {
         <div className="faqs__sub-1">
           <article
             className="accordion"
-            data-aos="zoom-in"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease"
           >
             What is a hackathon?
           </article>
@@ -57,11 +57,11 @@ const Faqs = () => {
           </div>
           <article
             className="accordion"
-            data-aos="zoom-in"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease"
           >
             Who can register?
           </article>
@@ -70,11 +70,11 @@ const Faqs = () => {
           </div>
           <article
             className="accordion"
-            data-aos="zoom-in"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease"
           >
             Is there a registration fee?
           </article>
@@ -83,11 +83,11 @@ const Faqs = () => {
           </div>
           <article
             className="accordion"
-            data-aos="zoom-in"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease"
           >
             What's the last date of registrations?
           </article>
@@ -100,11 +100,11 @@ const Faqs = () => {
           </div>
           <article
             className="accordion"
-            data-aos="zoom-in"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease"
           >
             What are Bounties? How to win them?
           </article>
@@ -121,11 +121,11 @@ const Faqs = () => {
         <div className="faqs__sub-2">
           <article
             className="accordion"
-            data-aos="zoom-in"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease"
           >
             This is my first hackathon. What if I'm clueless?{' '}
           </article>
@@ -140,11 +140,11 @@ const Faqs = () => {
           </div>
           <article
             className="accordion"
-            data-aos="zoom-in"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease"
           >
             How many members are required in a team?
           </article>
@@ -157,11 +157,11 @@ const Faqs = () => {
           </div>
           <article
             className="accordion"
-            data-aos="zoom-in"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease"
           >
             What if I haven't formed a team yet !
           </article>
@@ -174,11 +174,11 @@ const Faqs = () => {
           </div>
           <article
             className="accordion"
-            data-aos="zoom-in"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease"
           >
             How does judging work?{' '}
           </article>
@@ -191,11 +191,11 @@ const Faqs = () => {
           </div>
           <article
             className="accordion"
-            data-aos="zoom-in"
-            data-aos-offset="200"
-            data-aos-delay="0"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="0"
+            // data-aos-duration="1000"
+            // data-aos-easing="ease"
           >
             I didn't find my question here, what can i do?
           </article>
