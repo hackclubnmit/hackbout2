@@ -215,7 +215,6 @@
 @media (max-width: 940px) {
   .sponsors-heading {
     font-size: 45px;
-   
   }
 
   .sponsors-grid {
@@ -230,10 +229,7 @@
   }
 
   .devfolio {
-    width: 320px;
-  }
-  .polygon {
-    width: 320px;
+    width: 500px;
   }
   .deepsource {
     width: 400px;
@@ -246,11 +242,6 @@
 @media (max-width: 768px) {
   .devfolio {
     width: 300px;
-  }
-  .sponsors-grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .sponsors-heading {
@@ -346,17 +337,17 @@
 }
 
 @media (max-width: 450px) {
-  
   .devfolio {
-    width: 270px;
+    width: 280px;
+    
   }
   .file{
     padding-bottom: 20px;
+    
   }
   .sponsors-grid {
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
   .associate-sponsor {
     display: flex;
@@ -370,7 +361,8 @@
     width: 120px;
   }
   .filecoin {
-    width:100px;
+    margin-top: -140px;
+    width:120px;
   }
   .onepassword {
     width: 120px;
@@ -383,8 +375,8 @@
   }
   .jetbrains {
     width: 130px;
-  }
-  .tezos{
-    width:120px;
-  }
-}
+  }.tezos{
+   
+    width:180px;
+   
+  }}
