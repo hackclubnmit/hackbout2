@@ -108,6 +108,7 @@
   position: absolute;
   top: 12%;
   right: 19%;
+ 
 }
 
 .hex__back-2 {
@@ -128,7 +129,7 @@ a {
   height: 350px;
   position: absolute;
   top: 15%;
-  right: 19%;
+  right: 20.3%;
   /* align-self: flex-end; */
   /* margin: 80px; */
   /* margin-right: 300px; */
@@ -164,7 +165,8 @@ a {
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(180deg);
+  
+  z-index: 1;
 }
 
 .custom-shape-divider-bottom-1618824420 svg {

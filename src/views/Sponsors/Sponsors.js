@@ -8,6 +8,7 @@ import celo from "../../assets/sponsors/new/Celo Logo Color@2x.png";
 import portis from "../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png";
 import polygon from "../../assets/sponsors/new/Portis_Logo-Colored@2x.png";
 import tezos from "../../assets/sponsors/new/Tezos_Logo-Colored@2x.png";
+import filecoin from "../../assets/sponsors/new/filecoin.svg";
 import StickerMule from "../../assets/sponsors/new/02-sticker-mule-logo-light-bg-stacked.svg";
 import echoAR from "../../assets/sponsors/new/echoAR - Logo 2020 - Dark.png";
 import sashido from "../../assets/sponsors/new/sashido-logo-for sites.png";
@@ -106,7 +107,7 @@ const Sponsors = () => {
               <span className="green">Associate</span> Sponsors
             </h4>
 
-            <div className="tobeannounced">
+            {/* <div className="tobeannounced">
               <h4
                 data-aos="fade-up"
                 data-aos-offset="200"
@@ -116,7 +117,7 @@ const Sponsors = () => {
               >
                 <span> To be Announced...</span>
               </h4>
-            </div>
+            </div> */}
 
             {/*    <div className="sponsors-grid">
             <div className="article">
@@ -171,11 +172,11 @@ const Sponsors = () => {
                   data-aos-duration="1000"
                   data-aos-easing="ease"
                 />
-              </a>
-            </div>
+      </a>
+            </div>*/}
             <div className="article">
               <a
-                href="https://tezos.com/"
+                href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -190,7 +191,28 @@ const Sponsors = () => {
                   data-aos-easing="ease"
                 />
               </a>
+             
+            </div> 
+            <div className="article">
+              <a
+                href="https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={filecoin}
+                  className="sponsors__img tezos"
+                  alt="sponsor tezos"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+             
             </div>
+            {/*
             <div className="article">
               <a
                 href="https://stickermule.com/"
