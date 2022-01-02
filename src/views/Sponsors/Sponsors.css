@@ -60,7 +60,7 @@
 
 .associate-sponsor{
   display: flex;
-   gap: 4rem; 
+   gap: 9rem; 
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-content: space-evenly;
   
@@ -234,7 +234,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 768px) {
   .devfolio {
     width: 300px;
   }
@@ -242,6 +242,7 @@
   .sponsors-heading {
     font-size: 35px;
   }
+
 
   .sponsors__main {
     margin: 10px 0;
@@ -334,10 +335,17 @@
   .devfolio {
     width: 280px;
   }
-
+  .file{
+    padding-bottom: 20px;
+  }
   .sponsors-grid {
     display: flex;
     flex-direction: column;
+  }
+  .associate-sponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
   }
   .sponsors__img {
     width: 250px;
