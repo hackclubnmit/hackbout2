@@ -143,7 +143,7 @@ const Landing = () => {
             },
             retina_detect: true,
           }}
-        />
+        /> 
         <article className="landing__container">
           <div className="landing__sub-1">
             <h1 className="landing__heading">HACKBOUT</h1>
@@ -198,33 +198,35 @@ const Landing = () => {
             </a> */}
           </div>
           <div className="landing__sub-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="hex__back-1"
-              width={347}
-              height={400}
-              filter="drop-shadow(rgba(255,255,255,.5) 0 0 10px)"
-            >
+            
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="hex__back-1"
+                width={347}
+                height={400}
+                filter="drop-shadow(rgba(255,255,255,.5) 0 0 10px)"
+              >
+                  <path
+                    fill="#7da4bcde"
+                    d="M158.483 8.5q14.722-8.5 29.445 0l143.76 83Q346.41 100 346.41 117v166q0 17-14.722 25.5l-143.76 83q-14.723 8.5-29.445 0l-143.76-83Q0 300 0 283V117q0-17 14.722-25.5z"
+                  />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={373}
+                height={430}
+                filter="drop-shadow(rgba(255,255,255,.5) 0 0 10px)"
+                className="hex__back-2"
+              >
                 <path
-                  fill="#7da4bcde"
-                  d="M158.483 8.5q14.722-8.5 29.445 0l143.76 83Q346.41 100 346.41 117v166q0 17-14.722 25.5l-143.76 83q-14.723 8.5-29.445 0l-143.76-83Q0 300 0 283V117q0-17 14.722-25.5z"
+                  fill=" #7da4bc9c"
+                  d="M171.473 8.5q14.722-8.5 29.445 0L357.668 99q14.723 8.5 14.723 25.5v181q0 17-14.723 25.5l-156.75 90.5q-14.723 8.5-29.445 0L14.723 331Q0 322.5 0 305.5v-181q0-17 14.722-25.5z"
                 />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width={373}
-              height={430}
-              filter="drop-shadow(rgba(255,255,255,.5) 0 0 10px)"
-              className="hex__back-2"
-            >
-              <path
-                fill=" #7da4bc9c"
-                d="M171.473 8.5q14.722-8.5 29.445 0L357.668 99q14.723 8.5 14.723 25.5v181q0 17-14.723 25.5l-156.75 90.5q-14.723 8.5-29.445 0L14.723 331Q0 322.5 0 305.5v-181q0-17 14.722-25.5z"
-              />
-            </svg>
-            <div className="landing__sub-2">
-              <img src={HackBout} alt="hackbout-logo" className="landing__logo" />
-            </div>
+              </svg>
+              <div className="landing__sub-2">
+                <img src={HackBout} alt="hackbout-logo" className="landing__logo" />
+              </div>
+          
           </div>
         </article>
      

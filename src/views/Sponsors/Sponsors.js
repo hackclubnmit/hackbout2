@@ -60,7 +60,7 @@ const Sponsors = () => {
             </h3>
             <div className="sponsors-grid">
               <a
-                href="https://devfolio.co/"
+                href="https://twitter.com/devfolio/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="a_devfolio"
@@ -198,7 +198,7 @@ const Sponsors = () => {
             </div>
             <div className="article">
               <a
-                href="https://celo.org/"
+                href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

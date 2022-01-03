@@ -611,12 +611,24 @@ a {
     right: 4.7%;
     transform: scale(0.45);
   }
+   .landing__logo {
+    height: 155px;
+    top: -0.3%;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: -16px;
+  }
+  .landing__sub-2{
+    top:5%
+  }
+
 }
 
 @media (max-width: 375px) {
   .landing {
     min-height: 120vh;
   }
+ 
 
   .hex__back-1 {
     top: -15%;
@@ -653,7 +665,12 @@ a {
   .landing {
     min-height: 145vh;
   }
-
+  
+ 
+  .landing__sub-2{
+  
+    top: 5%;
+  }
   .hex__back-1 {
     top: -15%;
     right: -4.5%;
