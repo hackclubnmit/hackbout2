@@ -169,7 +169,7 @@ const Landing = () => {
               class="apply-button"
               data-hackathon-slug="Hackbout-3"
               data-button-theme="light"
-              style={{ width: "312px", height: "44px", marginTop:"200px" }}
+              style={{ width: "312px", height: "44px" }}
             ></div> 
             <a
               href="https://t.me/hackbout"
