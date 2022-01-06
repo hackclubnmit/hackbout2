@@ -60,7 +60,8 @@ const Sponsors = () => {
             </h3>
             <div className="sponsors-grid">
               <a
-                href="https://twitter.com/devfolio/"
+                // href="https://twitter.com/devfolio/"
+                href="https://devfolio.co/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="a_devfolio"
@@ -78,7 +79,7 @@ const Sponsors = () => {
               </a>
 
               <a
-                href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c"
+                href="https://polygon.technology/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -161,7 +162,7 @@ const Sponsors = () => {
             <div className="associate-sponsor">
               <div className="article">
                 <a
-                  href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff/"
+                  href="https://tezos.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -179,7 +180,7 @@ const Sponsors = () => {
               </div>
               <div className="article">
                 <a
-                  href="https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203/"
+                  href="https://filecoin.io/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -198,7 +199,7 @@ const Sponsors = () => {
             </div>
             <div className="article">
               <a
-                href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0/"
+                href="https://celo.org/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
