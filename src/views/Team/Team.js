@@ -65,9 +65,9 @@ const Team = () => {
            role="Club Lead"
             name="Satvik A" 
             image={Satvik} 
-            linkedin="https://www.linkedin.com/in/rudy7/" 
-            github="https://github.com/rudyt7"
-            twitter=""
+            linkedin="https://www.linkedin.com/in/satvik-a/" 
+            github="https://github.com/Blazeleo"
+            twitter="https://twitter.com/Satvik51236"
             />
           <TeamCard
            name="Anshul Rai"
@@ -95,33 +95,33 @@ const Team = () => {
                role="Tech Lead"
                 name="Onkar Bharatesh"
                  image={Onkar}
-                 linkedin="https://www.linkedin.com/in/kaushal-bhat-8374451a2/" 
-                 github="https://github.com/k4u5h4L"
-                 twitter=""
+                 linkedin="https://www.linkedin.com/in/onkar-bharatesh-a87b6a1a6/" 
+                 github=""
+                 twitter="https://twitter.com/HackClubNmit"
                  />
               <TeamCard 
               role="Tech Team"
                name="Nitish kumar" 
                image={Nitish}
-               github="https://github.com/Blazeleo"
-               linkedin="https://www.linkedin.com/in/satvik-a-aa087b1a2/" 
-               twitter="https://twitter.com/Satvik51236"
+               github="https://github.com/technitish9123"
+               linkedin="https://www.linkedin.com/in/tecnicalnitish/" 
+               twitter="https://twitter.com/HackClubNmit"
                 />
                 <TeamCard 
               role="Tech Team"
                name="Aayush Kumar" 
                image={Ayush}
-               github="https://github.com/Blazeleo"
-               linkedin="https://www.linkedin.com/in/satvik-a-aa087b1a2/" 
-               twitter="https://twitter.com/Satvik51236"
+               github=""
+               linkedin="https://www.linkedin.com/in/aayushkum/" 
+               twitter="https://twitter.com/HackClubNmit"
                 />
                  <TeamCard 
               role="Tech Team"
                name="Kalyan B" 
                image={Kalyan}
                github="https://github.com/Blazeleo"
-               linkedin="https://www.linkedin.com/in/satvik-a-aa087b1a2/" 
-               twitter="https://twitter.com/Satvik51236"
+               linkedin="https://www.linkedin.com/in/kalyan-b/" 
+               twitter="https://twitter.com/HackClubNmit"
                 />
                
           </div>
@@ -151,25 +151,25 @@ const Team = () => {
            role="Marketing Team"
             name="Lasya Sistla" 
             image={Lasya} 
-            github="https://github.com/harshithap2000"
-            linkedin="https://www.linkedin.com/in/harshitha-p22/" 
-            twitter="https://twitter.com/HarshithaP22"
+            github="https://github.com/lasyaistla"
+            linkedin="https://www.linkedin.com/in/lasya-sistla-ba98ba1b4/" 
+            twitter="https://twitter.com/HackClubNmit"
             />
              <TeamCard
            role="Marketing Team"
             name="Viswambhari A" 
             image={Viswambhari} 
-            github="https://github.com/harshithap2000"
-            linkedin="https://www.linkedin.com/in/harshitha-p22/" 
-            twitter="https://twitter.com/HarshithaP22"
+            github="https://github.com/viswambhari"
+            linkedin="https://www.linkedin.com/in/viswambhari-anandan/" 
+            twitter="https://twitter.com/viswambhari1"
             />
             <TeamCard
            role="Marketing Team"
             name="shubham Prasad" 
             image={shubhamprasad} 
-            github="https://github.com/harshithap2000"
-            linkedin="https://www.linkedin.com/in/harshitha-p22/" 
-            twitter="https://twitter.com/HarshithaP22"
+            github=""
+            linkedin="https://www.linkedin.com/in/shubham-prasad-7b486b185/" 
+            twitter="https://twitter.com/HackClubNmit"
             />
           </div>
         </div>
@@ -202,32 +202,32 @@ const Team = () => {
         name="Madan"
          image={Madan}
          github="https://github.com/Piyush-Aneja"
-         linkedin="https://www.linkedin.com/in/piyush-aneja-a29a221a9/" 
-         twitter="https://twitter.com/Piyush__Aneja"
+         linkedin="https://www.linkedin.com/company/hackclubnmit/mycompany/" 
+         twitter="https://twitter.com/HackClubNmit"
          />
          <TeamCard
        role="Operation Team"
         name="Shreya Nanduri"
          image={shreya}
-         github="https://github.com/Piyush-Aneja"
-         linkedin="https://www.linkedin.com/in/piyush-aneja-a29a221a9/" 
-         twitter="https://twitter.com/Piyush__Aneja"
+         github=""
+         linkedin="https://www.linkedin.com/in/shreya-nanduri-a0080820a/" 
+         twitter="https://twitter.com/HackClubNmit"
          />
           <TeamCard
        role="Operation Team"
         name="Kanaad D S"
          image={kannad}
-         github="https://github.com/Piyush-Aneja"
-         linkedin="https://www.linkedin.com/in/piyush-aneja-a29a221a9/" 
-         twitter="https://twitter.com/Piyush__Aneja"
+         github=""
+         linkedin="https://www.linkedin.com/in/kanaad-d-s-1284a81b3/" 
+         twitter="https://twitter.com/HackClubNmit"
          />
           <TeamCard
        role="Operation Team"
         name="Kartik Saini"
          image={kartik}
-         github="https://github.com/Piyush-Aneja"
-         linkedin="https://www.linkedin.com/in/piyush-aneja-a29a221a9/" 
-         twitter="https://twitter.com/Piyush__Aneja"
+         github=""
+         linkedin="https://www.linkedin.com/in/kartik-saini-709933218/" 
+         twitter="https://twitter.com/HackClubNmit"
          />
 
       </div>
@@ -250,15 +250,15 @@ const Team = () => {
         image={Anant} 
         github="https://github.com/anantsaxena117"
         linkedin="https://www.linkedin.com/in/anantsaxena117/" 
-        twitter=""
+        twitter="https://twitter.com/HackClubNmit"
         />
       <TeamCard 
       role="Sponsorship Team" 
       name="Saishwar Anand" 
       image={saishwaranand} 
-      github="https://github.com/madankris"
-      linkedin="" 
-      twitter=""
+      github="https://github.com/saianand32"
+      linkedin="https://www.linkedin.com/in/saishwar-anand-b28673204/" 
+      twitter="https://twitter.com/HackClubNmit"
       />
       </div>
      </div>
@@ -278,17 +278,17 @@ const Team = () => {
        role="Design Lead" 
        name="Anirudhha Sil"
         image={Ani} 
-        github=""
+        github="https://www.linkedin.com/in/aniruddha-sil-251555196/"
         linkedin="https://www.linkedin.com/in/sintancos/" 
-        twitter=""
+        twitter="https://twitter.com/HackClubNmit"
         />
       <TeamCard
        role="Design Team" 
        name="Utsav Sinha" 
        image={Utsav}
-       github="https://github.com/lawlesx"
-        linkedin="https://www.linkedin.com/in/aniruddha-sil-251555196/" 
-        twitter=""
+       github="https://github.com/utsavs22"
+        linkedin="https://www.linkedin.com/in/utsav-sinha-704a90216/" 
+        twitter="https://twitter.com/HackClubNmit"
        />
    
    
@@ -296,9 +296,9 @@ const Team = () => {
        role="Design Team" 
        name="Nancy Biyahut" 
        image={Nancy} 
-       github="https://github.com/aditya-vijaykumar"
-       linkedin="https://www.linkedin.com/in/aditya-vijaykumar/" 
-       twitter=""
+       github=""
+       linkedin="https://www.linkedin.com/company/hackclubnmit/mycompany/" 
+       twitter="https://twitter.com/HackClubNmit"
        />
       {/* Not in club any more
        <TeamCard
