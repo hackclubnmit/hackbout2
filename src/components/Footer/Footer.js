@@ -87,6 +87,7 @@ const Footer = () => {
             <a
               // href="https://drive.google.com/file/d/1P1LMcvudLiWL0nBSIvKOLU7i3EKAcKA4/view?usp=sharing"
               href="https://drive.google.com/file/d/1zj9wgSUgiEkOUcSbjf_T7BZlhNTbmypV/view?usp=sharing"
+              
              
               target="_blank"
               rel="noreferrer noopener "

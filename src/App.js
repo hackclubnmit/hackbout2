@@ -8,6 +8,7 @@ import About from './views/About/About';
 import Tracks from './views/Tracks/Tracks';
 import Mentors from './views/Mentors/Mentors';
 import Team from './views/Team/Team';
+import ScrollToTop from './views/Team/ScrollToTop';
 import Prizes from './views/Prizes/Prizes';
 import Sponsors from './views/Sponsors/Sponsors';
 import Faqs from './views/Faqs/Faqs';
@@ -44,6 +45,7 @@ function App() {
   const teamJsx = () => {
     return (
     <Fragment>
+      <ScrollToTop/>
       <Navbar/>
       <Team />
       <Founder/>
