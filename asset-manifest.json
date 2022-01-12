@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fec97147.chunk.css",
-    "main.js": "/static/js/main.718c0dd4.chunk.js",
-    "main.js.map": "/static/js/main.718c0dd4.chunk.js.map",
+    "main.css": "/static/css/main.82099164.chunk.css",
+    "main.js": "/static/js/main.ccbdbb33.chunk.js",
+    "main.js.map": "/static/js/main.ccbdbb33.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e1adfb5.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e1adfb5.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.236e8c64.chunk.js": "/static/js/2.236e8c64.chunk.js",
-    "static/js/2.236e8c64.chunk.js.map": "/static/js/2.236e8c64.chunk.js.map",
+    "static/js/2.48ba1a87.chunk.js": "/static/js/2.48ba1a87.chunk.js",
+    "static/js/2.48ba1a87.chunk.js.map": "/static/js/2.48ba1a87.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.fec97147.chunk.css.map": "/static/css/main.fec97147.chunk.css.map",
-    "static/js/2.236e8c64.chunk.js.LICENSE.txt": "/static/js/2.236e8c64.chunk.js.LICENSE.txt",
+    "static/css/main.82099164.chunk.css.map": "/static/css/main.82099164.chunk.css.map",
+    "static/js/2.48ba1a87.chunk.js.LICENSE.txt": "/static/js/2.48ba1a87.chunk.js.LICENSE.txt",
     "static/media/02-sticker-mule-logo-light-bg-stacked.04b92667.svg": "/static/media/02-sticker-mule-logo-light-bg-stacked.04b92667.svg",
     "static/media/1password-icon.32ca56a2.svg": "/static/media/1password-icon.32ca56a2.svg",
     "static/media/AVI.31c86258.jpg": "/static/media/AVI.31c86258.jpg",
@@ -27,7 +27,7 @@
     "static/media/card.css": "/static/media/VR.1464988d.jpg",
     "static/media/Celo Logo Color@2x.cacc574d.png": "/static/media/Celo Logo Color@2x.cacc574d.png",
     "static/media/Dheemanth.81fe6b29.jpg": "/static/media/Dheemanth.81fe6b29.jpg",
-    "static/media/HackBout.c7b0103a.svg": "/static/media/HackBout.c7b0103a.svg",
+    "static/media/HackBout.7f6c304e.svg": "/static/media/HackBout.7f6c304e.svg",
     "static/media/Harshitha.9570f38a.jpeg": "/static/media/Harshitha.9570f38a.jpeg",
     "static/media/Jenil.2d237705.jpeg": "/static/media/Jenil.2d237705.jpeg",
     "static/media/Madan.7933066e.jpeg": "/static/media/Madan.7933066e.jpeg",
@@ -55,7 +55,7 @@
     "static/media/deepsource.8987263b.svg": "/static/media/deepsource.8987263b.svg",
     "static/media/echoAR - Logo 2020 - Dark.aa923df9.png": "/static/media/echoAR - Logo 2020 - Dark.aa923df9.png",
     "static/media/egghead.5ecdcfdf.PNG": "/static/media/egghead.5ecdcfdf.PNG",
-    "static/media/filecoin.027bae25.svg": "/static/media/filecoin.027bae25.svg",
+    "static/media/filecoin.66a8cdf5.svg": "/static/media/filecoin.66a8cdf5.svg",
     "static/media/first.1346eef4.png": "/static/media/first.1346eef4.png",
     "static/media/galicia.cd410c87.jfif": "/static/media/galicia.cd410c87.jfif",
     "static/media/gfi-logo-white.3af5c15f.svg": "/static/media/gfi-logo-white.3af5c15f.svg",
@@ -102,8 +102,8 @@
   "entrypoints": [
     "static/js/runtime-main.0e1adfb5.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.236e8c64.chunk.js",
-    "static/css/main.fec97147.chunk.css",
-    "static/js/main.718c0dd4.chunk.js"
+    "static/js/2.48ba1a87.chunk.js",
+    "static/css/main.82099164.chunk.css",
+    "static/js/main.ccbdbb33.chunk.js"
   ]
 }
