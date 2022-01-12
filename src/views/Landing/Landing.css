@@ -16,6 +16,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  
 }
 
 .landing__container {
@@ -271,7 +272,7 @@ a {
 
 @media (max-width: 1400px) {
   .devfolio-button-iframe {
-    top: 340px !important;
+    top: 380px !important;
   }
 
   .btn_telegram {
@@ -281,17 +282,26 @@ a {
 
 @media (max-width: 1200px) {
   .devfolio-button-iframe {
-    top: 310px !important;
+    top: 330px !important;
   }
 
   .btn_telegram {
-    top: 95px;
+    top: 85px;
   }
 }
 
 @media (max-width: 1050px) {
   .devfolio-button-iframe {
-    top: 260px !important;
+    top: 300px !important;
+  }
+
+  .btn_telegram {
+    top: 65px;
+  }
+}
+@media (max-width: 900px) {
+  .devfolio-button-iframe {
+    top: 400px !important;
   }
 
   .btn_telegram {
@@ -301,7 +311,7 @@ a {
 
 @media (max-width: 800px) {
   .devfolio-button-iframe {
-    top: 370px !important;
+    top: 400px !important;
   }
 
   .btn_telegram {
@@ -322,6 +332,15 @@ a {
 @media (max-width: 500px) {
   .devfolio-button-iframe {
     top: 435px !important;
+  }
+
+  .btn_telegram {
+    top: 115px;
+  }
+}
+@media (max-width: 450px) {
+  .devfolio-button-iframe {
+    top: 490px !important;
   }
 
   .btn_telegram {
@@ -414,8 +433,8 @@ a {
 
   .landing__logo {
     height: 250px;
-    top: 16%;
-    right: 19.2%;
+    top: 15%;
+    right: 20.2%;
   }
 }
 
@@ -429,13 +448,13 @@ a {
   }
 
   .hex__back-1 {
-    top: -2.4%;
+    top: 8.4%;
     right: 10.1%;
     transform: scale(0.45);
   }
 
   .hex__back-2 {
-    top: -4.6%;
+    top: 6.6%;
     right: 8.8%;
     transform: scale(0.47);
   }
@@ -446,8 +465,8 @@ a {
 
   .landing__logo {
     height: 150px;
-    top: 16%;
-    right: 19.2%;
+    top: 24.5%;
+    right: 20.1%;
   }
 
   .landing__container {
@@ -458,24 +477,24 @@ a {
 @media (max-width: 1050px) {
   .landing__logo {
     height: 150px;
-    top: 16%;
-    right: 19.8%;
+    top: 24.4%;
+    right: 20.4%;
   }
 }
 
 @media (max-width: 1000px) {
   .landing__logo {
     height: 150px;
-    top: 16%;
-    right: 20.5%;
+    top: 24%;
+    right: 21%;
   }
 }
 
 @media (max-width: 950px) {
   .landing__logo {
     height: 150px;
-    top: 16%;
-    right: 21%;
+    top: 24.5%;
+    right: 21.5%;
   }
 }
 
@@ -508,7 +527,7 @@ a {
   .landing__logo {
     height: 150px;
     top: 1.5%;
-    left: 50%;
+    left: 53.4%;
     transform: translateX(-50%);
   }
 
@@ -530,6 +549,63 @@ a {
   }
 }
 
+@media (max-width: 845px) {
+ 
+  .landing__logo {
+    height: 150px;
+    top: 1.5%;
+    left: 51.7%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 770px) {
+ 
+  .landing__logo {
+    height: 150px;
+    top: 1.5%;
+    left: 49.7%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 726px) {
+ 
+  .landing__logo {
+    height: 150px;
+    top: 1.5%;
+    left: 49.0%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 706px) {
+ 
+  .landing__logo {
+    height: 150px;
+    top: 1.5%;
+    left: 48.0%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 668px) {
+ 
+  .landing__logo {
+    height: 150px;
+    top: 1.5%;
+    left: 46.0%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 625px) {
+ 
+  .landing__logo {
+    height: 150px;
+    top: 1.5%;
+    left: 43.0%;
+    transform: translateX(-50%);
+  }
+}
+
+
 @media (max-width: 540px) {
   .landing {
     min-height: 110vh;
@@ -545,6 +621,31 @@ a {
     top: -25.5%;
     right: 15%;
     transform: scale(0.45);
+  }
+  .landing__logo {
+    height: 150px;
+    top: 1.5%;
+    left: 50.7%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 528px) {
+ 
+  .landing__logo {
+    height: 150px;
+    top: 1.5%;
+    left: 49.7%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 497px) {
+ 
+  .landing__logo {
+    height: 150px;
+    top: 1.5%;
+    left: 46.40%;
+    transform: translateX(-50%);
   }
 }
 
@@ -583,12 +684,65 @@ a {
     top: -0.3%;
     margin: 0;
     margin-top: 40px;
+    left: 54.40%;
   }
 
   .landing__container {
     top: 20px;
   }
 }
+@media (max-width: 450px) {
+  .hex__back-1 {
+    top: -4%;
+    right: 7.5%;
+    transform: scale(0.45);
+  }
+
+  .hex__back-2 {
+    top: -7%;
+    right: 4.7%;
+    transform: scale(0.45);
+  }
+ 
+  .landing__logo {
+    top: 10.3%;
+    left: 54.40%;
+    
+  }
+}
+@media (max-width: 408px) {
+  .landing {
+    min-height: 110vh;
+  }
+
+  .landing__heading {
+    font-size: 50px;
+    padding: 40px 0;
+  }
+
+   .hex__back-1 {
+    top: -4%;
+    right: 1.5%;
+    transform: scale(0.45);
+  }
+
+  .hex__back-2 {
+    top: -7%;
+    right:-1%;
+    transform: scale(0.45);
+  }
+ 
+  .landing__logo {
+    top: 10.3%;
+    left: 54.40%;
+    
+  }
+  .landing__sub-2{
+    top:5%
+  }
+
+}
+
 
 @media (max-width: 380px) {
   .landing {
@@ -600,23 +754,22 @@ a {
     padding: 40px 0;
   }
 
-  .hex__back-1 {
-    top: -15%;
-    right: 7.5%;
+   .hex__back-1 {
+    top: -4%;
+    right: -2%;
     transform: scale(0.45);
   }
 
   .hex__back-2 {
-    top: -17.5%;
-    right: 4.7%;
+    top: -7%;
+    right: -5%;
     transform: scale(0.45);
   }
-   .landing__logo {
-    height: 155px;
-    top: -0.3%;
-    margin: 0;
-    margin-top: 40px;
-    margin-left: -16px;
+ 
+  .landing__logo {
+    top: 10.3%;
+    left: 54.40%;
+    
   }
   .landing__sub-2{
     top:5%
@@ -631,15 +784,21 @@ a {
  
 
   .hex__back-1 {
-    top: -15%;
-    right: 3.5%;
+    top: -4%;
+    right: -2%;
     transform: scale(0.45);
   }
 
   .hex__back-2 {
-    top: -17.5%;
-    right: -0.3%;
+    top: -7%;
+    right: -5%;
     transform: scale(0.45);
+  }
+ 
+  .landing__logo {
+    top: 10.3%;
+    left: 54.40%;
+    
   }
 }
 
@@ -649,15 +808,41 @@ a {
   }
 
   .hex__back-1 {
-    top: -15%;
-    right: 1.5%;
+    top: -4%;
+    right: -2%;
     transform: scale(0.45);
   }
 
   .hex__back-2 {
-    top: -17.5%;
-    right: -2.3%;
+    top: -7%;
+    right: -5%;
     transform: scale(0.45);
+  }
+ 
+  .landing__logo {
+    top: 10.3%;
+    left: 54.40%;
+    
+  }
+}
+@media (max-width: 349px) {
+ 
+  .hex__back-1 {
+    top: -4%;
+    right: -2.5%;
+    transform: scale(0.45);
+  }
+
+  .hex__back-2 {
+    top: -7%;
+    right: -6.7%;
+    transform: scale(0.45);
+  }
+ 
+  .landing__logo {
+    top: 10.3%;
+    left: 50.40%;
+    
   }
 }
 
@@ -672,14 +857,20 @@ a {
     top: 5%;
   }
   .hex__back-1 {
-    top: -15%;
-    right: -4.5%;
+    top: -4%;
+    right: -7.5%;
     transform: scale(0.45);
   }
 
   .hex__back-2 {
-    top: -17.5%;
-    right: -8.3%;
+    top: -7%;
+    right: -12%;
     transform: scale(0.45);
+  }
+ 
+  .landing__logo {
+    top: 10.3%;
+    left: 54.40%;
+    
   }
 }
