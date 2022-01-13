@@ -80,6 +80,31 @@
   background-repeat: no-repeat;
 }
 
+.img1:hover{
+  transition-property: filter;
+  filter:saturate(165%);
+}
+.img2:hover{
+  transition-property: filter;
+  filter:saturate(250%);
+}
+.img3:hover{
+  transition-property: filter;
+  filter:saturate(210%);
+}
+.img4:hover{
+  transition-property: filter;
+  filter:saturate(350%);
+}
+.img5:hover{
+  transition-property: filter;
+  filter:saturate(250%);
+}
+.img6:hover{
+  transition-property: filter;
+  filter:saturate(280%);
+}
+
 @media (max-width: 1200px) {
   .backdrop {
     width: 80%;
