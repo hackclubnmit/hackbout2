@@ -167,7 +167,7 @@ const Team = () => {
            role="Marketing Team"
             name="shubham Prasad" 
             image={shubhamprasad} 
-            github=""
+            github="https://github.com/SAMURAii-7"
             linkedin="https://www.linkedin.com/in/shubham-prasad-7b486b185/" 
             twitter="https://twitter.com/HackClubNmit"
             />
