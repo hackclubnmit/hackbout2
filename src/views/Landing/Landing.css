@@ -500,7 +500,7 @@ a {
 
 @media (max-width: 900px) {
   .landing {
-    height: 80vh;
+    height: 110vh;
   }
 
   .landing__container {
@@ -550,6 +550,9 @@ a {
 }
 
 @media (max-width: 845px) {
+  .landing{
+    height: 110vh;
+  }
  
   .landing__logo {
     height: 150px;
@@ -560,7 +563,10 @@ a {
 }
 
 @media (max-width: 770px) {
- 
+
+  .landing{
+    height: 110vh;
+  }
   .landing__logo {
     height: 150px;
     top: 1.5%;
@@ -569,6 +575,9 @@ a {
   }
 }
 @media (max-width: 726px) {
+  .landing{
+    height: 110vh;
+  }
  
   .landing__logo {
     height: 150px;
@@ -585,17 +594,27 @@ a {
     left: 48.0%;
     transform: translateX(-50%);
   }
+  .landing{
+    height: 110vh;
+  }
 }
 @media (max-width: 668px) {
- 
+
+  .landing{
+    height: 110vh;
+  }
   .landing__logo {
     height: 150px;
     top: 1.5%;
     left: 46.0%;
     transform: translateX(-50%);
   }
+  
 }
 @media (max-width: 625px) {
+  .landing{
+    height: 110vh;
+  }
  
   .landing__logo {
     height: 150px;
@@ -631,6 +650,10 @@ a {
 }
 
 @media (max-width: 528px) {
+
+  .landing{
+    height: 100vh;
+  }
  
   .landing__logo {
     height: 150px;

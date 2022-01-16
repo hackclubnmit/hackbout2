@@ -232,7 +232,10 @@
   }
 
   .devfolio {
-    width: 500px;
+    width: 380px;
+  }
+  .polygon {
+    width: 300px;
   }
   .deepsource {
     width: 400px;
@@ -336,6 +339,18 @@
 
   .testmail {
     width: 300px;
+  }
+}
+
+@media (max-width:650px) {
+  .sponsors-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .associate-sponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
   }
 }
 
