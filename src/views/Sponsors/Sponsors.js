@@ -10,10 +10,11 @@ import polygon from "../../assets/sponsors/new/Portis_Logo-Colored@2x.png";
 import tezos from "../../assets/sponsors/new/Tezos_Logo-Colored@2x.png";
 import filecoin from "../../assets/sponsors/new/filecoin.svg";
 import StickerMule from "../../assets/sponsors/new/02-sticker-mule-logo-light-bg-stacked.svg";
-import echoAR from "../../assets/sponsors/new/echoAR - Logo 2020 - Dark.png";
+import echo3d from "../../assets/sponsors/new/echo3dhackbout3.png";
 import sashido from "../../assets/sponsors/new/sashido-logo-for sites.png";
+import rosenfeld from "../../assets/sponsors/new/Rosenfeld_logohackbout3.png";
 import framer from "../../assets/sponsors/new/black-horizontal.svg";
-import interviewCake from "../../assets/sponsors/new/cake_logo_blue_gray.svg";
+import interviewCake from "../../assets/sponsors/new/interviewcakehackbout3.svg";
 import testMail from "../../assets/sponsors/new/testmail.jpg";
 import convise from "../../assets/sponsors/new/coinvise.png";
 import onePass from "../../assets/sponsors/new/1password-icon.svg";
@@ -214,6 +215,96 @@ const Sponsors = () => {
                   data-aos-easing="ease"
                 />
               </a>
+            </div>
+
+
+            <div className="sponsors__sub">
+            <h4
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              data-aos-easing="ease"
+            >
+              <span className="green">Silver</span> Sponsors
+            </h4>
+            </div>
+
+            <div className="associate-sponsor">
+              <div className="article">
+                <a
+                  href="https://www.sashido.io/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={sashido}
+                    className="sponsors__img tezos"
+                    alt="sponsor Shashido"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+              <div className="article">
+                <a
+                  href="https://rosenfeldmedia.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={rosenfeld}
+                    className="sponsors__img filecoin"
+                    alt="sponsor tezos"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+
+              <div className="article">
+                <a
+                  href="https://www.interviewcake.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={interviewCake}
+                    className="sponsors__img filecoin"
+                    alt="sponsor tezos"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+
+              <div className="article">
+                <a
+                  href="https://www.echo3d.co/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={echo3d}
+                    className="sponsors__img filecoin"
+                    alt="sponsor tezos"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
             </div>
             {/*
             <div className="article">
