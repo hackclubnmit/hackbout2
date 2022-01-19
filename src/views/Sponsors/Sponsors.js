@@ -233,12 +233,12 @@ const Sponsors = () => {
             <div className="associate-sponsor">
               <div className="article">
                 <a
-                  href="https://www.sashido.io/en/"
+                  href="https://rosenfeldmedia.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={sashido}
+                    src={rosenfeld}
                     className="sponsors__img tezos"
                     alt="sponsor Shashido"
                     data-aos="zoom-in"
@@ -252,12 +252,12 @@ const Sponsors = () => {
 
               <div className="article">
                 <a
-                  href="https://rosenfeldmedia.com/"
+                  href="https://www.sashido.io/en/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={rosenfeld}
+                    src={sashido}
                     className="sponsors__img filecoin"
                     alt="sponsor tezos"
                     data-aos="zoom-in"
