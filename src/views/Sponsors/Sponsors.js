@@ -5,6 +5,8 @@ import "./Sponsors.css";
 
 import devfolio from "../../assets/sponsors/new/Devfolio_Logo-Colored@2x.png";
 import celo from "../../assets/sponsors/new/Celo Logo Color@2x.png";
+import leadinglearners from "../../assets/sponsors/new/leadinglearners.png";
+import balsamiq from "../../assets/sponsors/new/balsamiq.png";
 import portis from "../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png";
 import polygon from "../../assets/sponsors/new/Portis_Logo-Colored@2x.png";
 import tezos from "../../assets/sponsors/new/Tezos_Logo-Colored@2x.png";
@@ -309,6 +311,46 @@ const Sponsors = () => {
                 </a>
               </div>
               </div>
+
+              <div className="associate-sponsor">
+              <div className="article">
+              <a
+                href="https://linktr.ee/leadinglearners"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={leadinglearners}
+                  className="sponsors__img celo"
+                  alt="sponsor celo"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+              <div className="article">
+              <a
+                href="https://balsamiq.com/wireframes/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={balsamiq}
+                  className="sponsors__img celo"
+                  alt="sponsor celo"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                />
+              </a>
+            </div>
+
+            </div>
             {/*
             <div className="article">
               <a
