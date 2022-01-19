@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a3668903.chunk.css",
-    "main.js": "/static/js/main.78227380.chunk.js",
-    "main.js.map": "/static/js/main.78227380.chunk.js.map",
+    "main.js": "/static/js/main.de5d2899.chunk.js",
+    "main.js.map": "/static/js/main.de5d2899.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e1adfb5.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e1adfb5.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
@@ -44,6 +44,7 @@
     "static/media/ani.0adfa27a.png": "/static/media/ani.0adfa27a.png",
     "static/media/avinash.b0f01a26.jpeg": "/static/media/avinash.b0f01a26.jpeg",
     "static/media/ayush.cff04327.jpg": "/static/media/ayush.cff04327.jpg",
+    "static/media/balsamiq.3686b299.png": "/static/media/balsamiq.3686b299.png",
     "static/media/bhatia_anush.e23ec201.png": "/static/media/bhatia_anush.e23ec201.png",
     "static/media/black-horizontal.c01be520.svg": "/static/media/black-horizontal.c01be520.svg",
     "static/media/cake_logo_blue_gray.2fa0fe0a.svg": "/static/media/cake_logo_blue_gray.2fa0fe0a.svg",
@@ -69,6 +70,7 @@
     "static/media/kartik.03beca4c.jpg": "/static/media/kartik.03beca4c.jpg",
     "static/media/kaushal.441f339f.jpeg": "/static/media/kaushal.441f339f.jpeg",
     "static/media/lasya.873d377e.jpg": "/static/media/lasya.873d377e.jpg",
+    "static/media/leadinglearners.58e8a9e8.png": "/static/media/leadinglearners.58e8a9e8.png",
     "static/media/manav.7b91bafb.jpg": "/static/media/manav.7b91bafb.jpg",
     "static/media/nancy.a19950ce.jpg": "/static/media/nancy.a19950ce.jpg",
     "static/media/nitish.59980f95.jpg": "/static/media/nitish.59980f95.jpg",
@@ -106,6 +108,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.4d69e095.chunk.js",
     "static/css/main.a3668903.chunk.css",
-    "static/js/main.78227380.chunk.js"
+    "static/js/main.de5d2899.chunk.js"
   ]
 }
