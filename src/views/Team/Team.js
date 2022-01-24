@@ -32,7 +32,7 @@ import shubhamprasad from "../../assets/team/shubhamprasad.jpg"
 import shreya from "../../assets/team/shreya.jpg"
 import kannad from "../../assets/team/kanaad.jpg"
 import kartik from "../../assets/team/kartik.jpg"
-import saishwaranand from "../../assets/team/saishwaranand.jpg"
+import saishwaranand from "../../assets/team/saishwar.jpg"
 
 
 const Team = () => {
