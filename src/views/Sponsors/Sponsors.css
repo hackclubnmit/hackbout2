@@ -60,7 +60,7 @@
 
 .associate-sponsor{
   display: flex;
-   gap: 9rem; 
+   gap: 1.5rem; 
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-content: space-evenly;
   
@@ -127,6 +127,20 @@
 .echo3d{
   width: 300px;
 }
+.interviewcake{
+  width:300px;
+}
+.balsamiq{
+  width:170px;
+}
+.leadinglearners{
+  width:280px;
+}
+.streamyard{
+  width:280px;
+}
+
+
 
 
 

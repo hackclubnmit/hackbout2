@@ -12,6 +12,7 @@ import portis from "../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png";
 import polygon from "../../assets/sponsors/new/Portis_Logo-Colored@2x.png";
 import tezos from "../../assets/sponsors/new/Tezos_Logo-Colored@2x.png";
 import filecoin from "../../assets/sponsors/new/filecoin.svg";
+import streamyard from "../../assets/sponsors/new/streamyard.svg";
 import StickerMule from "../../assets/sponsors/new/02-sticker-mule-logo-light-bg-stacked.svg";
 import echo3d from "../../assets/sponsors/new/echo3dhackbout3.png";
 import sashido from "../../assets/sponsors/new/sashido-logo-for sites.png";
@@ -302,14 +303,13 @@ const Sponsors = () => {
                 >
                   <img
                     src={interviewCake}
-                    className="sponsors__img filecoin"
+                    className="sponsors__img interviewcake"
                     alt="sponsor tezos"
                     data-aos="zoom-in"
                     data-aos-offset="200"
                     data-aos-delay="0"
                     data-aos-duration="1000"
                     data-aos-easing="ease"
-                    style={{width:"350px"}}
                   />
                 </a>
               </div>
@@ -331,7 +331,7 @@ const Sponsors = () => {
                   data-aos-delay="0"
                   data-aos-duration="1000"
                   data-aos-easing="ease"
-                  style={{width:"110px"}}
+                  style={{width:"80px"}}
                 />
               </a>
             </div>
@@ -344,14 +344,13 @@ const Sponsors = () => {
               >
                 <img
                   src={balsamiq}
-                  className="sponsors__img celo"
+                  className="sponsors__img balsamiq"
                   alt="sponsor celo"
                   data-aos="zoom-in"
                   data-aos-offset="200"
                   data-aos-delay="0"
                   data-aos-duration="1000"
                   data-aos-easing="ease"
-                  style={{width:"220px"}}
                 />
               </a>
             </div>
@@ -367,14 +366,34 @@ const Sponsors = () => {
               >
                 <img
                   src={leadinglearners}
-                  className="sponsors__img celo"
+                  className="sponsors__img leadinglearners"
                   alt="sponsor celo"
                   data-aos="zoom-in"
                   data-aos-offset="200"
                   data-aos-delay="0"
                   data-aos-duration="1000"
                   data-aos-easing="ease"
-                  style={{width:"400px"}}
+                  // style={{width:"400px"}}
+
+                />
+              </a>
+            </div>
+              <div className="article">
+              <a
+                href="https://streamyard.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={streamyard}
+                  className="sponsors__img streamyard"
+                  alt="sponsor celo"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                  // style={{width:"400px"}}
 
                 />
               </a>
