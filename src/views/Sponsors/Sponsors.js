@@ -6,6 +6,7 @@ import "./Sponsors.css";
 import devfolio from "../../assets/sponsors/new/Devfolio_Logo-Colored@2x.png";
 import celo from "../../assets/sponsors/new/Celo Logo Color@2x.png";
 import leadinglearners from "../../assets/sponsors/new/leadinglearners.png";
+import voiceflow from "../../assets/sponsors/new/voiceflow.png";
 import givemycertificate from "../../assets/sponsors/new/givemycertificate.png";
 import balsamiq from "../../assets/sponsors/new/balsamiq.png";
 import portis from "../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png";
@@ -276,26 +277,8 @@ const Sponsors = () => {
             </div>
 
             <div className="associate-sponsor" >
+
             <div className="article">
-                <a
-                  href="https://www.echo3d.co/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={echo3d}
-                    className="sponsors__img filecoin"
-                    alt="sponsor tezos"
-                    data-aos="zoom-in"
-                    data-aos-offset="200"
-                    data-aos-delay="0"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease"
-                  />
-                </a>
-              </div>
-              
-              <div className="article">
                 <a
                   href="https://www.interviewcake.com/"
                   target="_blank"
@@ -313,6 +296,29 @@ const Sponsors = () => {
                   />
                 </a>
               </div>
+            
+              <div className="article">
+              <a
+                href="https://www.voiceflow.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={voiceflow}
+                  className="sponsors__img voiceflow"
+                  alt="sponsor celo"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                  // style={{width:"224px"}}
+
+                />
+              </a>
+            </div>
+              
+             
               </div>
 
               <div className="associate-sponsor">
@@ -398,6 +404,28 @@ const Sponsors = () => {
                 />
               </a>
             </div>
+              
+            </div>
+              <div className="associate-sponsor">
+              
+              <div className="article">
+                <a
+                  href="https://www.echo3d.co/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={echo3d}
+                    className="sponsors__img filecoin"
+                    alt="sponsor tezos"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
               
             </div>
             {/*
