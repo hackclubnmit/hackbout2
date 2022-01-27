@@ -14,6 +14,7 @@ import portis from "../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png";
 import polygon from "../../assets/sponsors/new/Portis_Logo-Colored@2x.png";
 import tezos from "../../assets/sponsors/new/Tezos_Logo-Colored@2x.png";
 import filecoin from "../../assets/sponsors/new/filecoin.svg";
+import axure from "../../assets/sponsors/new/axure.svg";
 import streamyard from "../../assets/sponsors/new/streamyard.svg";
 import taskade from "../../assets/sponsors/new/taskade.svg";
 import wolfram from "../../assets/sponsors/new/wolfram.png";
@@ -527,6 +528,27 @@ const Sponsors = () => {
               >
                 <img
                   src={streamyard}
+                  className="sponsors__img filecoin"
+                  alt="sponsor celo"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                  // style={{width:"400px"}}
+
+                />
+              </a>
+            </div>
+
+            <div className="article">
+              <a
+                href="https://www.axure.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={axure}
                   className="sponsors__img filecoin"
                   alt="sponsor celo"
                   data-aos="zoom-in"
