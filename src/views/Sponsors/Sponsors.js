@@ -8,12 +8,15 @@ import celo from "../../assets/sponsors/new/Celo Logo Color@2x.png";
 import leadinglearners from "../../assets/sponsors/new/leadinglearners.png";
 import voiceflow from "../../assets/sponsors/new/voiceflow.png";
 import givemycertificate from "../../assets/sponsors/new/givemycertificate.png";
+import interviewbuddy from "../../assets/sponsors/new/interviewbuddy.png";
 import balsamiq from "../../assets/sponsors/new/balsamiq.png";
 import portis from "../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png";
 import polygon from "../../assets/sponsors/new/Portis_Logo-Colored@2x.png";
 import tezos from "../../assets/sponsors/new/Tezos_Logo-Colored@2x.png";
 import filecoin from "../../assets/sponsors/new/filecoin.svg";
 import streamyard from "../../assets/sponsors/new/streamyard.svg";
+import taskade from "../../assets/sponsors/new/taskade.svg";
+import wolfram from "../../assets/sponsors/new/wolfram.png";
 import StickerMule from "../../assets/sponsors/new/02-sticker-mule-logo-light-bg-stacked.svg";
 import echo3d from "../../assets/sponsors/new/echo3dhackbout3.png";
 import sashido from "../../assets/sponsors/new/sashido-logo-for sites.png";
@@ -223,6 +226,99 @@ const Sponsors = () => {
               </a>
             </div>
 
+            <div className="sponsors__sub">
+            <h4
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              data-aos-easing="ease"
+            >
+              <span className="green">Gold</span> Sponsors
+            </h4>
+            </div>
+
+            <div className="associate-sponsor">
+            <div className="article">
+                <a
+                  href="https://www.sashido.io/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={wolfram}
+                    className="sponsors__img filecoin"
+                    alt="sponsor tezos"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+             
+
+              <div className="article">
+                <a
+                  href="https://www.sashido.io/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={taskade}
+                    className="sponsors__img filecoin"
+                    alt="sponsor tezos"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+              <div className="article">
+                <a
+                  href="https://www.clerky.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={clerky}
+                    className="sponsors__img tezos"
+                    alt="sponsor Shashido"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+              
+            </div>
+
+            {/* <div className="associate-sponsor">
+            <div className="article">
+                <a
+                  href="https://www.clerky.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={clerky}
+                    className="sponsors__img tezos"
+                    alt="sponsor Shashido"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+            </div> */}
+
 
             <div className="sponsors__sub">
             <h4
@@ -245,7 +341,7 @@ const Sponsors = () => {
                 >
                   <img
                     src={rosenfeld}
-                    className="sponsors__img tezos"
+                    className="sponsors__img filecoin"
                     alt="sponsor Shashido"
                     data-aos="zoom-in"
                     data-aos-offset="200"
@@ -274,11 +370,7 @@ const Sponsors = () => {
                   />
                 </a>
               </div>
-            </div>
-
-            <div className="associate-sponsor" >
-
-            <div className="article">
+              <div className="article">
                 <a
                   href="https://www.interviewcake.com/"
                   target="_blank"
@@ -286,7 +378,7 @@ const Sponsors = () => {
                 >
                   <img
                     src={interviewCake}
-                    className="sponsors__img interviewcake"
+                    className="sponsors__img filecoin"
                     alt="sponsor tezos"
                     data-aos="zoom-in"
                     data-aos-offset="200"
@@ -296,6 +388,9 @@ const Sponsors = () => {
                   />
                 </a>
               </div>
+            </div>
+
+            <div className="associate-sponsor" >
             
               <div className="article">
               <a
@@ -305,7 +400,7 @@ const Sponsors = () => {
               >
                 <img
                   src={voiceflow}
-                  className="sponsors__img voiceflow"
+                  className="sponsors__img filecoin"
                   alt="sponsor celo"
                   data-aos="zoom-in"
                   data-aos-offset="200"
@@ -317,12 +412,8 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-              
-             
-              </div>
 
-              <div className="associate-sponsor">
-              <div className="article">
+            <div className="article">
               <a
                 href="https://givemycertificate.com/"
                 target="_blank"
@@ -330,7 +421,7 @@ const Sponsors = () => {
               >
                 <img
                   src={givemycertificate}
-                  className="sponsors__img givemycertificate"
+                  className="sponsors__img filecoin"
                   alt="sponsor celo"
                   data-aos="zoom-in"
                   data-aos-offset="200"
@@ -341,8 +432,8 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-             
-              <div className="article">
+
+            <div className="article">
               <a
                 href="https://balsamiq.com/wireframes/"
                 target="_blank"
@@ -350,7 +441,7 @@ const Sponsors = () => {
               >
                 <img
                   src={balsamiq}
-                  className="sponsors__img balsamiq"
+                  className="sponsors__img filecoin"
                   alt="sponsor celo"
                   data-aos="zoom-in"
                   data-aos-offset="200"
@@ -372,7 +463,7 @@ const Sponsors = () => {
               >
                 <img
                   src={leadinglearners}
-                  className="sponsors__img leadinglearners"
+                  className="sponsors__img filecoin"
                   alt="sponsor celo"
                   data-aos="zoom-in"
                   data-aos-offset="200"
@@ -384,15 +475,16 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-              <div className="article">
+
+            <div className="article">
               <a
                 href="https://streamyard.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={streamyard}
-                  className="sponsors__img streamyard"
+                  src={interviewbuddy}
+                  className="sponsors__img filecoin"
                   alt="sponsor celo"
                   data-aos="zoom-in"
                   data-aos-offset="200"
@@ -404,11 +496,7 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-              
-            </div>
-              <div className="associate-sponsor">
-              
-              <div className="article">
+            <div className="article">
                 <a
                   href="https://www.echo3d.co/"
                   target="_blank"
@@ -426,6 +514,31 @@ const Sponsors = () => {
                   />
                 </a>
               </div>
+            
+              
+            </div>
+              <div className="associate-sponsor">
+              
+              <div className="article">
+              <a
+                href="https://streamyard.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={streamyard}
+                  className="sponsors__img filecoin"
+                  alt="sponsor celo"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                  // style={{width:"400px"}}
+
+                />
+              </a>
+            </div>
               
             </div>
             {/*
