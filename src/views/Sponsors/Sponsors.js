@@ -241,7 +241,7 @@ const Sponsors = () => {
             <div className="associate-sponsor">
             <div className="article">
                 <a
-                  href="https://www.sashido.io/en/"
+                  href="https://www.wolfram.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -261,7 +261,7 @@ const Sponsors = () => {
 
               <div className="article">
                 <a
-                  href="https://www.sashido.io/en/"
+                  href="https://www.taskade.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -478,7 +478,7 @@ const Sponsors = () => {
 
             <div className="article">
               <a
-                href="https://streamyard.com/"
+                href="https://interviewbuddy.in/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
