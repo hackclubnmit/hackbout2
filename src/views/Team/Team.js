@@ -8,6 +8,8 @@ import Satvik from '../../assets/team/satvik.png'
 import Adi from '../../assets/team/adi.png'
 import Ani from '../../assets/team/ani.png'
 import Aneja from '../../assets/team/aneja.jpg'
+import vishwajeet from '../../assets/team/vishwajeet.jpg'
+// import rohit from '../../assets/team/rohit.jpg'
 import Somwya from '../../assets/team/somwya.jpeg'
 import Kaushal from '../../assets/team/kaushal.jpeg'
 import Yash from '../../assets/team/yash.jpg'
@@ -290,6 +292,15 @@ const Team = () => {
         linkedin="https://www.linkedin.com/in/utsav-sinha-704a90216/" 
         twitter="https://twitter.com/HackClubNmit"
        />
+
+<TeamCard
+       role="Design Team" 
+       name="Vishwajeet" 
+       image={vishwajeet}
+       github=""
+        linkedin="https://www.linkedin.com/in/vishwajeet-kumar-a85837212/" 
+        twitter="https://twitter.com/HackClubNmit"
+       />
    
    
       <TeamCard
@@ -300,6 +311,14 @@ const Team = () => {
        linkedin="https://www.linkedin.com/company/hackclubnmit/mycompany/" 
        twitter="https://twitter.com/HackClubNmit"
        />
+      {/* <TeamCard
+       role="Design Team" 
+       name="Rohit Sharma" 
+       image={rohit} 
+       github=""
+       linkedin="https://www.linkedin.com/company/hackclubnmit/mycompany/" 
+       twitter="https://twitter.com/HackClubNmit"
+       /> */}
       {/* Not in club any more
        <TeamCard
        role="Design Team" 
