@@ -94,7 +94,7 @@ const Faqs = () => {
           <div className="panel">
             <p>
               {' '}
-              Registrations close on 15th June, 2021 at 23:59. So, giddy up and
+              Registrations close on 15th March, 2022 at 23:59. So, giddy up and
               submit your ideas ASAP and don't wait for the last minute!
             </p>
           </div>
