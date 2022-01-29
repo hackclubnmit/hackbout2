@@ -9,6 +9,7 @@ import leadinglearners from "../../assets/sponsors/new/leadinglearners.png";
 import voiceflow from "../../assets/sponsors/new/voiceflow.png";
 import givemycertificate from "../../assets/sponsors/new/givemycertificate.png";
 import interviewbuddy from "../../assets/sponsors/new/interviewbuddy.png";
+import rahee from "../../assets/sponsors/new/rahee.png";
 import balsamiq from "../../assets/sponsors/new/balsamiq.png";
 import portis from "../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png";
 import polygon from "../../assets/sponsors/new/Portis_Logo-Colored@2x.png";
@@ -280,14 +281,36 @@ const Sponsors = () => {
               </div>
               <div className="article">
                 <a
+                  href="https://raahee.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={rahee}
+                    className="sponsors__img tezos"
+                    alt="sponsor Shashido"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
+            </div>
+
+
+            <div className="associate-sponsor">
+            <div className="article">
+                <a
                   href="https://www.clerky.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
                     src={clerky}
-                    className="sponsors__img tezos"
-                    alt="sponsor Shashido"
+                    className="sponsors__img filecoin"
+                    alt="sponsor tezos"
                     data-aos="zoom-in"
                     data-aos-offset="200"
                     data-aos-delay="0"
