@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6da607dc.chunk.css",
-    "main.js": "/static/js/main.bb00de71.chunk.js",
-    "main.js.map": "/static/js/main.bb00de71.chunk.js.map",
+    "main.js": "/static/js/main.12a169ec.chunk.js",
+    "main.js.map": "/static/js/main.12a169ec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e1adfb5.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e1adfb5.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
@@ -80,6 +80,7 @@
     "static/media/onkar.f61a8e97.jpg": "/static/media/onkar.f61a8e97.jpg",
     "static/media/rachet.e644761a.jpeg": "/static/media/rachet.e644761a.jpeg",
     "static/media/rachvis1.6ff1581d.jfif": "/static/media/rachvis1.6ff1581d.jfif",
+    "static/media/rahee.a9114a19.png": "/static/media/rahee.a9114a19.png",
     "static/media/repl.a445fef5.png": "/static/media/repl.a445fef5.png",
     "static/media/rishab.48fff091.jpg": "/static/media/rishab.48fff091.jpg",
     "static/media/sagar.c81f8467.jpg": "/static/media/sagar.c81f8467.jpg",
@@ -115,6 +116,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.4d69e095.chunk.js",
     "static/css/main.6da607dc.chunk.css",
-    "static/js/main.bb00de71.chunk.js"
+    "static/js/main.12a169ec.chunk.js"
   ]
 }
