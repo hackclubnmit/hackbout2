@@ -133,8 +133,8 @@ const Faqs = () => {
             <p>
               {' '}
               Then we'll be happy that we were the one to guide you through your
-              problems. It’s helpful to have some programming or technical
-              experience, but it’s not a requirement. We’ll have talks, mentors
+              problems. It's helpful to have some programming or technical
+              experience, but it's not a requirement. We'll have talks, mentors
               and workshops to help you with your project.
             </p>
           </div>
