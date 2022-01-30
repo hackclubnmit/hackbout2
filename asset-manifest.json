@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2554e2d9.css",
-    "main.js": "/static/js/main.57a0d1fa.js",
+    "main.js": "/static/js/main.24da3ac7.js",
     "static/media/ani.png": "/static/media/ani.0adfa27ad37272b1766b.png",
     "static/media/Purnima.png": "/static/media/Purnima.45c5f35cece670fb0d8f.png",
     "static/media/interviewbuddy.png": "/static/media/interviewbuddy.315b3031878d40c21cd8.png",
@@ -85,9 +85,9 @@
     "static/media/first.png": "/static/media/first.1346eef4bfe280ee1457.png",
     "static/media/shubhamprasad.jpg": "/static/media/shubhamprasad.54a7d2138923c3755357.jpg",
     "static/media/yuktesh.jfif": "/static/media/yuktesh.1e39650ae18a6d72e8ce.jfif",
-    "static/media/rahee.png": "/static/media/rahee.a9114a19040169f62038.png",
     "static/media/OI.jpg": "/static/media/OI.8602551a8769e294d02a.jpg",
     "static/media/gfi-logo-white.svg": "/static/media/gfi-logo-white.3af5c15f96d8f45e55adc3c8b1456971.svg",
+    "static/media/rahee.png": "/static/media/rahee.f0b4844b6c0ec7be0e34.png",
     "static/media/ieee-cs-logo.png": "/static/media/ieee-cs-logo.8c05ce5c98819d49935a.png",
     "static/media/coinvise (2).png": "/static/media/coinvise (2).2e975e9abf81422f164d.png",
     "static/media/Celo Logo Color@2x.png": "/static/media/Celo Logo Color@2x.cacc574daa1ffe844cb7.png",
@@ -109,10 +109,10 @@
     "static/media/HackBout.svg": "/static/media/HackBout.c7b0103aac4d0d8207f86d86ce235677.svg",
     "index.html": "/index.html",
     "main.2554e2d9.css.map": "/static/css/main.2554e2d9.css.map",
-    "main.57a0d1fa.js.map": "/static/js/main.57a0d1fa.js.map"
+    "main.24da3ac7.js.map": "/static/js/main.24da3ac7.js.map"
   },
   "entrypoints": [
     "static/css/main.2554e2d9.css",
-    "static/js/main.57a0d1fa.js"
+    "static/js/main.24da3ac7.js"
   ]
 }
