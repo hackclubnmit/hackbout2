@@ -10,6 +10,7 @@ import voiceflow from "../../assets/sponsors/new/voiceflow.png";
 import givemycertificate from "../../assets/sponsors/new/givemycertificate.png";
 import interviewbuddy from "../../assets/sponsors/new/interviewbuddy.png";
 import rahee from "../../assets/sponsors/new/rahee.png";
+import aops from "../../assets/sponsors/new/aops.png";
 import balsamiq from "../../assets/sponsors/new/balsamiq.png";
 import portis from "../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png";
 import polygon from "../../assets/sponsors/new/Portis_Logo-Colored@2x.png";
@@ -558,8 +559,6 @@ const Sponsors = () => {
                   data-aos-delay="0"
                   data-aos-duration="1000"
                   data-aos-easing="ease"
-                  // style={{width:"400px"}}
-
                 />
               </a>
             </div>
@@ -572,6 +571,27 @@ const Sponsors = () => {
               >
                 <img
                   src={axure}
+                  className="sponsors__img filecoin"
+                  alt="sponsor celo"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                  // style={{width:"400px"}}
+
+                />
+              </a>
+            </div>
+
+            <div className="article">
+              <a
+                href="https://artofproblemsolving.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={aops}
                   className="sponsors__img filecoin"
                   alt="sponsor celo"
                   data-aos="zoom-in"
