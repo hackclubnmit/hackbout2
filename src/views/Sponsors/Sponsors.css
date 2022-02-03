@@ -124,6 +124,10 @@
   width: 240px;
   
 }
+.educationtree {
+  width: 150px;
+  
+}
 .echo3d{
   width: 300px;
 }
@@ -414,4 +418,8 @@
    
     width:180px;
    
+  }
+  .educationtree {
+    width: 100px;
+    
   }}

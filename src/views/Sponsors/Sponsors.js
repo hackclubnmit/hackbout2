@@ -38,6 +38,8 @@ import jetbrains from "../../assets/sponsors/new/jetbrains_logo.png";
 import replit from "../../assets/sponsors/new/repl.png";
 import clerky from "../../assets/sponsors/new/clerky.png";
 import DeepSource from "../../assets/sponsors/new/deepsource.svg";
+import sketchnew from "../../assets/sponsors/new/sketchnew.svg";
+import educationtree from "../../assets/sponsors/new/educationtree.jpg";
 import gfi from "../../assets/sponsors/new/gfi-logo-white.svg";
 import egghead from "../../assets/sponsors/new/egghead.PNG";
 // import jetbrains from '../../assets/sponsors/new/jetbrains.svg';
@@ -542,16 +544,15 @@ const Sponsors = () => {
             
               
             </div>
-              <div className="associate-sponsor">
-              
+            <div className="associate-sponsor">              
               <div className="article">
               <a
-                href="https://streamyard.com/"
+                href="https://artofproblemsolving.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={streamyard}
+                  src={aops}
                   className="sponsors__img filecoin"
                   alt="sponsor celo"
                   data-aos="zoom-in"
@@ -583,15 +584,14 @@ const Sponsors = () => {
                 />
               </a>
             </div>
-
             <div className="article">
               <a
-                href="https://artofproblemsolving.com/"
+                href="https://www.sketch.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={aops}
+                  src={sketchnew}
                   className="sponsors__img filecoin"
                   alt="sponsor celo"
                   data-aos="zoom-in"
@@ -604,8 +604,55 @@ const Sponsors = () => {
                 />
               </a>
             </div>
+
+           
               
             </div>
+
+            <div className="associate-sponsor">
+            <div className="article">
+              <a
+                href="https://streamyard.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={streamyard}
+                  className="sponsors__img filecoin"
+                  alt="sponsor celo"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                  // style={{width:"400px"}}
+
+                />
+              </a>
+            </div>
+
+            <div className="article">
+              <a
+                href="https://www.theeducationtree.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={educationtree}
+                  className="sponsors__img educationtree"
+                  alt="sponsor celo"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                  // style={{width:"400px"}}
+
+                />
+              </a>
+            </div>
+            </div>
+
             {/*
             <div className="article">
               <a
