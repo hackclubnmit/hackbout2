@@ -99,8 +99,17 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer noopener "
             >
-              Code of Conduct
+              Devfolio Code of Conduct
             </a>
+
+            <a
+              href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+              target="_blank"
+              rel="noreferrer noopener "
+            >
+              MLH Code of Conduct
+            </a>
+
           </div>
           <div className="footer__sec-3">
             <h3>Contact Us</h3>
