@@ -96,7 +96,7 @@ const Sponsors = () => {
 
               <a
                 // href="https://twitter.com/devfolio/"
-                href="https://devfolio.co/"
+                href="https://mlh.io/"
                 target="_blank"
                 rel="noopener noreferrer"
                 // className="a_devfolio devfolio"
