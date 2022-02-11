@@ -16,6 +16,7 @@ import portis from "../../assets/sponsors/new/Portis_Logo-Colored_Black@2x.png";
 import polygon from "../../assets/sponsors/new/Portis_Logo-Colored@2x.png";
 import tezos from "../../assets/sponsors/new/Tezos_Logo-Colored@2x.png";
 import filecoin from "../../assets/sponsors/new/filecoin.svg";
+import mlh from "../../assets/sponsors/new/mlhlogo.svg";
 import axure from "../../assets/sponsors/new/axure.svg";
 import streamyard from "../../assets/sponsors/new/streamyard.svg";
 import taskade from "../../assets/sponsors/new/taskade.svg";
@@ -94,6 +95,37 @@ const Sponsors = () => {
               </a>
 
               <a
+                // href="https://twitter.com/devfolio/"
+                href="https://devfolio.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+                // className="a_devfolio devfolio"
+              >
+                <img
+                  src={mlh}
+                  className="sponsors__img mlh"
+                  alt="sponsor devfolio"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="0"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease"
+                  
+                />
+              </a>
+
+              
+
+             
+
+              
+            </div>
+
+            <div className="sponsors-grid polygonclass">
+             
+
+            </div>
+            <a
                 href="https://polygon.technology/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -109,8 +141,10 @@ const Sponsors = () => {
                   data-aos-easing="ease"
                 />
               </a>
-            </div>
+            
           </div>
+
+          
 
           <div className="sponsors__sub">
             <h4
