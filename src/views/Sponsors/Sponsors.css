@@ -97,12 +97,21 @@
   transform: scale(1.1);
 }
 
+.polygonclass{
+  margin-top: 70px;
+}
+
+
+
 
 
 /* SEPARATE SPONSOR STYLES */
 
 .devfolio {
   width: 450px;
+}
+.mlh {
+  width: 260px;
 }
 
 .polygon {
@@ -271,6 +280,8 @@
     width: 300px;
   }
 
+  
+
   .sponsors-heading {
     font-size: 35px;
   }
@@ -383,6 +394,14 @@
   .file{
     padding-bottom: 20px;
     
+  }
+
+  .mlh{
+    width: 280px;
+    
+  }
+  .polygon{
+    width: 280px;
   }
   .sponsors-grid {
     display: flex;
