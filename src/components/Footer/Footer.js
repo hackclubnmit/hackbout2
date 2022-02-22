@@ -82,6 +82,12 @@ const Footer = () => {
             >
               Sponsors
             </a>
+            <Link
+              to="/mlhform"
+              rel="noreferrer noopener "
+            >
+              MLH Form
+            </Link>
           </div>
           <div className="footer__sec-2">
             <h3>Resources</h3>
@@ -111,12 +117,7 @@ const Footer = () => {
               MLH Code of Conduct
             </a>
 
-            <Link
-              to="/mlhform"
-              rel="noreferrer noopener "
-            >
-              MLH Form
-            </Link>
+          
 
           </div>
           <div className="footer__sec-3">
