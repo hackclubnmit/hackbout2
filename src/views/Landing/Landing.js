@@ -147,6 +147,7 @@ const Landing = () => {
         <article className="landing__container">
           <div className="landing__sub-1">
             <h1 className="landing__heading">HACKBOUT</h1>
+            
             <h2 className="landing__sub-heading">
               A{" "}
               <strong>
@@ -154,7 +155,7 @@ const Landing = () => {
               </strong>{" "}
               Hackathon
             </h2>
-            {/* <h2 className="landing__sub-heading green">19th-20th June</h2> */}
+            <h2 className="landing__sub-heading green" >19th-21st March 2022</h2>
             {/* <h4 className="landing__sub-heading-2">
               Registrations opening soon!
             </h4> */}
@@ -165,12 +166,16 @@ const Landing = () => {
             >
               <button className="landing__btn">Notify Me!</button>
             </a> */}
-            <div
+            <div className="applydiv" style={{position:"absolute"}}>
+          <div  
               class="apply-button"
               data-hackathon-slug="hackbout-3"
               data-button-theme="light"
-              style={{ width: "312px", height: "44px" }}
+              style={{ width: "312px", height: "44px",position:"relative" }}
             ></div> 
+            </div>
+            
+           
             <a
               href="https://t.me/hackbout"
               target="_blank"
@@ -196,6 +201,7 @@ const Landing = () => {
                 <div>Join Our Telegram</div>
               </button>
             </a>
+           
           </div>
           <div className="landing__sub-2">
             

@@ -269,6 +269,10 @@ a {
   background-color: #1c965f !important;
   transform: scale(1.04);
 }
+.applydiv{
+  margin-top: -100px;
+  margin-right: 300px;
+}
 
 @media (max-width: 1400px) {
   .devfolio-button-iframe {
@@ -277,6 +281,9 @@ a {
 
   .btn_telegram {
     top: 95px;
+  }
+  .applydiv{
+    margin-top: -160px;
   }
 }
 
@@ -306,6 +313,11 @@ a {
 
   .btn_telegram {
     top: 95px;
+  }
+  .applydiv{
+    margin-top: -250px;
+    /* max-width: 600px; */
+    margin-right: 310px;
   }
 }
 
@@ -345,6 +357,12 @@ a {
 
   .btn_telegram {
     top: 115px;
+    width: 312px;
+  }
+  .applydiv{
+    margin-top: -250px;
+    width: 400px;
+    margin-right: -80px;
   }
 }
 

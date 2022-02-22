@@ -10,6 +10,7 @@ import Wave from 'react-wavify';
 
 import hackBout from '../../assets/HackBout.svg';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -109,6 +110,13 @@ const Footer = () => {
             >
               MLH Code of Conduct
             </a>
+
+            <Link
+              to="/mlhform"
+              rel="noreferrer noopener "
+            >
+              MLH Form
+            </Link>
 
           </div>
           <div className="footer__sec-3">

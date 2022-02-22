@@ -17,6 +17,7 @@ import './App.css';
 import Founder from './views/founders/founders';
 import Navbar from './views/navbar/navbar';
 import Workshop from './views/workshops/workshop'
+import Mlhform from './views/Mlhform/Form'
 
 
 function App() {
@@ -63,12 +64,24 @@ function App() {
       </Fragment>
     );
   }
+
+  const MlhformJsx = () => {
+    return (
+      <Fragment>
+        <ScrollToTop/>
+        <Navbar/>
+       <Mlhform/>
+        <Footer/>
+      </Fragment>
+    );
+  }
   return (
     <Router>
       <Switch>
         <Route exact path="/team" component={teamJsx}/>
         <Route exact path="/" component={mainJsx}/>
         <Route exact path="/mentors" component={MentorJsx}/>
+        <Route exact path="/mlhform" component={MlhformJsx}/>
       </Switch>
     </Router>
   );
