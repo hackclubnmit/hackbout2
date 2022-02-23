@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.34d81292.css",
-    "main.js": "/static/js/main.e0c220c3.js",
+    "main.css": "/static/css/main.3c531ab7.css",
+    "main.js": "/static/js/main.fc9ef6a5.js",
     "static/media/ani.png": "/static/media/ani.0adfa27ad37272b1766b.png",
     "static/media/Purnima.png": "/static/media/Purnima.45c5f35cece670fb0d8f.png",
     "static/media/interviewbuddy.png": "/static/media/interviewbuddy.315b3031878d40c21cd8.png",
@@ -112,11 +112,11 @@
     "static/media/black-horizontal.svg": "/static/media/black-horizontal.c01be520ab9580145a37d3fe33c89f5f.svg",
     "static/media/HackBout.svg": "/static/media/HackBout.c7b0103aac4d0d8207f86d86ce235677.svg",
     "index.html": "/index.html",
-    "main.34d81292.css.map": "/static/css/main.34d81292.css.map",
-    "main.e0c220c3.js.map": "/static/js/main.e0c220c3.js.map"
+    "main.3c531ab7.css.map": "/static/css/main.3c531ab7.css.map",
+    "main.fc9ef6a5.js.map": "/static/js/main.fc9ef6a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.34d81292.css",
-    "static/js/main.e0c220c3.js"
+    "static/css/main.3c531ab7.css",
+    "static/js/main.fc9ef6a5.js"
   ]
 }
