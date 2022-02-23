@@ -360,9 +360,8 @@ a {
     width: 312px;
   }
   .applydiv{
-    margin-top: -250px;
-    width: 400px;
-    margin-right: -80px;
+   
+    position: fixed;
   }
 }
 
