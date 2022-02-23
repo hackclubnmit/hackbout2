@@ -56,8 +56,10 @@ const Prizes = () => {
       <div className="prizes__main">
         <div
           className="prizes__card second"
-          data-aos="fade-up-right"
-          data-aos-offset="200"
+          // data-aos="fade-up-right"
+          data-aos="zoom-in"
+
+          data-aos-offset="100"
           data-aos-delay="150"
           data-aos-duration="1000"
           data-aos-easing="ease"
@@ -78,7 +80,8 @@ const Prizes = () => {
         </div>
         <div
           className="prizes__card third"
-          data-aos="fade-up-left"
+          // data-aos="fade-up-left"
+          data-aos="fade-up"
           data-aos-offset="200"
           data-aos-delay="150"
           data-aos-duration="1000"

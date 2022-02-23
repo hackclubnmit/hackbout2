@@ -42,7 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  filter: blur(8px);
+  /* filter: blur(8px); */
 }
 
 .prizes__sub {
@@ -366,4 +366,7 @@ background: linear-gradient(to bottom, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, 
   .b_onepass img {
     width: 100px;
   }
+  
+  
+  
 }

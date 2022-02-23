@@ -132,7 +132,6 @@ const FormSignup = ({ submitForm }) => {
           />
           <label className='form-label' style={{fontSize:"15px"}}>I have read and agree to the <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" style={{color:"rgb(39, 176, 255)"}}>MLH Code of Conduct</a></label>
 
-          {/* {errors.username && <p>{errors.country}</p>} */}
         </div>
         <div className='form-inputs' >
           <input
@@ -157,12 +156,9 @@ const FormSignup = ({ submitForm }) => {
             
             
             placeholder='Enter your Country'
-            // value={values.country}
-            // onChange={handleChange}
           />
           <label className='form-label' style={{fontSize:"15px"}}>I authorize MLH to send me pre- and post-event informational emails, which contain free credit and opportunities from their partners</label>
 
-          {/* {errors.username && <p>{errors.country}</p>} */}
         </div>
         
  
