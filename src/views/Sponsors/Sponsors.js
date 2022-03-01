@@ -356,8 +356,29 @@ const Sponsors = () => {
                   />
                 </a>
               </div>
+
+            <div className="article">
+                <a
+                  href="https://www.stickermule.com/en-in"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={StickerMule}
+                    className="sponsors__img filecoin"
+                    alt="sponsor tezos"
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease"
+                  />
+                </a>
+              </div>
               
             </div>
+           
+
 
             {/* <div className="associate-sponsor">
             <div className="article">

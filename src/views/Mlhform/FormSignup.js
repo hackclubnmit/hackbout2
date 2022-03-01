@@ -130,7 +130,7 @@ const FormSignup = ({ submitForm }) => {
             // value={values.country}
             // onChange={handleChange}
           />
-          <label className='form-label' style={{fontSize:"15px"}}>I have read and agree to the <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" style={{color:"rgb(39, 176, 255)"}}>MLH Code of Conduct</a></label>
+          <label className='form-label' style={{fontSize:"15px"}}><span style={{color:"#FB8122"}}>MLH Code of Conduct</span>: I have read and agree to the <a target="_blank" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" style={{color:"rgb(39, 176, 255)"}}>MLH Code of Conduct</a></label>
 
         </div>
         <div className='form-inputs' >
@@ -144,7 +144,7 @@ const FormSignup = ({ submitForm }) => {
             // value={values.country}
             // onChange={handleChange}
           />
-          <label className='form-label' style={{fontSize:"15px"}}>I authorize you to share my application/registration information with Major League Hacking for event administration, ranking, and MLH administration in-line with the <a target="_blank" href="https://mlh.io/privacy" style={{color:"rgb(39, 176, 255)"}}>MLH Privacy Policy</a>. I further agree to the terms of both the <a target="_blank" href="https://github.com/MLH/mlh-policies/tree/master/prize-terms-and-conditions" style={{color:"rgb(39, 176, 255)"}}>MLH Contest Terms and Conditions</a> and the <a target="_blank" href="https://mlh.io/privacy" style={{color:"rgb(39, 176, 255)"}}>MLH Privacy Policy</a></label>
+          <label className='form-label' style={{fontSize:"15px"}}><span style={{color:"#FB8122"}}>Event Logistics Information</span>: I authorize you to share my application/registration information with Major League Hacking for event administration, ranking, and MLH administration in-line with the <a target="_blank" href="https://mlh.io/privacy" style={{color:"rgb(39, 176, 255)"}}>MLH Privacy Policy</a>. I further agree to the terms of both the <a target="_blank" href="https://github.com/MLH/mlh-policies/tree/master/prize-terms-and-conditions" style={{color:"rgb(39, 176, 255)"}}>MLH Contest Terms and Conditions</a> and the <a target="_blank" href="https://mlh.io/privacy" style={{color:"rgb(39, 176, 255)"}}>MLH Privacy Policy</a></label>
 
           {/* {errors.username && <p>{errors.country}</p>} */}
         </div>
@@ -154,10 +154,10 @@ const FormSignup = ({ submitForm }) => {
             type='checkbox'
             name='country'
             
-            
+            // fb8122
             placeholder='Enter your Country'
           />
-          <label className='form-label' style={{fontSize:"15px"}}>I authorize MLH to send me pre- and post-event informational emails, which contain free credit and opportunities from their partners</label>
+          <label className='form-label' style={{fontSize:"15px"}}><span style={{color:"#FB8122"}}>Communication from MLH</span>: I authorize MLH to send me pre- and post-event informational emails, which contain free credit and opportunities from their partners</label>
 
         </div>
         
