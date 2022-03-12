@@ -1,7 +1,6 @@
 .App {
     background:white;
     scroll-behavior: smooth;
-    
 }
 body::-webkit-scrollbar{
     display: none;
