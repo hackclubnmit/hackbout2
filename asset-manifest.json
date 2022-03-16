@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c43e70a6.css",
-    "main.js": "/static/js/main.99eec8c7.js",
+    "main.js": "/static/js/main.85430c06.js",
     "static/media/ani.png": "/static/media/ani.0adfa27ad37272b1766b.png",
     "static/media/Purnima.png": "/static/media/Purnima.45c5f35cece670fb0d8f.png",
     "static/media/interviewbuddy.png": "/static/media/interviewbuddy.315b3031878d40c21cd8.png",
@@ -98,7 +98,7 @@
     "static/media/BIndia.png": "/static/media/BIndia.90c4469d676c4a6f9f35.png",
     "static/media/streamyard.svg": "/static/media/streamyard.21724becc48b4a5b1c3ca65331f87e71.svg",
     "static/media/Portis_Logo-Colored_Black@2x.png": "/static/media/Portis_Logo-Colored_Black@2x.125bc90d1a8005d6fb04.png",
-    "static/media/sketchnew.svg": "/static/media/sketchnew.a71d7bb0fc0f498ec5040bc678293a19.svg",
+    "static/media/sketchnew.svg": "/static/media/sketchnew.0352065ce9f2920bd473121b28f4c0e1.svg",
     "static/media/egghead.PNG": "/static/media/egghead.5ecdcfdf87afec387a27.PNG",
     "static/media/mlhlogo.svg": "/static/media/mlhlogo.d48e27dc116c04b190deff5548dc549c.svg",
     "static/media/02-sticker-mule-logo-light-bg-stacked.svg": "/static/media/02-sticker-mule-logo-light-bg-stacked.04b92667d034342f075d938f34846553.svg",
@@ -113,10 +113,10 @@
     "index.html": "/index.html",
     "static/media/HackBout.svg": "/static/media/HackBout.c7b0103aac4d0d8207f86d86ce235677.svg",
     "main.c43e70a6.css.map": "/static/css/main.c43e70a6.css.map",
-    "main.99eec8c7.js.map": "/static/js/main.99eec8c7.js.map"
+    "main.85430c06.js.map": "/static/js/main.85430c06.js.map"
   },
   "entrypoints": [
     "static/css/main.c43e70a6.css",
-    "static/js/main.99eec8c7.js"
+    "static/js/main.85430c06.js"
   ]
 }
