@@ -155,7 +155,7 @@ const Landing = () => {
               </strong>{" "}
               Hackathon
             </h2>
-            {/* <h2 className="landing__sub-heading green" >19th-21st March 2022</h2> */}
+            <h2 className="landing__sub-heading green" >23rd-24th April 2022</h2>
             {/* <h4 className="landing__sub-heading-2">
               Registrations opening soon!
             </h4> */}

@@ -257,7 +257,7 @@ a {
   position: absolute !important;
   z-index: 5 !important;
   /* top: 370px; */
-  top: 330px;
+  top: 360px;
 }
 
 .devfolio-button-iframe #apply-button {
@@ -277,7 +277,7 @@ a {
 
 @media (max-width: 1400px) {
   .devfolio-button-iframe {
-    top: 380px !important;
+    top: 390px !important;
   }
 
   .btn_telegram {
@@ -300,7 +300,7 @@ a {
 
 @media (max-width: 1050px) {
   .devfolio-button-iframe {
-    top: 280px !important;
+    top: 300px !important;
   }
 
   .btn_telegram {
@@ -309,7 +309,7 @@ a {
 }
 @media (max-width: 900px) {
   .devfolio-button-iframe {
-    top: 380px !important;
+    top: 390px !important;
   }
 
   .btn_telegram {
@@ -334,11 +334,11 @@ a {
 
 @media (max-width: 540px) {
   .devfolio-button-iframe {
-    top: 360px !important;
+    top: 380px !important;
   }
 
   .btn_telegram {
-    top: 115px;
+    top: 100px;
   }
 }
 
@@ -357,7 +357,7 @@ a {
   }
 
   .btn_telegram {
-    top: 115px;
+    top: 66px;
     width: 312px;
   }
   .applydiv{
