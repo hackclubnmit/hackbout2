@@ -45,13 +45,13 @@ const Prizes = () => {
       >
         Prizes
       </h1>
-      <h5  className="prizes__title_2 black"
+      {/* <h5  className="prizes__title_2 black"
         data-aos="fade-up"
         data-aos-offset="200"
         data-aos-delay="0"
         data-aos-duration="500"
         data-aos-easing="ease">
-          To Be Revealed... </h5>
+          To Be Revealed... </h5> */}
 
       <div className="prizes__main">
         <div
@@ -65,7 +65,7 @@ const Prizes = () => {
           data-aos-easing="ease"
         >
           <img src={second} className="prizes__img" alt="second prize" />
-          <p>INR 30,000</p>
+          <p>INR 25,000</p>
         </div>
         <div
           className="prizes__card first"
@@ -76,7 +76,7 @@ const Prizes = () => {
           data-aos-easing="ease"
         >
           <img src={first} className="prizes__img" alt="first prize" />
-          <p>INR 50,000</p>
+          <p>INR 40,000</p>
         </div>
         <div
           className="prizes__card third"
@@ -88,7 +88,7 @@ const Prizes = () => {
           data-aos-easing="ease"
         >
           <img src={third} className="prizes__img" alt="third prize" />
-          <p>INR 20,000</p>
+          <p>INR 15,000</p>
         </div>
       </div>
       <div className="prizes__sub">

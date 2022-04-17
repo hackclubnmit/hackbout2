@@ -42,7 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  filter: blur(8px);
+  /* filter: blur(8px); */
 }
 
 .prizes__sub {
